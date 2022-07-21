@@ -1029,6 +1029,7 @@ header{
   letter-spacing: 0em;
   color: #1E1E1E;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .herotitle{
@@ -2984,7 +2985,7 @@ body.preloader_ready #preloader {
     top: 2px;
   }
   .body{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .menu{
     margin-top: 5px;
