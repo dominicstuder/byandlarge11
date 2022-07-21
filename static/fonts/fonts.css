@@ -1,0 +1,46 @@
+
+
+  @font-face {
+    font-family: "UntitledSans-Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url("UntitledSans-Regular.woff") format("woff");
+  }
+
+
+  @font-face {
+    font-family: 'ABCDiatypeSemi-Mono-Regular';
+    src: url('ABCDiatypeSemi-Mono-Regular.woff2') format('woff2'),
+        url('ABCDiatypeSemi-Mono-Regular.woff') format('woff');
+        font-weight: normal;
+    font-style: normal;
+  
+  }
+
+/*
+  @font-face {
+    font-family: "UntitledSans-Light";
+    font-weight: normal;
+    font-style: normal;
+    src: url("UntitledSans-Light.woff") format("woff");
+  }
+
+
+@font-face {
+  font-family: 'ABCMonumentGrotesk';
+  src: url('ABCMonumentGrotesk-Regular-Trial.woff2') format('woff2'),
+      url('ABCMonumentGrotesk-Regular-Trial.woff') format('woff');
+      font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'ABCMonumentGroteskSemiMono';
+  src: url('ABCMonumentGroteskSemi-Mono-Regular-Trial') format('woff2'),
+      url('ABCMonumentGroteskSemi-Mono-Regular-Trial') format('woff');
+      font-weight: normal;
+  font-style: normal;
+
+}
