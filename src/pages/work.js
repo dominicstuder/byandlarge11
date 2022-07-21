@@ -17,7 +17,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system'
 import { Parallax } from "react-scroll-parallax";
 
-setConfiguration({ gutterWidth:'60'});
+setConfiguration({ gutterWidth:'30'});
 
 const Work = () => (
   <Layout>
@@ -26,10 +26,9 @@ const Work = () => (
             position: 'relative', marginTop: '5em',
           }} className="section-2">
         <Row justify="center" style={{
-            position: 'relative',
-            marginTop: '15rem',
+            position: 'relative'
           }}>
-          <Col sm={12} lg={6} xl={6} className="delay-1"
+          <Col sm={12} lg={6} xl={6} className="delay-1 mt10 sm-mt2"
                 data-sal-duration="500"
                 data-sal="slide-up"
                 data-sal-delay="500"

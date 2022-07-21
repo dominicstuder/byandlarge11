@@ -1483,7 +1483,7 @@ body.preloader_active .video-wrapper{
   color: #1E1E1E;
   letter-spacing: -0.02em;
   height: 30px;
-  padding-left: 17px;
+  /* padding-left: 17px; */
 }
 
 .header-2.black {
@@ -2091,7 +2091,7 @@ text-align: right;
   }
 
   .project-wrapper{
-    padding: 1em 1em;
+    padding: 1em 0em;
     float: left;
   }
 
