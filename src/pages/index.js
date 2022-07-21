@@ -85,7 +85,7 @@ const IndexPage = () => {
                   data-sal-easing="ease"
                   data-sal-duration="500"
                 >
-                  <h3 className="body">What we do</h3>
+                  <span className="mono-heading-small">What we do</span>
                   </div>
                 </Col>
                 <Col md={12} lg={4} xl={4} xxl={4}
@@ -204,8 +204,8 @@ const IndexPage = () => {
             data-sal-easing="ease"
             data-sal-duration="500"
             >
-          <h1 
-          className="intro-copy delay-1">Some of our recent work</h1>
+          <span 
+          className="mono-heading-small delay-1">Some of our recent work</span>
           </div>
             </Col>
               {/* <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-3 copy-block">
