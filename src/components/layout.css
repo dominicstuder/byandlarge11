@@ -263,7 +263,7 @@ h2 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -280,7 +280,7 @@ h3 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -297,7 +297,7 @@ h4 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -314,7 +314,7 @@ h5 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -331,7 +331,7 @@ h6 {
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
@@ -1021,7 +1021,15 @@ header{
   /* background: #fdf6ef; */
 }
 
-
+.mono-heading-small{
+  font-family: "ABCDiatypeSemi-Mono-Regular", sans-serif;
+  font-weight: normal;
+  font-size: .9rem;
+  line-height: 1.4em;
+  letter-spacing: 0em;
+  color: #1E1E1E;
+  text-transform: uppercase;
+}
 
 .herotitle{
   color: #1E1E1E;
@@ -2795,7 +2803,7 @@ body.preloader_ready #preloader {
     font-size: 5rem;;
   }
   .video-wrapper{
-    height: 55vh;
+    height: 65vh;
   }
   .video-container{
 
@@ -2962,10 +2970,10 @@ body.preloader_ready #preloader {
   }
   .menu.two a{
     padding: 0px;
-    height: 23px;
+    height: 20px;
   }
   .item-two a span{
-    height: 23px;
+    height: 2opx;
   }
   .menu.two a:hover{
     background: none;
@@ -2987,19 +2995,29 @@ body.preloader_ready #preloader {
   .sm-mt2{
     margin-top: 2em !important;
   }
+  .sm-mt3{
+    margin-top: 3em !important;
+  }
   .sm-pb1{
     padding-bottom: 1em !important;
   }
     .primary-button.contact-button a {
       float: none;
-      width: 270px;
+      width: 100px;
       display: block;
       margin: 0% auto;
+      padding: 0.5em 1em;
+  }
+  .primary-button.contact-button .link-text{
+    font-size: .7rem;
   }
   .primary-button.contact-button {
     position: relative;
     width: auto;
-    float: none;
+    float: left;
+  }
+  .project .hero-sentence{
+    font-size: 2rem;
   }
 }
 

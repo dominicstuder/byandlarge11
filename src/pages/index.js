@@ -11,7 +11,7 @@ import clip from '../assets/feature_7.mp4';
 // import astridthumb from '../assets/astrid_thumb.mp4'; 
 // import dcthumb from '../assets/dc_thumb2.mp4'; 
 import { setConfiguration } from 'react-grid-system';
-setConfiguration({ gutterWidth:'60'});
+setConfiguration({ gutterWidth:'30'});
 
 
 const IndexPage = () => {
@@ -24,12 +24,12 @@ const IndexPage = () => {
       <Container fluid className="video-container">
       <Row justify="start" style={{
                  marginTop: '4em',
-                }} className="video-section mt4 sm-mt1">
+                }} className="video-section mt4 sm-mt3">
                   <Col md={12} lg={8} xl={8} xxl={6}  style={{
                     position: 'relative',
               
                   }}
-                  className="video-container">
+                  className="">
           
         
                   <div className="video-wrapper delay-2" style={{
@@ -42,7 +42,7 @@ const IndexPage = () => {
                   >     
                     <video autoPlay loop muted className="background-video">
                             <source src={clip} type='video/mp4' />
-                          
+
                     </video>
                     </AniLink>
                   </div>
@@ -53,17 +53,17 @@ const IndexPage = () => {
              <Row justify="start" style={{
          
                 }} className="home-page-intro mt10 sm-mt2">
-                  <Col sm={12} lg={4} xl={4} xxl={4} className="body">About us</Col>
+                  <Col sm={12} lg={4} xl={4} xxl={4} className="mono-heading-small">About us</Col>
                    <Col sm={12} md={6} lg={8} xl={8} xxl={6} style={{
                       position: 'relative',
               
                     }}> <h1 
                     className="body delay-1">
-                      By and Large is an independent, multidisciplinarydesign studio. We create positive impactthrough creative and considered strategy,design, content creation and useof technology.
+                      By and Large is an independent, multidisciplinary design studio. We create positive impact through creative and considered strategy, design, content creation and use of technology.
                     </h1>
                     <h1 
                     className="body delay-1">
-                      Currently based in Newcastle, NSW. We workwith clients around Australia and beyond.
+                      Currently based in Newcastle, NSW. We work with clients around Australia and beyond.
                     </h1>
                       </Col>
                   </Row>
