@@ -2775,7 +2775,7 @@ body.preloader_ready #preloader {
     position: relative;
   }
   .logo{
-    font-size: 12.4vw;
+    font-size: 12.2vw;
   }
   .menu-item {
       margin-right: 1rem;
@@ -2980,6 +2980,15 @@ body.preloader_ready #preloader {
   }
   .menu{
     margin-top: 5px;
+  }
+  .sm-mt1{
+    margin-top: 1em !important;
+  }
+  .sm-mt2{
+    margin-top: 2em !important;
+  }
+  .sm-pb1{
+    padding-bottom: 1em;
   }
 }
 

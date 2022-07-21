@@ -31,8 +31,7 @@ const Header = ({ siteTitle }) => {
                   to="/" 
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
-                ><span className="slideup-one">B</span><span className="slideup-two">y</span> <span className="slideup-three">a</span><span className="slideup-four">n</span><span className="slideup-five">d</span> <span className="slideup-six">L</span><span className="slideup-seven">a</span><span className="slideup-eight">r</span><span className="slideup-number">g</span><span className="slideup-ten">e</span>
-                 
+                >By and Large
               </AniLink>
             </div>
         </Col>

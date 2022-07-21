@@ -24,10 +24,10 @@ const IndexPage = () => {
       <Container fluid className="video-container">
       <Row justify="start" style={{
                  marginTop: '4em',
-                }} className="video-section">
+                }} className="video-section mt4 sm-mt1">
                   <Col md={12} lg={8} xl={8} xxl={6}  style={{
                     position: 'relative',
-                    marginTop: '5em',
+              
                   }}
                   className="video-container">
           
@@ -51,8 +51,8 @@ const IndexPage = () => {
                 </Row>
                  
              <Row justify="start" style={{
-                 marginTop: '10em',
-                }} className="home-page-intro">
+         
+                }} className="home-page-intro mt10 sm-mt2">
                   <Col sm={12} lg={4} xl={4} xxl={4} className="body">About us</Col>
                    <Col sm={12} md={6} lg={8} xl={8} xxl={6} style={{
                       position: 'relative',
@@ -110,7 +110,7 @@ const IndexPage = () => {
                 {/* <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-4">
                   <h3 className="small-body-copy">Capabilities</h3>
                 </Col> */}
-                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-5 copy-block pb3"
+                <Col  md={12} lg={12} xl={12} xxl={12}  className="delay-5 copy-block pb3 sm-pb1"
 
               >
                 <div 
