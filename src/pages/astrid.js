@@ -9,7 +9,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG10 from "../components/backgroundimage10"
 
 import { setConfiguration } from 'react-grid-system';
-setConfiguration({ gutterWidth:'60'});
+setConfiguration({ gutterWidth:'30'});
 
 
 const Astrid = () => (
@@ -35,10 +35,10 @@ const Astrid = () => (
                   </Col>
                 </Row>
                 <Row className="pt2">
-                  <Col xs={12} sm={6}>
+                  <Col xs={10} sm={10}>
                     <h2 className="header-1 black delay-1">Astrid Dispensary</h2>
                   </Col>
-                  <Col xs={12} sm={6}>
+                  <Col xs={2} sm={2}>
                     <h2 className="header-1 black project-date delay-1">2021</h2>
                   </Col>
                   </Row>
