@@ -58,46 +58,12 @@ const IndexPage = () => {
                       position: 'relative',
               
                     }}> <h1 
-                    className="body delay-1"><div       
-                    data-sal="slide-up"
-                    data-sal-delay="100"
-                    data-sal-easing="ease"
-                    data-sal-duration="500">By and Large is an independent,
-                   multidisciplinary</div> 
-                   <div   data-sal="slide-up"
-                    data-sal-delay="300"
-                    data-sal-easing="ease"
-                    data-sal-duration="500">design studio. We create positive impact</div> 
-                     <div   data-sal="slide-up"
-                    data-sal-delay="300"
-                    data-sal-easing="ease"
-                    data-sal-duration="500">through creative and considered strategy,</div>
-                     <div   data-sal="slide-up"
-                    data-sal-delay="300"
-                    data-sal-easing="ease"
-                    data-sal-duration="500">
-                     design, content creation and use
-                    </div>
-                    <div   data-sal="slide-up"
-                    data-sal-delay="300"
-                    data-sal-easing="ease"
-                    data-sal-duration="500">
-                    of technology.
-                    </div>
+                    className="body delay-1">
+                      By and Large is an independent, multidisciplinarydesign studio. We create positive impactthrough creative and considered strategy,design, content creation and useof technology.
                     </h1>
                     <h1 
-                    className="body delay-1"><div       
-                    data-sal="slide-up"
-                    data-sal-delay="100"
-                    data-sal-easing="ease"
-                    data-sal-duration="500"
-                    className="mt1 text-indent"
-                    >    Currently based in Newcastle, NSW. We work </div>
-                   <div   data-sal="slide-up"
-                    data-sal-delay="300"
-                    data-sal-easing="ease"
-                    data-sal-duration="500">with clients around Australia and beyond.</div> 
-                  
+                    className="body delay-1">
+                      Currently based in Newcastle, NSW. We workwith clients around Australia and beyond.
                     </h1>
                       </Col>
                   </Row>

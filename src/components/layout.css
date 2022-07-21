@@ -2988,7 +2988,18 @@ body.preloader_ready #preloader {
     margin-top: 2em !important;
   }
   .sm-pb1{
-    padding-bottom: 1em;
+    padding-bottom: 1em !important;
+  }
+    .primary-button.contact-button a {
+      float: none;
+      width: 270px;
+      display: block;
+      margin: 0% auto;
+  }
+  .primary-button.contact-button {
+    position: relative;
+    width: auto;
+    float: none;
   }
 }
 
