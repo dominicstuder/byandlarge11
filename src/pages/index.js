@@ -8,8 +8,8 @@ import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import clip from '../assets/feature_7.mp4'; 
-// import astridthumb from '../assets/astrid_thumb.mp4'; 
-// import dcthumb from '../assets/dc_thumb2.mp4'; 
+import astridthumb from '../assets/astrid_thumb.mp4'; 
+import dcthumb from '../assets/dc_thumb2.mp4'; 
 import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'30'});
 
@@ -41,8 +41,7 @@ const IndexPage = () => {
                     entry={{ delay: 0.5 }}
                   >     
                     <video autoPlay loop muted className="background-video">
-                            <source src={clip} type='video/mp4' />
-
+                            <source src={astridthumb} type='video/mp4' />
                     </video>
                     </AniLink>
                   </div>
@@ -59,11 +58,11 @@ const IndexPage = () => {
               
                     }}> <h1 
                     className="body delay-1">
-                      By and Large is an independent, multidisciplinary design studio. We create positive impact through creative and considered strategy, design, content creation and use of technology.
+                      By and Large is an independent, multidisciplinary design studio. We create impact through creative and considered strategy, design, content creation and use of technology.
                     </h1>
                     <h1 
                     className="body delay-1">
-                      Currently based in Newcastle, NSW. We work with clients around Australia and beyond.
+                      Currently based in Newcastle, we work with clients around Australia and beyond.
                     </h1>
                       </Col>
                   </Row>
@@ -216,7 +215,7 @@ const IndexPage = () => {
               <Row style={{
                 position: 'relative',
               }}>
-                        {/* <AniLink
+                        <AniLink
                           cover  to="/work" bg="#1E1E1E"
                           direction="left"
                           duration={1.5}
@@ -238,7 +237,7 @@ const IndexPage = () => {
                           
                           </div></AniLink>
                
-             */}
+            
               <AniLink
                     to="/astrid"
                     exit={{ length: 0.5 }}
@@ -254,9 +253,9 @@ const IndexPage = () => {
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
-                            {/* <video autoPlay loop muted className="background-video">
+                            <video autoPlay loop muted className="background-video">
                                     <source src={astridthumb} type='video/mp4' />
-                            </video> */}
+                            </video>
                           </div>
                             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
                               position: 'relative'
@@ -281,9 +280,9 @@ const IndexPage = () => {
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
-                            {/* <video autoPlay loop muted className="background-video">
+                            <video autoPlay loop muted className="background-video">
                                     <source src={dcthumb} type='video/mp4' />
-                            </video> */}
+                            </video>
                           </div>
                             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
                               position: 'relative'
@@ -308,9 +307,9 @@ const IndexPage = () => {
                           <div className="video-wrapper-small" style={{
                                 
                               }}>
-                            {/* <video autoPlay loop muted className="background-video">
+                            <video autoPlay loop muted className="background-video">
                                     <source src={dcthumb} type='video/mp4' />
-                            </video> */}
+                            </video>
                           </div>
                             <Col sm={12} md={12} lg={12} xl={12} xxl={12} style={{
                               position: 'relative'

@@ -1057,7 +1057,7 @@ header{
   font-size: 1.2rem;
   line-height: 1.4em;
   color: #1E1E1E;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   float: left;
   max-width: 1890px;
 }
@@ -1189,9 +1189,9 @@ body.preloader_active  .header .contact-button{
 
 .work-list .item .arrow{
   width: 30px;
-  margin-left: .5em;
+  margin-left: 12px;
   float: none;
-  top: -30px;
+  top: -26px;
   position: relative;
   transition: all .2s;
 }
@@ -1201,6 +1201,11 @@ body.preloader_active  .header .contact-button{
   transition: all .2s;
   width: 40px;
   transform: rotate(90deg);
+}
+
+.work-list a .item:hover {
+  z-index: 1000;
+  position: relative;
 }
 
 .thumbnail{
@@ -1344,7 +1349,7 @@ body.preloader_active .video-wrapper{
     font-weight: normal;
     font-size: 1.8rem;
     line-height: 1.1em;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
     /* text-transform: uppercase; */
     color: #1e1e1e;
     text-align: left;
@@ -1564,6 +1569,7 @@ ul.services-list{
 ul.services-list li{
   /* border-bottom:1px solid rgb(255 255 255 / 47%);
   padding-bottom: 3px; */
+  margin-bottom: 4px;
 }
 
 .services-list li:nth-child(1){
@@ -1848,7 +1854,7 @@ body{
   font-size: 1.2rem;
   color: #1E1E1E;
   max-width: 470px;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
 }
 
 .body a{
@@ -1982,6 +1988,7 @@ transition: opacity .3s ;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  -o-object-fit: cover;
   overflow: hidden;
 }
 

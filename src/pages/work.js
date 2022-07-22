@@ -29,31 +29,25 @@ const Work = () => (
             position: 'relative'
           }}>
           <Col sm={12} lg={6} xl={6} className="delay-1 mt10 sm-mt2"
-                data-sal-duration="500"
-                data-sal="slide-up"
-                data-sal-delay="500"
+                data-sal-duration="300"
+                data-sal="fade"
+                data-sal-delay="600"
                 data-sal-easing="ease-in"
           >
            <Parallax y={[0, -50]}>
            <div className="vertical-project-title"     
-                          data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in">Astrid Dispensary</div>
+                          >Astrid Dispensary</div>
               <AniLink
                 to="/astrid"
                 exit={{ length: 0.5 }}
                 entry={{ delay: 0.5 }}
               >
-                <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"     data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in">
+                <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
                     <BGIMG10 className="border-50"></BGIMG10>
                 </div>
               </AniLink>
               <div className="project-wrapper"     data-sal-duration="500"
-                         data-sal="slide-up"
+                         data-sal="fade"
                          data-sal-delay="400"
                          data-sal-easing="ease-in">
                 <div className="title-wrapper">
@@ -73,9 +67,9 @@ const Work = () => (
               >
 
             <Parallax y={[50, -30]}>
-              <div                 data-sal-duration="500"
+              <div                 data-sal-duration="300"
                 data-sal="slide-up"
-                data-sal-delay="0"
+                data-sal-delay="800"
                 data-sal-easing="ease-in">
                         <div className="vertical-project-title"     
                                     // data-sal-duration="500"
@@ -103,10 +97,8 @@ const Work = () => (
            
                    </AniLink>  
             
-            <div className="project-wrapper"     data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in">
+            <div className="project-wrapper"   
+                         >
                       <div className="title-wrapper">
                          <p className="body black delay-1">
                              Branding and website for a coaching course for creative professionals.
@@ -124,9 +116,9 @@ const Work = () => (
         >
        
        <Parallax y={[20, -50]}>
-       <div                 data-sal-duration="500"
-                data-sal="slide-up"
-                data-sal-delay="0"
+       <div                 data-sal-duration="300"
+                data-sal="fade"
+                data-sal-delay="500"
                 data-sal-easing="ease-in">
        <div className="vertical-project-title" >Great Forest Trail Marathon</div>
               <AniLink
