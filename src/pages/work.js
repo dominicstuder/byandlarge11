@@ -283,6 +283,7 @@ const Work = () => (
                         data-sal-delay="400"
                         data-sal-easing="ease-in"
            >
+            
             <BGIMG4 className="border-50"></BGIMG4>
             </div>
             </AniLink>
