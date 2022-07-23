@@ -88,9 +88,9 @@ const Work = () => (
             <div className="project-wrapper"   
                          >
                       <div className="title-wrapper">
-                      <div className="mono-heading-small"     
+                      <div className="work-title"     
                           >Master Me</div>
-                         <p className="body black delay-1">
+                         <p className="body mono black delay-1">
                              Branding and website for a coaching course for creative professionals.
                           </p>
                       </div>
@@ -129,8 +129,8 @@ const Work = () => (
                       <div className="title-wrapper"
          
                       >
-                          <div className="mono-heading-small" >Great Forest Trail Marathon</div>
-                         <p className="body black delay-1">
+                          <div className="work-title" >Great Forest Trail Marathon</div>
+                         <p className="body mono black delay-1">
                         Running to save a wild place in Great Forest, Victoria. 
                         </p>
                         <Arrow className="arrow"></Arrow>
