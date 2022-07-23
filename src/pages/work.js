@@ -50,7 +50,7 @@ const Work = () => (
                 <div className="work-title"     
                           >Astrid Dispensary</div>
                       <p className="body mono black delay-1">
-                          Care and patient focused, plant based medicine dispensary. 
+                          A plant medicines dispensary with national ambitions, using design as a key value
                         </p>
                     <Arrow className="arrow"></Arrow>
                     </div>

@@ -35,20 +35,20 @@ const Astrid = () => (
                   </Col>
                 </Row>
                 <Row className="pt2">
-                  <Col xs={10} sm={10}>
+                  <Col xs={12} sm={10}>
                     <h2 className="header-1 black delay-1">Astrid Dispensary</h2>
                   </Col>
-                  <Col xs={2} sm={2}>
+                  {/* <Col xs={2} sm={2}>
                     <h2 className="header-1 black project-date delay-1">2021</h2>
-                  </Col>
+                  </Col> */}
                   </Row>
-                  <Row className="pt2">
+                  <Row className="pt2 sm-pt1">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
                   Astrid is a unique, plant-based medicines dispensary in South Yarra, Melbourne.</p>
                   </Col>
                   </Row>
-                  <Row  className="pt6">
+                  <Row  className="pt6 sm-pt1">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8}>
                   <div className="project-info">
                   <p className="body black text-indent delay-1">
@@ -60,7 +60,7 @@ const Astrid = () => (
                     </p>
                   </div>
                 </Col> 
-                <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
+                {/* <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
                   <div className="project-info">
                     <p className="body small-title">What we did</p>
                     <p className="scope-list">
@@ -75,7 +75,7 @@ const Astrid = () => (
                       </ul>
                     </p>
                   </div>
-                </Col> 
+                </Col>  */}
                 </Row>
                 <Row justify="end" style={{
                   marginTop: '3rem',
