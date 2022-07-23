@@ -17,26 +17,25 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system'
 import { Parallax } from "react-scroll-parallax";
 
-setConfiguration({ gutterWidth:'30'});
+setConfiguration({ gutterWidth:'30', });
 
 const Work = () => (
   <Layout>
     <Seo Title="Work" />
     <Container fluid style={{
             position: 'relative', marginTop: '5em',
-          }} className="section-2">
-        <Row justify="center" style={{
+          }} className="section-2 work">
+        <Row justify="start" style={{
             position: 'relative'
           }}>
-          <Col sm={12} lg={6} xl={6} className="delay-1 mt10 sm-mt2"
+          <Col sm={12} lg={8} xl={8} className="delay-1 pb4"
                 data-sal-duration="300"
                 data-sal="fade"
                 data-sal-delay="600"
                 data-sal-easing="ease-in"
           >
-           <Parallax y={[0, -50]}>
-           <div className="vertical-project-title"     
-                          >Astrid Dispensary</div>
+        
+
               <AniLink
                 to="/astrid"
                 exit={{ length: 0.5 }}
@@ -46,24 +45,20 @@ const Work = () => (
                     <BGIMG10 className="border-50"></BGIMG10>
                 </div>
               </AniLink>
-              <div className="project-wrapper"     data-sal-duration="500"
-                         data-sal="fade"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in">
+              <div className="project-wrapper">
                 <div className="title-wrapper">
-                      <p className="body black delay-1">
+                <div className="work-title"     
+                          >Astrid Dispensary</div>
+                      <p className="body mono black delay-1">
                           Care and patient focused, plant based medicine dispensary. 
                         </p>
                     <Arrow className="arrow"></Arrow>
                     </div>
                 </div>
-            </Parallax>
+  
           </Col>
-          <Col sm={12} lg={5} xl={5}  className="delay-1"
-                // data-sal-duration="500"
-                // data-sal="slide-up"
-                // data-sal-delay="0"
-                // data-sal-easing="ease-in"
+          <Col sm={12} lg={8} xl={8}  className="delay-1 pb4"
+
               >
 
             <Parallax y={[50, -30]}>
@@ -71,14 +66,7 @@ const Work = () => (
                 data-sal="slide-up"
                 data-sal-delay="800"
                 data-sal-easing="ease-in">
-                        <div className="vertical-project-title"     
-                                    // data-sal-duration="500"
-                                    //  data-sal="slide-up"
-                                    //  data-sal-delay="400"
-                                    //  data-sal-easing="ease-in">
-                                      >
-                                      Master Me
-                                    </div>
+                       
                         <AniLink
                               to="/masterme"
                                 exit={{ length: 0.5 }}
@@ -100,6 +88,8 @@ const Work = () => (
             <div className="project-wrapper"   
                          >
                       <div className="title-wrapper">
+                      <div className="mono-heading-small"     
+                          >Master Me</div>
                          <p className="body black delay-1">
                              Branding and website for a coaching course for creative professionals.
                           </p>
@@ -109,9 +99,8 @@ const Work = () => (
           </Parallax>  
        
         </Col>
-        </Row>
-        <Row justify="center" >
-        <Col sm={12} lg={5} xl={5}  className="delay-1"
+  
+        <Col sm={12} lg={6} xl={6}  className="delay-1"
         
         >
        
@@ -120,7 +109,7 @@ const Work = () => (
                 data-sal="fade"
                 data-sal-delay="500"
                 data-sal-easing="ease-in">
-       <div className="vertical-project-title" >Great Forest Trail Marathon</div>
+     
               <AniLink
                   to="/gftm"
                   exit={{ length: 0.5 }}
@@ -140,6 +129,7 @@ const Work = () => (
                       <div className="title-wrapper"
          
                       >
+                          <div className="mono-heading-small" >Great Forest Trail Marathon</div>
                          <p className="body black delay-1">
                         Running to save a wild place in Great Forest, Victoria. 
                         </p>
@@ -149,7 +139,7 @@ const Work = () => (
         </div>
      </Parallax>
           </Col>
-          </Row>
+   </Row>
           <Row justify="end" >
         <Col sm={12} lg={5} xl={5}  className="delay-1"
                         data-sal-duration="500"

@@ -1031,6 +1031,30 @@ header{
   text-transform: uppercase;
   padding-bottom: 10px;
 }
+.work .mono-heading-small{
+  font-size: 4rem;
+  line-height: 1em;
+}
+
+.work .body.mono{
+  font-family: "ABCDiatypeSemi-Mono-Regular", sans-serif;
+  font-weight: normal;
+  font-size: .9rem;
+  line-height: 1.4em;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+}
+
+
+.work-title{
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  color: #1E1E1E;
+  font-size: 4rem;
+  padding-bottom: 10px;
+  line-height: 1em;
+  letter-spacing: -.2rem;
+}
 
 .herotitle{
   color: #1E1E1E;
@@ -2944,7 +2968,7 @@ body.preloader_ready #preloader {
     margin: 0em 0.3em 0em 0em;
   }
   .work-page-image-wrapper {
-    height: 100vw;
+    height: 100vh;
   }
   .project-info{
     margin-top: 0em;
