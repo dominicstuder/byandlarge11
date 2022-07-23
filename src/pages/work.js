@@ -47,11 +47,12 @@ const Work = () => (
               </AniLink>
               <div className="project-wrapper">
                 <div className="title-wrapper">
-                <div className="work-title"     
+                <div className="body black delay-1 text-indent"     
                           >Astrid Dispensary</div>
-                      <p className="body mono black delay-1">
+                      <p className="body black delay-1">
                           A plant medicines dispensary with national ambitions, using design as a key value
                         </p>
+                       
                     <Arrow className="arrow"></Arrow>
                     </div>
                 </div>
@@ -88,9 +89,9 @@ const Work = () => (
             <div className="project-wrapper"   
                          >
                       <div className="title-wrapper">
-                      <div className="work-title"     
+                      <div className="body black delay-1 text-indent"     
                           >Master Me</div>
-                         <p className="body mono black delay-1">
+                         <p className="body black delay-1">
                              Branding and website for a coaching course for creative professionals.
                           </p>
                       </div>
@@ -100,7 +101,7 @@ const Work = () => (
        
         </Col>
   
-        <Col sm={12} lg={6} xl={6}  className="delay-1"
+        <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
         
         >
        
@@ -129,8 +130,8 @@ const Work = () => (
                       <div className="title-wrapper"
          
                       >
-                          <div className="work-title" >Great Forest Trail Marathon</div>
-                         <p className="body mono black delay-1">
+                          <div className="body black delay-1 text-indent" >Great Forest Trail Marathon</div>
+                         <p className="body black delay-1">
                         Running to save a wild place in Great Forest, Victoria. 
                         </p>
                         <Arrow className="arrow"></Arrow>
@@ -140,22 +141,18 @@ const Work = () => (
      </Parallax>
           </Col>
    </Row>
-          <Row justify="end" >
-        <Col sm={12} lg={5} xl={5}  className="delay-1"
-                        data-sal-duration="500"
-                        data-sal="slide-up"
-                        data-sal-delay="0"
+    <Row justify="end" >
+        <Col sm={12} lg={5} xl={5}  className="delay-1 pb4"
+                        data-sal-duration="300"
+                        data-sal="fade"
+                        data-sal-delay="500"
                         data-sal-easing="ease-in"
         
         >
        
-       <Parallax y={[0, -50]}>
-       <div                 
-        data-sal-duration="500"
-        data-sal="slide-up"
-        data-sal-delay="0"
-        data-sal-easing="ease-in">
-             <div className="vertical-project-title">Obie</div>
+
+
+            
               <AniLink
                   to="/obie"
                   exit={{ length: 0.5 }}
@@ -171,26 +168,18 @@ const Work = () => (
             </AniLink>
                         
             <div className="project-wrapper">
-                      <div className="title-wrapper"
-         
-                      >
-                      {/* <h2 className="header-2 hover-link">
-                      <AniLink
-                     to="/obie"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-                         Obie    </AniLink></h2> */}
+                      <div className="title-wrapper">
+                      <div className="body black delay-1 text-indent" >Obie</div>
                          <p className="body black delay-1">
                          Financial tools to help everyday people.
                         </p>
                         <Arrow className="arrow"></Arrow>
                       </div>
                 </div>
-            </div>
-        </Parallax>
+       
+
       </Col>
-      <Col sm={12} lg={6} xl={6}   className="delay-1">
+      <Col sm={12} lg={6} xl={6}   className="delay-1 pb4">
         <Parallax y={[30, 0]}>
             <div                 
             data-sal-duration="500"
@@ -230,7 +219,7 @@ const Work = () => (
       </Col>  
       </Row>
           <Row justify="start">
-          <Col sm={12} lg={4} xl={5}  className="delay-1"
+          <Col sm={12} lg={4} xl={5}  className="delay-1 pb4"
                 data-sal-duration="500"
                 data-sal="slide-up"
                 data-sal-delay="0"

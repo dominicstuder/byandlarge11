@@ -1032,17 +1032,16 @@ header{
   padding-bottom: 10px;
 }
 .work .mono-heading-small{
-  font-size: 4rem;
+  font-size: 1rem;
   line-height: 1em;
 }
 
-.work .body.mono{
-  font-family: "ABCDiatypeSemi-Mono-Regular", sans-serif;
+.work .body{
+  
   font-weight: normal;
-  font-size: .9rem;
-  line-height: 1.4em;
-  letter-spacing: 0em;
-  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.1em;
+  letter-spacing: -0.03em;
   max-width: 100%;
 }
 
@@ -1054,7 +1053,7 @@ header{
   font-size: 4rem;
   padding-bottom: 10px;
   line-height: 1em;
-  letter-spacing: -0.1rem;
+  letter-spacing: -0.02rem;
 }
 
 .herotitle{
@@ -2963,7 +2962,7 @@ body.preloader_ready #preloader {
     padding: .3rem 0rem 0rem;
   }
   .menu.two{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .menu.two a{
     margin: 0em 0.3em 0em 0em;
@@ -3006,10 +3005,10 @@ body.preloader_ready #preloader {
   }
   .menu.two a{
     padding: 0px;
-    height: 20px;
+    height: 37px;
   }
   .item-two a span{
-    height: 2opx;
+    height: 37px;
   }
   .menu.two a:hover{
     background: none;
