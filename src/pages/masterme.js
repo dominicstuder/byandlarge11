@@ -6,13 +6,13 @@ import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import BGIMG10 from "../components/backgroundimage10"
+import BGIMG from "../components/backgroundimage1"
 
 import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'30'});
 
 
-const Astrid = () => (
+const MasterMe = () => (
 
     <Layout>
             <SEO title="Astrid" />
@@ -20,12 +20,12 @@ const Astrid = () => (
             <Row className="pt10 sm-pt1">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
-                  A unique, plant-based medicines dispensary in South Yarra, Melbourne.</p>
+                  Branding and website for a coaching course for creative professionals.</p>
                   </Col>
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-1">Astrid Dispensary</h2>
+                    <h2 className="small-header black delay-1">Master Me</h2>
                   </Col>
 
                   </Row>
@@ -39,10 +39,10 @@ const Astrid = () => (
           
                   <div className="work-page-image-wrapper" 
                         data-sal-duration="500"
-                          data-sal="slide-up"
+                          data-sal="fade"
                           data-sal-delay="400"
                           data-sal-easing="ease-in" >
-                          <BGIMG10 className="border-50-no-hover"></BGIMG10>
+                          <BGIMG className="border-50-no-hover"></BGIMG>
                   </div>
                   </Col>
                 </Row>
@@ -63,45 +63,38 @@ const Astrid = () => (
                     </p>
                   </div>
                 </Col> 
-                {/* <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
-                  <div className="project-info">
-                    <p className="body small-title">What we did</p>
-                    <p className="scope-list">
-                      <ul>
-                        <li>Strategy</li>
-                        <li>Visual Identity</li>
-                        <li>Digital Design</li>
-                        <li>Website Development</li>
-                        <li>E-commerce</li>
-                        <li>Packaging and print</li>
-                        <li>Signage</li>
-                      </ul>
-                    </p>
-                  </div>
-                </Col>  */}
                 </Row>
                 <Row justify="end" style={{
                   marginTop: '3rem',
               }}>
-
-                {/* <div className="project-info-wrapper mt3 mb3">
-                  <Col sm={6}>
-                      <h3 className="header-3">The visual identity</h3>
-                  </Col>
-                  <Col sm={6}>
-                      <p className="body copy-delay-1">We wanted to draw on elements that allude to cannabis, while avoiding the usual tropes that are used in the industry. To do this we explored a sea of green concept, using only shades of green throughout the brand. We also looked at the creative and organic aspects of cannabis, landing on found imagery of paintings of plants to communicate this feeling.  
-                      </p>
-                      <p className="body text-indent copy-delay-1">We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.</p>
-                  </Col>
-                </div> */}
-                <Col sm={12} className="pb1"
+                <Col sm={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/astrid_3.jpg"
+                      src="../images/mm_04.jpg"
+                      />
+                </Col> 
+                <Col sm={12} md={6} className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/mm_02.png"
+                      />
+                </Col> 
+                <Col sm={12} md={6}className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/mm_03.png"
                       />
                 </Col> 
 
@@ -123,74 +116,57 @@ const Astrid = () => (
                   </Col>
                   </div>
 
-
-                <div className="project-image-group-wrapper pt5 pb5">
-
-                  <Col sm={4} className="mobile-view"
-                  ata-sal-duration="500"
-                  data-sal="slide-up"
-                  data-sal-delay="400"
-                  data-sal-easing="ease-in" 
-                  >
-                       <StaticImage
-                      alt=""
-                      src="../images/astrid_home_mobile_01.png"
+                  <Col sm={12} md={12}className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/mm_05.jpg"
                       />
-                  </Col>             
-                  <Col sm={4} className="mobile-view"
-                  ata-sal-duration="500"
-                  data-sal="slide-up"
-                  data-sal-delay="400"
-                  data-sal-easing="ease-in" 
-                  >
-                                     <StaticImage
-                      alt=""
-                      src="../images/astrid_home_mobile_02.png"
+                </Col> 
+                <Col sm={12} md={12}className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/mm_06.png"
                       />
-                  </Col> 
-                </div>
-              
-                <div className="project-image-group-wrapper">
-                  {/* <Col sm={4} className="mobile-view">
-                  <A8></A8>
-                  </Col>  */}
-                  <Col sm={4} className="mobile-view"
-                  ata-sal-duration="500"
-                  data-sal="slide-up"
-                  data-sal-delay="400"
-                  data-sal-easing="ease-in" 
-                  >
-                 
-                  </Col> 
-                  <Col sm={4} className="mobile-view"
-                  ata-sal-duration="500"
-                  data-sal="slide-up"
-                  data-sal-delay="400"
-                  data-sal-easing="ease-in" 
-                  >
-
-                  </Col> 
-
-                </div>
-                {/* <div className="project-info-wrapper mt3 mb3">
-
-                  <Col sm={6}>
-                  <h3 className="header-3">Supporting collateral</h3>
-                  </Col>
-                  <Col sm={6}>
-                  <p className="body black copy-delay-1">
-                  We designed a range of collateral for Astrid, including stationary and packaging.
-                  </p>
-                  </Col>
-                  </div> */}
-                <div className="project-image-group-wrapper pt5">
-                <Col sm={6} className="pb1 ">
-          
-                </Col>
-                <Col sm={6} className="smt2 pb1" >
-          
-                </Col>
-                </div>
+                </Col> 
+                <Col sm={12} md={12}className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/mm_05.png"
+                      />
+                </Col> 
+                <Col sm={12} md={12}className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/mm_09.png"
+                      />
+                </Col> 
+                <Col sm={12} md={12}className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/mm_10.png"
+                      />
+                </Col> 
+               
             </Row>
             <Row className="mt2 page-links">
               <Col sm={6} className="delay-1"  style={{
@@ -229,6 +205,6 @@ const Astrid = () => (
 
 )
 
-export default Astrid
+export default MasterMe
 
 

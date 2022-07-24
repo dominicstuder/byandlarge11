@@ -48,9 +48,9 @@ const Work = () => (
 
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="body black delay-1"     
+                      <div className="small-header black delay-1 text-indent"     
                           >  Astrid Dispensary</div>
-                         <p className="body black secondary delay-1">
+                         <p className="body black delay-1">
                          A plant medicines dispensary with national ambitions, using design as a key value.
                           </p>
                       </div>
@@ -92,9 +92,9 @@ const Work = () => (
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="body black delay-1"     
+                      <div className="small-header black delay-1 text-indent"     
                           >Master Me</div>
-                         <p className="body black secondary delay-1">
+                         <p className="body black delay-1">
                              Branding and website for a coaching course for creative professionals.
                           </p>
                       </div>
@@ -115,7 +115,7 @@ const Work = () => (
                 data-sal-easing="ease-in">
      
               <AniLink
-                  to="/gftm"
+                  to="/greatforesttrailmarathon"
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
                   >
@@ -133,7 +133,7 @@ const Work = () => (
                       <div className="title-wrapper"
          
                       >
-                          <div className="body black delay-1 text-indent" >Great Forest Trail Marathon</div>
+                          <div className="small-header delay-1 text-indent" >Great Forest Trail Marathon</div>
                          <p className="body black delay-1">
                         Running to save a wild place in Great Forest, Victoria. 
                         </p>
@@ -186,10 +186,10 @@ const Work = () => (
         <Parallax y={[30, 0]}>
             <div                 
             data-sal-duration="500"
-            data-sal="slide-up"
+            data-sal="fade"
             data-sal-delay="0"
             data-sal-easing="ease-in">
-                <div className="vertical-project-title">Drive Change</div>  
+               
                     <AniLink
                               to="/drive-change"
                               exit={{ length: 0.5 }}
@@ -212,6 +212,7 @@ const Work = () => (
                     </AniLink>
                     <div className="project-wrapper">
                       <div className="title-wrapper">
+                      <div className="small-header text-indent">Drive Change</div>  
                           <p className="body black delay-1">
                             A national movement to change outdated laws.</p>
                           <Arrow className="arrow"></Arrow>

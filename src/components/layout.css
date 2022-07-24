@@ -630,6 +630,10 @@ pre tt:after {
   padding-top: 6em !important;
 }
 
+.pt10 {
+  padding-top: 10em !important;
+}
+
 .pb0 {
   padding-bottom: 0 !important;
 }
@@ -777,8 +781,8 @@ pre tt:after {
 
 .tl-wrapper-status--exiting header .logo.slideup{
   transform: translateY(0px);
-  transition: all .2s;
-  transition-delay: 0s;
+  transition: all .5s;
+  transition-delay: 0.02s;
   opacity: 0;
 }
 
@@ -792,8 +796,8 @@ pre tt:after {
 
 .tl-wrapper-status--exiting header .slideup-contact{
   transform: translateY(0px);
-  transition: all .2s;
-  transition-delay: 0s;
+  transition: all .5s;
+  transition-delay: 0.2s;
   opacity: 0;
 }
 
@@ -891,8 +895,8 @@ pre tt:after {
 .tl-wrapper-status--exiting header .delay-1{
   opacity: 0;
   /* transform: translateY(20px); */
-  transition: all .2s;
-  transition-delay: 0s;
+  transition: all .5s;
+  transition-delay: 0.2s;
 }
 
 .tl-wrapper-status--entered header .delay-2{
@@ -905,7 +909,8 @@ pre tt:after {
 .tl-wrapper-status--exiting header .delay-2{
   opacity: 0;
   transform: translateY(0px);
-  transition: all .2s;
+  transition: all .5s;
+  transition-delay: 0.2s;
 }
 
 
@@ -920,7 +925,7 @@ pre tt:after {
   opacity: 0;
   transform: translateY(0px);
   transition: all .5s;
-  transition-delay: 0s;
+  transition-delay: 0.2s;
 }
 
 
@@ -1405,7 +1410,7 @@ body.preloader_active .video-wrapper{
     font-weight: normal;
     font-size: 1.8rem;
     line-height: 1.1em;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
     /* text-transform: uppercase; */
     color: #1e1e1e;
     text-align: left;
@@ -1522,7 +1527,7 @@ body.preloader_active .video-wrapper{
 }
 
 .project .hero-sentence{
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: "UntitledSans-Regular", sans-serif;
   font-weight: normal;
   line-height: 1em;
@@ -1552,22 +1557,23 @@ body.preloader_active .video-wrapper{
 }
 
 .header-2.black a{
-  color: #2f2f2f;
+  color: #1E1E1E;
   text-decoration: none;
 }
 .header-3{
   font-family: "UntitledSans-Regular", sans-serif;
   font-weight: normal;
-  font-size: 3rem;
-  line-height: 1.3em;
+  font-size: 2rem;
+  line-height: 1.1em;
   letter-spacing: -0.04em;
-  color: white;
+  color: #1E1E1E;
+  max-width: 550px;
 }
 
 .header-3 a{
-  color: white;
+  color: #1E1E1E;
   text-decoration: none;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #1E1E1E;
 }
 
 

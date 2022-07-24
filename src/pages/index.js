@@ -28,7 +28,7 @@ const IndexPage = () => {
       <Row justify="start" style={{
                  marginTop: '4em',
                 }} className="video-section mt4 sm-mt3">
-                  <Col md={12} lg={8} xl={8} xxl={6}  style={{
+                  <Col md={12} lg={12} xl={12} xxl={12}  style={{
                     position: 'relative',
               
                   }}
