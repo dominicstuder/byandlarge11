@@ -145,7 +145,7 @@ const IndexPage = () => {
                       </div>
                 </Col>
                 <Col md={12} lg={12} xl={12} xxl={12} >
-                <div className="primary-button delay-1 mt5"><AniLink
+                <div className="primary-button delay-1 mt5 sm-mt1"><AniLink
                           to="/contact"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
@@ -191,9 +191,9 @@ const IndexPage = () => {
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="body black delay-1 text-indent"     
+                      <div className="small-header delay-1 text-indent"     
                           >Master Me</div>
-                         <p className="body black secondary delay-1">
+                         <p className="small-header delay-1">
                              Branding and website for a coaching course for creative professionals.
                           </p>
                       </div>
@@ -232,8 +232,8 @@ const IndexPage = () => {
                       <div className="title-wrapper"
          
                       >
-                          <div className="body black delay-1 text-indent" >Great Forest Trail Marathon</div>
-                         <p className="body black delay-1">
+                          <div className="small-header delay-1 text-indent" >Great Forest Trail Marathon</div>
+                         <p className="small-header delay-1">
                         Running to save a wild place in Great Forest, Victoria. 
                         </p>
                         <Arrow className="arrow"></Arrow>
@@ -243,7 +243,7 @@ const IndexPage = () => {
  
           </Col>
           <Col md={12} lg={12} xl={12} xxl={12} >
-    <div className="primary-button delay-1 mt5"><AniLink
+    <div className="primary-button delay-1 mt5 sm-mt1"><AniLink
               to="/work"
               exit={{ length: 0.5 }}
               entry={{ delay: 0.5 }}
