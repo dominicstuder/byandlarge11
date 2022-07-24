@@ -59,7 +59,12 @@ const IndexPage = () => {
                    <Col sm={12} md={10} lg={7} xl={7} xxl={7} style={{
                       position: 'relative',
               
-                    }}> <h1 
+                    }}
+                    data-sal="fade"
+                    data-sal-delay="100"
+                    data-sal-easing="ease"
+                    data-sal-duration="500"
+                    > <h1 
                     className="body medium delay-1">
                       By and Large is an independent, multidisciplinary design studio. We create impact through creative and considered strategy, design, content creation and use of technology.
                     </h1>
@@ -82,7 +87,7 @@ const IndexPage = () => {
 
               >
                 <div 
-                  data-sal="slide-up"
+                  data-sal="fade"
                   data-sal-delay="100"
                   data-sal-easing="ease"
                   data-sal-duration="500"
@@ -94,7 +99,7 @@ const IndexPage = () => {
                
                 >
                       <div                   
-                      data-sal="slide-up"
+                      data-sal="fade"
                         data-sal-delay="100"
                         data-sal-easing="ease"
                         data-sal-duration="500"
@@ -111,7 +116,7 @@ const IndexPage = () => {
                 </Col>
                 <Col md={12} lg={3} xl={3} xxl={3} >
                   <div                   
-                      data-sal="slide-up"
+                      data-sal="fade"
                         data-sal-delay="200"
                         data-sal-easing="ease"
                         data-sal-duration="500"
@@ -130,7 +135,7 @@ const IndexPage = () => {
                 </Col>
                 <Col md={12} lg={3} xl={3} xxl={3} >
                 <div                   
-                      data-sal="slide-up"
+                      data-sal="fade"
                         data-sal-delay="300"
                         data-sal-easing="ease"
                         data-sal-duration="500"
@@ -167,7 +172,7 @@ const IndexPage = () => {
 
 
               <div                 data-sal-duration="300"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="800"
                 data-sal-easing="ease-in">
                        
@@ -208,7 +213,9 @@ const IndexPage = () => {
         >
        
 
-       <div                 data-sal-duration="300"
+       <div                 
+       
+                data-sal-duration="300"
                 data-sal="fade"
                 data-sal-delay="500"
                 data-sal-easing="ease-in">

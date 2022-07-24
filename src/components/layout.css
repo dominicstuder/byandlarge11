@@ -898,14 +898,14 @@ pre tt:after {
 
 
 .tl-wrapper main .delay-1{
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .2s;
   opacity: 0;
 }
 
 .tl-wrapper-status--exiting .delay-1, .tl-wrapper-status--exiting .delay-2, .tl-wrapper-status--exiting .delay-3, .tl-wrapper-status--exiting .delay-4, .tl-wrapper-status--exiting .delay-5{
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .5s;
   transition-delay: 0s;
 }
