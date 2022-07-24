@@ -17,7 +17,7 @@ const Astrid = () => (
     <Layout>
             <SEO title="Astrid" />
             <Container fluid className="project">
-            <Row className="pt10 sm-pt1">
+            <Row className="pt10">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
                   A unique, plant-based medicines dispensary in South Yarra, Melbourne.</p>
@@ -25,7 +25,7 @@ const Astrid = () => (
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-1">Astrid Dispensary</h2>
+                    <h2 className="small-header black delay-2">Astrid Dispensary</h2>
                   </Col>
 
                   </Row>

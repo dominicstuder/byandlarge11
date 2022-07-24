@@ -776,7 +776,7 @@ pre tt:after {
   opacity: 1;
   transform: translateY(-0px);
   transition: all .5s;
-  transition-delay: 0s;
+  transition-delay: .3s;
 }
 
 .tl-wrapper-status--exiting header .logo.slideup{

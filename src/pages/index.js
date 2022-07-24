@@ -24,7 +24,7 @@ const IndexPage = () => {
     }}>
       <SEO title="Home" />
 
-      <Container fluid className="video-container">
+      <Container fluid className="video-container pt5 sm-pt5">
       <Row justify="start" style={{
                  marginTop: '4em',
                 }} className="video-section mt4 sm-mt3">
