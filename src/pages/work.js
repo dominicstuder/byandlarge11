@@ -28,7 +28,7 @@ const Work = () => (
         <Row justify="start" style={{
             position: 'relative'
           }}>
-          <Col sm={12} lg={8} xl={8} className="delay-1 pb4"
+          <Col sm={12} lg={6} xl={6} className="delay-1 pb1"
                 data-sal-duration="300"
                 data-sal="fade"
                 data-sal-delay="600"
@@ -45,20 +45,24 @@ const Work = () => (
                     <BGIMG10 className="border-50"></BGIMG10>
                 </div>
               </AniLink>
-              <div className="project-wrapper">
-                <div className="title-wrapper">
-                <div className="body black delay-1 text-indent"     
-                          >Astrid Dispensary</div>
-                      <p className="body black delay-1">
-                          A plant medicines dispensary with national ambitions, using design as a key value
-                        </p>
-                       
-                    <Arrow className="arrow"></Arrow>
-                    </div>
+
+            <div className="project-wrapper">
+                      <div className="title-wrapper">
+                      <div className="body black delay-1"     
+                          >  Astrid Dispensary</div>
+                         <p className="body black secondary delay-1">
+                         A plant medicines dispensary with national ambitions, using design as a key value.
+                          </p>
+                      </div>
                 </div>
+                </Col>
+            </Row>
+          <Row justify="start" style={{
+            position: 'relative'
+          }}>  
   
-          </Col>
-          <Col sm={12} lg={8} xl={8}  className="delay-1 pb4"
+ 
+          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
 
               >
 
@@ -86,12 +90,11 @@ const Work = () => (
            
                    </AniLink>  
             
-            <div className="project-wrapper"   
-                         >
+            <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="body black delay-1 text-indent"     
+                      <div className="body black delay-1"     
                           >Master Me</div>
-                         <p className="body black delay-1">
+                         <p className="body black secondary delay-1">
                              Branding and website for a coaching course for creative professionals.
                           </p>
                       </div>
@@ -283,7 +286,7 @@ const Work = () => (
                         data-sal-delay="400"
                         data-sal-easing="ease-in"
            >
-            
+
             <BGIMG4 className="border-50"></BGIMG4>
             </div>
             </AniLink>

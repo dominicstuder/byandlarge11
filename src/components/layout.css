@@ -1031,18 +1031,37 @@ header{
   text-transform: uppercase;
   padding-bottom: 10px;
 }
-.work .mono-heading-small{
+/* .work .mono-heading-small{
   font-size: 1rem;
   line-height: 1em;
+} */
+
+.small-header{
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  color: #1E1E1E;
+  font-size: 1rem;
+  line-height: 1.2em;
+  letter-spacing: -0.02rem;
+  padding-bottom: 10px;
+}
+
+.body.medium{
+  font-size: 1.8rem;
+  max-width: 100%;
 }
 
 .work .body{
-  
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.1em;
   letter-spacing: -0.03em;
   max-width: 100%;
+}
+
+.work .body.secondary{
+  opacity: .5;
+  padding-top: 5px;
 }
 
 
@@ -1579,9 +1598,9 @@ body.preloader_active .video-wrapper{
 }
 
 ul.services-list{
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: "UntitledSans-Regular", sans-serif;
-  line-height: 1.4em;
+  line-height: 1.2em;
   letter-spacing: -0.02em;
   font-weight: normal;
   list-style: none;
@@ -1875,7 +1894,7 @@ body{
 
 .body{
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #1E1E1E;
   max-width: 470px;
   letter-spacing: -0.01em;
@@ -2962,7 +2981,7 @@ body.preloader_ready #preloader {
     padding: .3rem 0rem 0rem;
   }
   .menu.two{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .menu.two a{
     margin: 0em 0.3em 0em 0em;
@@ -3005,15 +3024,19 @@ body.preloader_ready #preloader {
   }
   .menu.two a{
     padding: 0px;
-    height: 37px;
+    height: 28px;
   }
   .item-two a span{
-    height: 37px;
+    height: 28px;
   }
   .menu.two a:hover{
     background: none;
     color: #1e1e1e;
 
+  }
+
+  .body.medium{
+    font-size: 1.5rem;
   }
   .link-text{
     top: 2px;
