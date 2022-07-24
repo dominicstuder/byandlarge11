@@ -159,14 +159,14 @@ const IndexPage = () => {
             </Row>
       </Container>
      <Container fluid className="section-3">
-          <Row justify="start" className="delay-1 pb4" style={{
+          <Row justify="start" className="delay-1 pb4 sm-mt3" style={{
             position: 'relative'
           }}>  
           <Col sm={12} lg={12} xl={12} className="delay-1 pb2">
             <span className="small-header delay-1">Some of our recent work</span>
           </Col>
  
-          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
+          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4 sm-pb0"
 
               >
 
@@ -208,7 +208,7 @@ const IndexPage = () => {
        
         </Col>
   
-        <Col sm={12} lg={4} xl={4}  className="delay-1 pb4"
+        <Col sm={12} lg={4} xl={4}  className="delay-1 pb4 sm-pb0"
         
         >
        
