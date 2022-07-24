@@ -17,7 +17,7 @@ const GreatForest = () => (
     <Layout>
             <SEO title="Astrid" />
             <Container fluid className="project">
-            <Row className="pt10 sm-pt1">
+            <Row className="pt10">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
                  Running to save a wild place.</p>
@@ -48,7 +48,7 @@ const GreatForest = () => (
                 </Row>
 
 
-                  <Row  className="pt6 sm-pt1">
+                  <Row  className="pt1 sm-pt1">
                   <Col sm={12} md={6} xl={6} xxl={6}>
                   <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
                   </Col>
@@ -58,15 +58,11 @@ const GreatForest = () => (
                     We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
                     We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.
                     </p>
-                    <p className="body black text-indent delay-1 mb3">
+                    <p className="body black text-indent delay-1 mb3 sm-mb0">
                     From there, we designed and built the Astrid website along with creating a suite of print and digital collateral.
                     </p>
                   </div>
                 </Col> 
-                </Row>
-                <Row justify="end" style={{
-                  marginTop: '3rem',
-              }}>
                 <Col sm={12} className="pb1 delay-1"
                    data-sal="fade"
                    data-sal-delay="500"
@@ -99,7 +95,7 @@ const GreatForest = () => (
                 </Col> 
 
 
-                <div className="project-info-wrapper mt3 mb3 two">
+                <div className="project-info-wrapper two">
 
                   <Col sm={6}        data-sal="fade"
                     data-sal-delay="100"

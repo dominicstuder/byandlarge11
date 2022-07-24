@@ -782,7 +782,7 @@ pre tt:after {
 .tl-wrapper-status--exiting header .logo.slideup{
   transform: translateY(0px);
   transition: all .5s;
-  transition-delay: 0.02s;
+  transition-delay: 0.2s;
   opacity: 0;
 }
 
@@ -896,7 +896,7 @@ pre tt:after {
   opacity: 0;
   /* transform: translateY(20px); */
   transition: all .5s;
-  transition-delay: 0.2s;
+  transition-delay: .5s;
 }
 
 .tl-wrapper-status--entered header .delay-2{
@@ -924,8 +924,8 @@ pre tt:after {
 .tl-wrapper-status--exiting .delay-1, .tl-wrapper-status--exiting .delay-2, .tl-wrapper-status--exiting .delay-3, .tl-wrapper-status--exiting .delay-4, .tl-wrapper-status--exiting .delay-5{
   opacity: 0;
   transform: translateY(0px);
-  transition: all .5s;
-  transition-delay: 0.2s;
+  transition: all 1s;
+  transition-delay: 1s;
 }
 
 
@@ -1530,7 +1530,7 @@ body.preloader_active .video-wrapper{
   font-size: 2rem;
   font-family: "UntitledSans-Regular", sans-serif;
   font-weight: normal;
-  line-height: 1em;
+  line-height: 1.2em;
   /* color: rgb(30, 30, 30); */
   color: #1E1E1E;
   letter-spacing: -0.02em;
@@ -3059,9 +3059,6 @@ body.preloader_ready #preloader {
   }
   .link-text{
     top: 2px;
-  }
-  .body{
-    font-size: 1.35rem;
   }
   .menu{
     margin-top: 5px;

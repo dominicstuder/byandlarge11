@@ -17,7 +17,7 @@ const MasterMe = () => (
     <Layout>
             <SEO title="Astrid" />
             <Container fluid className="project">
-            <Row className="pt10 sm-pt1">
+            <Row className="pt10">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
                   Branding and website for a coaching course for creative professionals.</p>

@@ -28,11 +28,7 @@ const Work = () => (
         <Row justify="start" style={{
             position: 'relative'
           }}>
-          <Col sm={12} lg={6} xl={6} className="delay-1 pb1"
-                data-sal-duration="300"
-                data-sal="fade"
-                data-sal-delay="600"
-                data-sal-easing="ease-in"
+          <Col sm={12} lg={6} xl={6} className="pb1"
           >
         
 
@@ -41,7 +37,12 @@ const Work = () => (
                 exit={{ length: 0.5 }}
                 entry={{ delay: 0.5 }}
               >
-                <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
+                <div style={{borderRadius:'25px',}} className="work-page-image-wrapper delay-1 "
+                                data-sal-duration="500"
+                                data-sal="fade"
+                                data-sal-delay="400"
+                                data-sal-easing="ease-in"
+                >
                     <BGIMG10 className="border-50"></BGIMG10>
                 </div>
               </AniLink>
@@ -66,11 +67,6 @@ const Work = () => (
 
               >
 
-            <Parallax y={[50, -30]}>
-              <div                 data-sal-duration="300"
-                data-sal="slide-up"
-                data-sal-delay="800"
-                data-sal-easing="ease-in">
                        
                         <AniLink
                               to="/masterme"
@@ -78,11 +74,11 @@ const Work = () => (
                                 entry={{ delay: 0.5 }}
                               >
                       <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"     
-                                    // data-sal-duration="500"
-                                    //  data-sal="slide-up"
-                                    //  data-sal-delay="400"
-                                    //  data-sal-easing="ease-in">
-                                      >
+                            data-sal-duration="500"
+                            data-sal="fade"
+                            data-sal-delay="400"
+                            data-sal-easing="ease-in"
+                        >
             
                         <BGIMG className="border-50"></BGIMG>
                 
@@ -99,21 +95,11 @@ const Work = () => (
                           </p>
                       </div>
                 </div>
-                </div>  
-          </Parallax>  
        
         </Col>
   
-        <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
-        
-        >
-       
-       <Parallax y={[20, -50]}>
-       <div                 data-sal-duration="300"
-                data-sal="fade"
-                data-sal-delay="500"
-                data-sal-easing="ease-in">
-     
+        <Col sm={12} lg={5} xl={5}  className="delay-1 pb4">
+
               <AniLink
                   to="/greatforesttrailmarathon"
                   exit={{ length: 0.5 }}
@@ -122,6 +108,10 @@ const Work = () => (
 
            
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+                           data-sal-duration="500"
+                           data-sal="fade"
+                           data-sal-delay="400"
+                           data-sal-easing="ease-in"
                        >
             <GFTMHERO className="border-50"></GFTMHERO>
  
@@ -140,16 +130,11 @@ const Work = () => (
                         <Arrow className="arrow"></Arrow>
                       </div>
                 </div>
-        </div>
-     </Parallax>
           </Col>
    </Row>
     <Row justify="end" >
         <Col sm={12} lg={5} xl={5}  className="delay-1 pb4"
-                        data-sal-duration="300"
-                        data-sal="fade"
-                        data-sal-delay="500"
-                        data-sal-easing="ease-in"
+             
         
         >
        
@@ -163,7 +148,13 @@ const Work = () => (
                   >
 
            
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper">
+           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+                           data-sal-duration="500"
+                           data-sal="fade"
+                           data-sal-delay="400"
+                           data-sal-easing="ease-in"
+           >
+
             <BGIMG6 className="border-50"></BGIMG6>
  
             </div>
@@ -182,23 +173,16 @@ const Work = () => (
        
 
       </Col>
-      <Col sm={12} lg={6} xl={6}   className="delay-1 pb4">
-        <Parallax y={[30, 0]}>
-            <div                 
-            data-sal-duration="500"
-            data-sal="fade"
-            data-sal-delay="0"
-            data-sal-easing="ease-in">
+      <Col sm={12} lg={5} xl={5}   className="delay-1 pb4">
+    
                
                     <AniLink
                               to="/drive-change"
                               exit={{ length: 0.5 }}
                               entry={{ delay: 0.5 }}
                             >
-                      <div style={{borderRadius:'25px',}}     data-sal-duration="500"
-                                  data-sal="slide-up"
-                                  data-sal-delay="400"
-                                  data-sal-easing="ease-in" className="work-page-image-wrapper"
+                      <div style={{borderRadius:'25px',}}
+                               className="work-page-image-wrapper"
 
                       >
                         <BGIMG7 className="border-50"></BGIMG7>
@@ -218,22 +202,16 @@ const Work = () => (
                           <Arrow className="arrow"></Arrow>
                       </div>
                   </div>
-              </div>
-        </Parallax>
+
       </Col>  
       </Row>
-          <Row justify="start">
+      <Row justify="start">
           <Col sm={12} lg={4} xl={5}  className="delay-1 pb4"
                 data-sal-duration="500"
-                data-sal="slide-up"
-                data-sal-delay="0"
+                data-sal="fade"
+                data-sal-delay="300"
                 data-sal-easing="ease-in"
               >
-        <Parallax y={[50, -50]}>
-        <div className="vertical-project-title"     data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in">Musk</div>
                 <AniLink
                         to="/musk"
                         exit={{ length: 0.5 }}
@@ -241,41 +219,33 @@ const Work = () => (
                       >
       
               <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
-                            data-sal-duration="500"
-                            data-sal="slide-up"
-                            data-sal-delay="400"
-                            data-sal-easing="ease-in"
-              >
+                             data-sal-duration="500"
+                             data-sal="fade"
+                             data-sal-delay="400"
+                             data-sal-easing="ease-in"
+             >
+
                 <BGIMG2 className="border-50"></BGIMG2>
                 </div>
                 </AniLink>
                             
-                <div className="project-wrapper"
-                            data-sal-duration="500"
-                            data-sal="slide-up"
-                            data-sal-delay="400"
-                            data-sal-easing="ease-in"
-                
-                >
+                <div className="project-wrapper">
                           <div className="title-wrapper">
+                          <div className="small-header delay-1 text-indent">Musk</div>
                             <p className="body black delay-1">
                              An artist residency and boutique hotel in Dayelsford, Victoria. 
                             </p>
                           </div>
                     </div>
-                    </Parallax>
+
           </Col>
           <Col sm={12} lg={5} xl={5}  className="delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
-                data-sal-delay="0"
+                data-sal="fade"
+                data-sal-delay="300"
                 data-sal-easing="ease-in"
               >
-   <Parallax y={[70, -50]}>
-   <div className="vertical-project-title"     data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in">RDP</div>
+
             <AniLink
                     to="/rdp"
                     exit={{ length: 0.5 }}
@@ -283,30 +253,22 @@ const Work = () => (
                   >
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
                         data-sal-duration="500"
-                        data-sal="slide-up"
+                        data-sal="fade"
                         data-sal-delay="400"
                         data-sal-easing="ease-in"
            >
 
             <BGIMG4 className="border-50"></BGIMG4>
             </div>
-            </AniLink>
-                        
-            <div className="project-wrapper"
-                         data-sal-duration="500"
-                         data-sal="slide-up"
-                         data-sal-delay="400"
-                         data-sal-easing="ease-in"
-            >
-                      <div className="title-wrapper">
-                     
-                         <p className="body black delay-1">
-                        A design and construction agency in Melbourne.
-                        </p>
-                   
-                      </div>
-                </div>
-                </Parallax>
+            </AniLink>       
+            <div className="project-wrapper">
+                    <div className="title-wrapper">
+                    <div className="small-header delay-1 text-indent">RDP</div>
+                        <p className="body black delay-1">
+                      A design and construction agency in Melbourne.
+                      </p>
+                    </div>
+              </div>
           </Col>
         </Row>
       </Container>
