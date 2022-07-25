@@ -42,11 +42,11 @@ const Header = ({ siteTitle }) => {
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   ><span data-hover="Home">Home</span></AniLink></div>
-            <div className="item-two"><AniLink
+            {/* <div className="item-two"><AniLink
                     to="/studio" 
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
-                  ><span data-hover="Studio">Studio</span></AniLink></div>
+                  ><span data-hover="Studio">Studio</span></AniLink></div> */}
               <div className="item-two"><AniLink
                     to="/work"
                     exit={{ length: 0.5 }}

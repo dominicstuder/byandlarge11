@@ -25,7 +25,7 @@ const Astrid = () => (
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-2">Astrid Dispensary</h2>
+                    <h2 className="small-header black delay-3">Astrid Dispensary</h2>
                   </Col>
 
                   </Row>

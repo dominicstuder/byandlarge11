@@ -4,7 +4,7 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
-  background: white;
+  background: #ffca41;
 }
 body {
   margin: 0;
@@ -1555,6 +1555,22 @@ body.preloader_active .video-wrapper{
   /* color: rgb(30, 30, 30); */
   color: #1E1E1E;
   letter-spacing: -0.02em;
+}
+
+.hero-sentence{
+  font-size: 2rem;
+  font-family: "UntitledSans-Regular", sans-serif;
+  font-weight: normal;
+  line-height: 1.2em;
+  /* color: rgb(30, 30, 30); */
+  color: #1E1E1E;
+  letter-spacing: -0.02em;
+}
+
+.hero-sentence a{
+  color: #1E1E1E;
+  text-decoration: none;
+  border-bottom: 2px solid;
 }
 
 .parallax-outer{

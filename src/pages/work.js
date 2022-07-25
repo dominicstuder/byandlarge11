@@ -57,10 +57,7 @@ const Work = () => (
                       </div>
                 </div>
                 </Col>
-            </Row>
-          <Row justify="start" style={{
-            position: 'relative'
-          }}>  
+
   
  
           <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
@@ -131,23 +128,12 @@ const Work = () => (
                       </div>
                 </div>
           </Col>
-   </Row>
-    <Row justify="end" >
-        <Col sm={12} lg={5} xl={5}  className="delay-1 pb4"
-             
-        
-        >
-       
-
-
-            
-              <AniLink
+        <Col sm={12} lg={5} xl={5}  className="delay-1 pb4">
+             <AniLink
                   to="/obie"
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
                   >
-
-           
            <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
                            data-sal-duration="500"
                            data-sal="fade"
@@ -177,7 +163,7 @@ const Work = () => (
     
                
                     <AniLink
-                              to="/drive-change"
+                              to="/drivechange"
                               exit={{ length: 0.5 }}
                               entry={{ delay: 0.5 }}
                             >
