@@ -26,12 +26,12 @@ const Header = ({ siteTitle }) => {
               </div>
       </Col>
       <Col xs={12} sm={12} md={12} lg={12} >
-            <div className="logo slideup">
+            <div className="logo">
               <AniLink
                   to="/" 
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
-                >By and Large
+                >By and Large Studio
               </AniLink>
             </div>
         </Col>
