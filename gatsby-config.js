@@ -36,7 +36,6 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
