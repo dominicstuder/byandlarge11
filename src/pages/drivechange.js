@@ -45,8 +45,8 @@ const Drivechange = () => (
                           <BGIMG7 className="border-50-no-hover"></BGIMG7>
                   </div>
                   </Col>
-                </Row>
-
+             
+{/* 
 
                   <Row  className="pt6 sm-pt1">
                   <Col sm={12} md={6} xl={6} xxl={6}>
@@ -63,10 +63,8 @@ const Drivechange = () => (
                     </p>
                   </div>
                 </Col> 
-                </Row>
-                <Row justify="end" style={{
-                  marginTop: '3rem',
-              }}>
+                </Row> */}
+
                 <Col sm={12}  md={12} className="pb1"
                 data-sal-duration="500"
                 data-sal="slide-up"
@@ -152,7 +150,7 @@ const Drivechange = () => (
                           
                     <p className="body">
                     <AniLink
-                          to="/masterme"
+                          to="/musk"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         >  

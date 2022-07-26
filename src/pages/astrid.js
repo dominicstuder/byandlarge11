@@ -94,9 +94,9 @@ const Astrid = () => (
                       <p className="body text-indent copy-delay-1">We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.</p>
                   </Col>
                 </div> */}
-                <Col sm={12} className="pb1"
+                <Col sm={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -105,7 +105,7 @@ const Astrid = () => (
                       />
                 </Col> 
 
-
+{/* 
                 <div className="project-info-wrapper mt3 mb3 two">
 
                   <Col sm={6}>
@@ -121,14 +121,14 @@ const Astrid = () => (
                   Subtle use of brand assets in the space, along with signage on the exterior of the building also emphasise the visual links. 
                   </p>
                   </Col>
-                  </div>
+                  </div> */}
 
 
-                <div className="project-image-group-wrapper pt5 pb5">
+                <div className="project-image-group-wrapper pt5 pb5 delay-1">
 
-                  <Col sm={4} className="mobile-view"
+                  <Col sm={4} className="mobile-view delay-1"
                   ata-sal-duration="500"
-                  data-sal="slide-up"
+                  data-sal="fade"
                   data-sal-delay="400"
                   data-sal-easing="ease-in" 
                   >
@@ -137,9 +137,9 @@ const Astrid = () => (
                       src="../images/astrid_home_mobile_01.png"
                       />
                   </Col>             
-                  <Col sm={4} className="mobile-view"
+                  <Col sm={4} className="mobile-view delay-1"
                   ata-sal-duration="500"
-                  data-sal="slide-up"
+                  data-sal="fade"
                   data-sal-delay="400"
                   data-sal-easing="ease-in" 
                   >
@@ -156,7 +156,7 @@ const Astrid = () => (
                   </Col>  */}
                   <Col sm={4} className="mobile-view"
                   ata-sal-duration="500"
-                  data-sal="slide-up"
+                  data-sal="fade"
                   data-sal-delay="400"
                   data-sal-easing="ease-in" 
                   >

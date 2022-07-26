@@ -222,7 +222,7 @@ const IndexPage = () => {
                 data-sal-easing="ease-in">
      
               <AniLink
-                  to="/gftm"
+                  to="/greatforesttrailmarathon"
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
                   >

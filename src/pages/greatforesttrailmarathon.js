@@ -84,16 +84,7 @@ const GreatForest = () => (
                       src="../images/gftm_03.webp"
                       />
                 </Col> 
-                <Col sm={12} md={12} className="pb1 delay-1"
-                     data-sal="fade"
-                     data-sal-delay="500"
-                     data-sal-easing="ease"
-                     data-sal-duration="500">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_03.png"
-                      />
-                </Col> 
+
 
 
                 {/* <div className="project-info-wrapper two">
@@ -208,7 +199,7 @@ const GreatForest = () => (
                           
                     <p className="body">
                     <AniLink
-                          to="/masterme"
+                          to="/obie"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         >  

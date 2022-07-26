@@ -45,10 +45,10 @@ const Musk = () => (
                           <IMG className="border-50-no-hover"></IMG>
                   </div>
                   </Col>
-                </Row>
 
 
-                  <Row  className="pt6 sm-pt1">
+
+                  {/* <Row  className="pt6 sm-pt1">
                   <Col sm={12} md={6} xl={6} xxl={6}>
                   <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
                   </Col>
@@ -63,10 +63,8 @@ const Musk = () => (
                     </p>
                   </div>
                 </Col> 
-                </Row>
-                <Row justify="end" style={{
-                  marginTop: '3rem',
-              }}>
+                </Row> */}
+
                 <Col sm={12}  md={12} className="pb1"
                 data-sal-duration="500"
                 data-sal="slide-up"
@@ -180,7 +178,7 @@ const Musk = () => (
                           
                     <p className="body">
                     <AniLink
-                          to="/masterme"
+                          to="/rdp"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         >  

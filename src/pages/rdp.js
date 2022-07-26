@@ -45,10 +45,10 @@ const RDP = () => (
                           <BGIMG4 className="border-50-no-hover"></BGIMG4>
                   </div>
                   </Col>
-                </Row>
 
 
-                  <Row  className="pt6 sm-pt1">
+
+                  {/* <Row  className="pt6 sm-pt1">
                   <Col sm={12} md={6} xl={6} xxl={6}>
                   <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
                   </Col>
@@ -63,10 +63,8 @@ const RDP = () => (
                     </p>
                   </div>
                 </Col> 
-                </Row>
-                <Row justify="end" style={{
-                  marginTop: '3rem',
-              }}>
+                </Row> */}
+
                 <Col sm={12}  md={12} className="pb1"
                 data-sal-duration="500"
                 data-sal="slide-up"
@@ -105,21 +103,7 @@ const RDP = () => (
                       </p>  
                   
               </Col>
-              <Col sm={6} className="delay-1" style={{
-                      marginBottom: '1rem',
-                  }}>
-                          
-                    <p className="body">
-                    <AniLink
-                          to="/masterme"
-                          exit={{ length: 0.5 }}
-                          entry={{ delay: 0.5 }}
-                        >  
-                    Next Project
-                    </AniLink>
-                    </p>
-                
-              </Col>
+             
             </Row>
         </Container>
     </Layout>

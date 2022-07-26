@@ -45,10 +45,10 @@ const MasterMe = () => (
                           <BGIMG className="border-50-no-hover"></BGIMG>
                   </div>
                   </Col>
-                </Row>
+   
 
 
-                  <Row  className="pt6 sm-pt1">
+                  {/* <Row  className="pt6 sm-pt1">
                   <Col sm={12} md={6} xl={6} xxl={6}>
                   <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
                   </Col>
@@ -63,10 +63,8 @@ const MasterMe = () => (
                     </p>
                   </div>
                 </Col> 
-                </Row>
-                <Row justify="end" style={{
-                  marginTop: '3rem',
-              }}>
+                </Row> */}
+
                 <Col sm={12} className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
@@ -99,7 +97,7 @@ const MasterMe = () => (
                 </Col> 
 
 
-                <div className="project-info-wrapper mt3 mb3 two">
+                {/* <div className="project-info-wrapper mt3 mb3 two">
 
                   <Col sm={6}>
                   <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
@@ -114,7 +112,7 @@ const MasterMe = () => (
                   Subtle use of brand assets in the space, along with signage on the exterior of the building also emphasise the visual links. 
                   </p>
                   </Col>
-                  </div>
+                  </div> */}
 
                   <Col sm={12} md={12}className="pb1 delay-1"
                 data-sal-duration="500"
@@ -190,7 +188,7 @@ const MasterMe = () => (
                           
                     <p className="body">
                     <AniLink
-                          to="/masterme"
+                          to="/greatforesttrailmarathon"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         >  

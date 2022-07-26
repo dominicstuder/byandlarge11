@@ -891,6 +891,27 @@ pre tt:after {
 } */
 
 
+.tl-wrapper footer .delay-1{
+  transform: translateY(20px);
+  transition: all .2s;
+  transition-delay: 0s;
+  opacity: 0;
+}
+
+.tl-wrapper-status--entered footer .delay-1{
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all .2s;
+  transition-delay: 0s;
+}
+
+.tl-wrapper-status--exiting footer .delay-1{
+  opacity: 0;
+  /* transform: translateY(20px); */
+  transition: all .5s;
+  transition-delay: .2s;
+}
+
 
 .tl-wrapper header .delay-1{
   transform: translateY(20px);
@@ -949,34 +970,41 @@ pre tt:after {
   transition-delay: .5s;
 }
 
+.tl-wrapper-status--exiting footer .delay-1{
+  opacity: 0;
+  transform: translateY(0px);
+  transition: all 1s;
+  transition-delay: .5s;
+}
+
+footer .delay-1{
+  opacity: 0;
+  transform: translateY(0px);
+  transition: all 1s;
+  transition-delay: .5s;
+}
+
 
 .tl-wrapper main .delay-2{
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .2s;
   opacity: 0;
 }
-
-.tl-wrapper main .delay-2{
-  transform: translateY(20px);
-  transition: all .2s;
-  opacity: 0;
-}
-
 
 .tl-wrapper main .delay-3{
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .2s;
   opacity: 0;
 }
 
 .tl-wrapper main .delay-4{
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .2s;
   opacity: 0;
 }
 
 .tl-wrapper main .delay-5{
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .2s;
   opacity: 0;
 }
@@ -988,6 +1016,11 @@ pre tt:after {
   transition-delay: .1s;
 }
 
+
+.tl-wrapper-status--entering main .delay-1, .tl-wrapper-status--entering main .delay-2, .tl-wrapper-status--entering main .delay-3, .tl-wrapper-status--entering main .delay-4, .tl-wrapper-status--entering main .delay-5
+{
+  transform: translateY(-20px);
+}
 
 .tl-wrapper-status--entered main .delay-2{
   opacity: 1;

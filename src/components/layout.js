@@ -30,11 +30,10 @@ const Layout = ({ children }) => {
   return (
     <>
     <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> 
-    <span class="circle"></span>
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 5000,
+          maxWidth: 3000,
           padding: `0em`,
         }}
       >
@@ -45,7 +44,7 @@ const Layout = ({ children }) => {
           paddingTop: '4em',
           paddingBottom: '.5em',
         }}
-        className="delay-5"
+        className="delay-1"
         >
         <Container fluid >
           {/* <Row justify="start" style={{
@@ -81,13 +80,13 @@ const Layout = ({ children }) => {
           }}>
             <Col  xs={6} sm={6} md={3}><div style={{
             
-          }}className="small-copy">
+          }}className="small-copy delay-1">
                 Based in Newcastle, Australia. <br></br>Working worldwide. 
                 </div>
             </Col>
              <Col  xs={6} sm={6} md={3}><div style={{
             
-            }}className="small-copy">
+            }}className="small-copy delay-1">
                 <a href="mailto:mail@byandlarge.studio">
                   mail@byandlarge.studio
                   </a>
@@ -96,7 +95,7 @@ const Layout = ({ children }) => {
               
             <Col xs={6} md={3}><div style={{
             
-          }}className="small-copy">
+          }}className="small-copy delay-1">
              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/studiobyandlarge/">
                 Instagram 
               </a>
@@ -105,7 +104,7 @@ const Layout = ({ children }) => {
             </Col>
              <Col  xs={6} sm={6} md={3}><div style={{
             
-            }}className="small-copy">
+            }}className="small-copy delay-1">
                       <span className="copyright">&#169; 2022 By and Large Studio</span>
                   </div>
               </Col>
@@ -116,7 +115,7 @@ const Layout = ({ children }) => {
           }}>
               <Col sm={6}><div style={{
             
-          }}className="small-copy">
+          }}className="small-copy delay-1">
 
                     By and Large Studio is on the traditional country of the Awabakal and Worimi peoples. We recognize and respect their cultural heritage, beliefs and continuing relationship with the land.<br></br>
                    
