@@ -8,11 +8,8 @@ import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import clip from '../assets/newfeature.mp4'; 
-import astridthumb from '../assets/astrid_thumb.mp4'; 
-import dcthumb from '../assets/dc_thumb2.mp4'; 
 import { setConfiguration } from 'react-grid-system';
 import BGIMG from "../components/backgroundimage1"
-import BGIMG10 from "../components/backgroundimage10"
 import GFTMHERO from "../components/gftmhero-img"
 setConfiguration({ gutterWidth:'30'});
 
@@ -46,6 +43,9 @@ const IndexPage = () => {
               Currently based in Newcastle, we work with clients around Australia and beyond.
             </h1>
               </Col>
+              <video autoPlay loop muted className="background-video">
+                            <source src={clip} type='video/mp4'/>
+                    </video>
           </Row>
       <Row justify="start" style={{
                  marginTop: '4em',
@@ -53,12 +53,8 @@ const IndexPage = () => {
                   <Col md={12} lg={12} xl={12} xxl={12}  style={{
                     position: 'relative',
               
-                  }}
-                  className="">
-          
-        
+                  }}>
                   <div className="video-wrapper delay-2" style={{
-                        
                         }}>
                            <AniLink
                     to="/work"
@@ -66,16 +62,13 @@ const IndexPage = () => {
                     entry={{ delay: 0.5 }}
                   >     
                     <video autoPlay loop muted className="background-video">
-                            <source src={clip} type='video/mp4' />
+                            <source src={clip} type='video/mp4'/>
                     </video>
                     </AniLink>
                   </div>
       
                  </Col>
-                </Row>
-                 
-
-                
+                </Row>    
           </Container>
           <Container fluid className="section-3">
               <Row style={{paddingTop: '1em',
