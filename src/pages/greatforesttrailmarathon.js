@@ -25,7 +25,7 @@ const GreatForest = () => (
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-1">Great Forest Trail Marathon</h2>
+                    <h2 className="small-header black delay-3">Great Forest Trail Marathon</h2>
                   </Col>
 
                   </Row>

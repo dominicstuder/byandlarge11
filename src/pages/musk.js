@@ -39,7 +39,7 @@ const Musk = () => (
           
                   <div className="work-page-image-wrapper" 
                         data-sal-duration="500"
-                          data-sal="slide-up"
+                          data-sal="fade"
                           data-sal-delay="400"
                           data-sal-easing="ease-in" >
                           <IMG className="border-50-no-hover"></IMG>
@@ -65,9 +65,9 @@ const Musk = () => (
                 </Col> 
                 </Row> */}
 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -75,9 +75,9 @@ const Musk = () => (
                       src="../images/mu_01.png"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -85,9 +85,9 @@ const Musk = () => (
                       src="../images/mu_02.png"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1" 
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -95,9 +95,9 @@ const Musk = () => (
                       src="../images/mu_03.png"
                       />
                 </Col>
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -105,9 +105,9 @@ const Musk = () => (
                       src="../images/mu_04.png"
                       />
                 </Col> 
-                <Col sm={12}  md={6} className="pb1"
+                <Col sm={12}  md={6} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -115,9 +115,9 @@ const Musk = () => (
                       src="../images/mu_05.png"
                       />
                 </Col> 
-                <Col sm={12}  md={6} className="pb1"
+                <Col sm={12}  md={6} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -125,9 +125,9 @@ const Musk = () => (
                       src="../images/mu_06.png"
                       />
                 </Col> 
-                <Col sm={12}  md={6} className="pb1"
+                <Col sm={12}  md={6} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -135,9 +135,9 @@ const Musk = () => (
                       src="../images/mu_09.png"
                       />
                 </Col> 
-                <Col sm={12}  md={6} className="pb1"
+                <Col sm={12}  md={6} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -145,9 +145,9 @@ const Musk = () => (
                       src="../images/mu_10.png"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage

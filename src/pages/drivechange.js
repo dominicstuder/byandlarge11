@@ -33,18 +33,18 @@ const Drivechange = () => (
                   position: 'relative',
               }} 
               className="">
-                <Col sm={12} className="delay-3 mt pb1" style={{
+                {/* <Col sm={12} className="delay-3 mt pb1" style={{
                     position: 'relative',
                 }}>
           
                   <div className="work-page-image-wrapper" 
                         data-sal-duration="500"
-                          data-sal="slide-up"
+                          data-sal="fade"
                           data-sal-delay="400"
                           data-sal-easing="ease-in" >
                           <BGIMG7 className="border-50-no-hover"></BGIMG7>
                   </div>
-                  </Col>
+                  </Col> */}
              
 {/* 
 
@@ -65,66 +65,37 @@ const Drivechange = () => (
                 </Col> 
                 </Row> */}
 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/dc_hero2.png"
+                      src="../images/dc_hero.webp"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/dc1.1.png"
+                      src="../images/dc2.2.webp"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/dc1.2.png"
+                      src="../images/dc_4.webp"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1"
-                data-sal-duration="500"
-                data-sal="slide-up"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/dc2.2.png"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1"
-                data-sal-duration="500"
-                data-sal="slide-up"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/dc3.png"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1"
-                data-sal-duration="500"
-                data-sal="slide-up"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/dc5.png"
-                      />
-                </Col> 
+
 
               
             </Row>

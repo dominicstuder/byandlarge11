@@ -39,7 +39,7 @@ const RDP = () => (
           
                   <div className="work-page-image-wrapper" 
                         data-sal-duration="500"
-                          data-sal="slide-up"
+                          data-sal="fade"
                           data-sal-delay="400"
                           data-sal-easing="ease-in" >
                           <BGIMG4 className="border-50-no-hover"></BGIMG4>
@@ -65,9 +65,9 @@ const RDP = () => (
                 </Col> 
                 </Row> */}
 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
@@ -75,9 +75,9 @@ const RDP = () => (
                       src="../images/rdp_02.png"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1"
+                <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
-                data-sal="slide-up"
+                data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
