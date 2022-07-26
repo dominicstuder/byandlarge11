@@ -43,9 +43,6 @@ const IndexPage = () => {
               Currently based in Newcastle, we work with clients around Australia and beyond.
             </h1>
               </Col>
-              <video autoPlay loop muted className="background-video">
-                            <source src={clip} type='video/mp4'/>
-                    </video>
           </Row>
       <Row justify="start" style={{
                  marginTop: '4em',
