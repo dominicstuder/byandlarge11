@@ -37,19 +37,20 @@ const GreatForest = () => (
                     position: 'relative',
                 }}>
           
-                  <div className="work-page-image-wrapper" 
+                  <div className="" 
                        data-sal="fade"
                        data-sal-delay="500"
                        data-sal-easing="ease"
                        data-sal-duration="500">
-                          <GFTMHERO className="border-50-no-hover"></GFTMHERO>
+                          {/* <GFTMHERO className="border-50-no-hover"></GFTMHERO> */}
+                          <StaticImage
+                           alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                            src="../images/gftm_02.webp"
+                            />
                   </div>
                   </Col>
-                </Row>
 
-
-                  <Row  className="pt1 sm-pt1">
-                  <Col sm={12} md={6} xl={6} xxl={6}>
+                  {/* <Col sm={12} md={6} xl={6} xxl={6}>
                   <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
                   </Col>
                   <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={8}>
@@ -62,7 +63,7 @@ const GreatForest = () => (
                     From there, we designed and built the Astrid website along with creating a suite of print and digital collateral.
                     </p>
                   </div>
-                </Col> 
+                </Col>  */}
                 <Col sm={12} className="pb1 delay-1"
                    data-sal="fade"
                    data-sal-delay="500"
@@ -70,20 +71,20 @@ const GreatForest = () => (
                    data-sal-duration="500">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_01.jpg"
+                      src="../images/gftm_01.webp"
                       />
                 </Col> 
-                <Col sm={12} md={6} className="pb1 delay-1"
+                <Col sm={12} md={12} className="pb1 delay-1"
                   data-sal="fade"
                   data-sal-delay="500"
                   data-sal-easing="ease"
                   data-sal-duration="500">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_02.png"
+                      src="../images/gftm_03.webp"
                       />
                 </Col> 
-                <Col sm={12} md={6} className="pb1 delay-1"
+                <Col sm={12} md={12} className="pb1 delay-1"
                      data-sal="fade"
                      data-sal-delay="500"
                      data-sal-easing="ease"
@@ -95,7 +96,7 @@ const GreatForest = () => (
                 </Col> 
 
 
-                <div className="project-info-wrapper two">
+                {/* <div className="project-info-wrapper two">
 
                   <Col sm={6}        data-sal="fade"
                     data-sal-delay="100"
@@ -119,26 +120,26 @@ const GreatForest = () => (
                   Subtle use of brand assets in the space, along with signage on the exterior of the building also emphasise the visual links. 
                   </p>
                   </Col>
-                  </div>
+                  </div> */}
 
-                  <Col sm={12} md={6}className="pb1 delay-1"
+          <Col sm={12} md={12}className="pb1 delay-1"
               data-sal="fade"
               data-sal-delay="100"
               data-sal-easing="ease"
               data-sal-duration="500">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_04.jpg"
+                      src="../images/gftm_04.webp"
                       />
                 </Col> 
-                <Col sm={12} md={6}className="pb1 delay-1"
+                <Col sm={12} md={12}className="pb1 delay-1"
               data-sal="fade"
               data-sal-delay="100"
               data-sal-easing="ease"
               data-sal-duration="500">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_05.jpg"
+                      src="../images/gftm_05.webp"
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
@@ -148,57 +149,7 @@ const GreatForest = () => (
                  data-sal-duration="500">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_06.jpg"
-                      />
-                </Col> 
-                <Col sm={12} md={12}className="pb1 delay-1"
-                 data-sal="fade"
-                 data-sal-delay="100"
-                 data-sal-easing="ease"
-                 data-sal-duration="500">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_07.jpg"
-                      />
-                </Col> 
-                <Col sm={12} md={12}className="pb1 delay-1"
-               data-sal="fade"
-               data-sal-delay="100"
-               data-sal-easing="ease"
-               data-sal-duration="500">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_08-1.jpg"
-                      />
-                </Col> 
-                <Col sm={12} md={6}className="pb1 delay-1"
-                     data-sal="fade"
-                     data-sal-delay="100"
-                     data-sal-easing="ease"
-                     data-sal-duration="500">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_08.jpg"
-                      />
-                </Col> 
-                <Col sm={12} md={6}className="pb1 delay-1"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease"
-                data-sal-duration="500">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_09.jpg"
-                      />
-                </Col> 
-                <Col sm={12} md={12}className="pb1 delay-1"
-            data-sal="fade"
-            data-sal-delay="100"
-            data-sal-easing="ease"
-            data-sal-duration="500">
-                   <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_hero.jpg"
+                      src="../images/gftm_06.webp"
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
@@ -208,9 +159,31 @@ const GreatForest = () => (
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/gftm_10.jpg"
+                      src="../images/gftm_01.1.webp"
                       />
                 </Col> 
+
+                <Col sm={12} md={6}className="pb1 delay-1"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease"
+                data-sal-duration="500">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/gftm_07.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={6}className="pb1 delay-1"
+            data-sal="fade"
+            data-sal-delay="100"
+            data-sal-easing="ease"
+            data-sal-duration="500">
+                   <StaticImage
+                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+                      src="../images/gftm_08.webp"
+                      />
+                </Col> 
+
                
             </Row>
             <Row className="mt2 page-links">

@@ -23,7 +23,7 @@ const Work = () => (
   <Layout>
     <Seo Title="Work" />
     <Container fluid style={{
-            position: 'relative', marginTop: '5em',
+            position: 'relative', marginTop: '10em',
           }} className="section-2 work">
         <Row justify="start" style={{
             position: 'relative'
@@ -37,12 +37,7 @@ const Work = () => (
                 exit={{ length: 0.5 }}
                 entry={{ delay: 0.5 }}
               >
-                <div style={{borderRadius:'25px',}} className="work-page-image-wrapper delay-1 "
-                                data-sal-duration="500"
-                                data-sal="fade"
-                                data-sal-delay="400"
-                                data-sal-easing="ease-in"
-                >
+                <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1">
                     <BGIMG10 className="border-50"></BGIMG10>
                 </div>
               </AniLink>
@@ -60,7 +55,7 @@ const Work = () => (
 
   
  
-          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
+          <Col sm={12} lg={5} xl={5}  className="delay-1 pb4"
 
               >
 
@@ -70,11 +65,8 @@ const Work = () => (
                                 exit={{ length: 0.5 }}
                                 entry={{ delay: 0.5 }}
                               >
-                      <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"     
-                            data-sal-duration="500"
-                            data-sal="fade"
-                            data-sal-delay="400"
-                            data-sal-easing="ease-in"
+                      <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"     
+
                         >
             
                         <BGIMG className="border-50"></BGIMG>
@@ -104,7 +96,7 @@ const Work = () => (
                   >
 
            
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
                            data-sal-duration="500"
                            data-sal="fade"
                            data-sal-delay="400"
@@ -134,7 +126,7 @@ const Work = () => (
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
                   >
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
                            data-sal-duration="500"
                            data-sal="fade"
                            data-sal-delay="400"
@@ -159,7 +151,7 @@ const Work = () => (
        
 
       </Col>
-      <Col sm={12} lg={5} xl={5}   className="delay-1 pb4">
+      <Col sm={12} lg={8} xl={8}   className="delay-1 pb4">
     
                
                     <AniLink
@@ -167,8 +159,8 @@ const Work = () => (
                               exit={{ length: 0.5 }}
                               entry={{ delay: 0.5 }}
                             >
-                      <div style={{borderRadius:'25px',}}
-                               className="work-page-image-wrapper"
+                      <div style={{borderRadius:'10px',}}
+                               className="work-page-image-wrapper delay-1"
 
                       >
                         <BGIMG7 className="border-50"></BGIMG7>
@@ -204,7 +196,7 @@ const Work = () => (
                         entry={{ delay: 0.5 }}
                       >
       
-              <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+              <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
                              data-sal-duration="500"
                              data-sal="fade"
                              data-sal-delay="400"
@@ -237,7 +229,7 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
                         data-sal-duration="500"
                         data-sal="fade"
                         data-sal-delay="400"

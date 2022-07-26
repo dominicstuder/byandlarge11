@@ -26,6 +26,28 @@ const IndexPage = () => {
 
       <Container fluid className="video-container pt5 sm-pt5">
       <Row justify="start" style={{
+         
+        }} className="home-page-intro mt5 sm-mt2">
+          <Col sm={12} lg={3} xl={3} xxl={3} className="small-header delay-1">About us</Col>
+           <Col sm={12} md={10} lg={7} xl={7} xxl={7} style={{
+              position: 'relative',
+      
+            }}
+            data-sal="fade"
+            data-sal-delay="100"
+            data-sal-easing="ease"
+            data-sal-duration="500"
+            > <h1 
+            className="body medium delay-1">
+              By and Large is an independent, multidisciplinary design and digital studio. We create impact through creative and considered strategy, design, content creation and use of technology.
+            </h1>
+            <h1 
+            className="body medium delay-1">
+              Currently based in Newcastle, we work with clients around Australia and beyond.
+            </h1>
+              </Col>
+          </Row>
+      <Row justify="start" style={{
                  marginTop: '4em',
                 }} className="video-section mt4 sm-mt3">
                   <Col md={12} lg={12} xl={12} xxl={12}  style={{
@@ -52,28 +74,7 @@ const IndexPage = () => {
                  </Col>
                 </Row>
                  
-             <Row justify="start" style={{
-         
-                }} className="home-page-intro mt10 sm-mt2">
-                  <Col sm={12} lg={3} xl={3} xxl={3} className="small-header">About us</Col>
-                   <Col sm={12} md={10} lg={7} xl={7} xxl={7} style={{
-                      position: 'relative',
-              
-                    }}
-                    data-sal="fade"
-                    data-sal-delay="100"
-                    data-sal-easing="ease"
-                    data-sal-duration="500"
-                    > <h1 
-                    className="body medium delay-1">
-                      By and Large is an independent, multidisciplinary design studio. We create impact through creative and considered strategy, design, content creation and use of technology.
-                    </h1>
-                    <h1 
-                    className="body medium delay-1">
-                      Currently based in Newcastle, we work with clients around Australia and beyond.
-                    </h1>
-                      </Col>
-                  </Row>
+
                 
           </Container>
           <Container fluid className="section-3">
@@ -181,7 +182,7 @@ const IndexPage = () => {
                                 exit={{ length: 0.5 }}
                                 entry={{ delay: 0.5 }}
                               >
-                      <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"     
+                      <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"     
                                     // data-sal-duration="500"
                                     //  data-sal="slide-up"
                                     //  data-sal-delay="400"
@@ -227,7 +228,7 @@ const IndexPage = () => {
                   >
 
            
-           <div style={{borderRadius:'25px',}} className="work-page-image-wrapper"
+           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
                        >
             <GFTMHERO className="border-50"></GFTMHERO>
  
@@ -250,7 +251,7 @@ const IndexPage = () => {
  
           </Col>
           <Col md={12} lg={12} xl={12} xxl={12} >
-    <div className="primary-button delay-1 mt5 sm-mt1"><AniLink
+    <div className="primary-button delay-1 mt2 sm-mt1"><AniLink
               to="/work"
               exit={{ length: 0.5 }}
               entry={{ delay: 0.5 }}
