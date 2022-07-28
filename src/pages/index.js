@@ -7,7 +7,8 @@ import { Container, Row, Col } from 'react-grid-system';
 import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import clip from '../assets/newfeature.mp4'; 
+// import clip from '../assets/newfeature.mp4'; 
+import test from '../assets/astrid_thumb.mp4'; 
 import { setConfiguration } from 'react-grid-system';
 import BGIMG from "../components/backgroundimage1"
 import GFTMHERO from "../components/gftmhero-img"
@@ -59,7 +60,7 @@ const IndexPage = () => {
                     entry={{ delay: 0.5 }}
                   >     
                     <video autoPlay loop muted className="background-video">
-                            <source src={clip} type='video/mp4'/>
+                            <source src={test} type='video/mp4'/>
                     </video>
                     </AniLink>
                   </div>
