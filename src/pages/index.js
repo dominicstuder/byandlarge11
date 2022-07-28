@@ -8,7 +8,7 @@ import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 // import clip from '../assets/newfeature.mp4'; 
-import test from '../assets/astrid_thumb.mp4'; 
+import test from '../assets/comp-1.mp4'; 
 import { setConfiguration } from 'react-grid-system';
 import BGIMG from "../components/backgroundimage1"
 import GFTMHERO from "../components/gftmhero-img"
