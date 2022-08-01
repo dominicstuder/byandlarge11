@@ -40,8 +40,6 @@ const Layout = ({ children }) => {
   
         <main>{children}</main>
         <footer style={{
-          marginTop: `3em`,
-          paddingTop: '4em',
           paddingBottom: '.5em',
         }}
         className="delay-1"

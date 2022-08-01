@@ -47,7 +47,7 @@ const Work = () => (
                       <div className="small-header black delay-1 text-indent"     
                           >  Astrid Dispensary</div>
                          <p className="body black delay-1">
-                         A plant medicines dispensary with national ambitions, using design as a key value.
+                         Strategey, branding and website for a plant based medicines dispensary.
                           </p>
                       </div>
                 </div>
@@ -84,7 +84,6 @@ const Work = () => (
                           </p>
                       </div>
                 </div>
-       
         </Col>
   
         <Col sm={12} lg={5} xl={5}  className="delay-1 pb4">
@@ -114,7 +113,7 @@ const Work = () => (
                       >
                           <div className="small-header delay-1 text-indent" >Great Forest Trail Marathon</div>
                          <p className="body black delay-1">
-                        Running to save a wild place in Great Forest, Victoria. 
+                        Branding for a trail running event that's saving a wild place. 
                         </p>
                         <Arrow className="arrow"></Arrow>
                       </div>
@@ -143,7 +142,7 @@ const Work = () => (
                       <div className="title-wrapper">
                       <div className="body black delay-1 text-indent" >Obie</div>
                          <p className="body black delay-1">
-                         Financial tools to help everyday people.
+                         Branding for a financial tool that simplifies your finances.
                         </p>
                         <Arrow className="arrow"></Arrow>
                       </div>
@@ -176,7 +175,7 @@ const Work = () => (
                       <div className="title-wrapper">
                       <div className="small-header text-indent">Drive Change</div>  
                           <p className="body black delay-1">
-                            A national movement to change outdated laws.</p>
+                            Branding and website for a national campaign to change outdated laws.</p>
                           <Arrow className="arrow"></Arrow>
                       </div>
                   </div>
@@ -211,7 +210,7 @@ const Work = () => (
                           <div className="title-wrapper">
                           <div className="small-header delay-1 text-indent">Musk</div>
                             <p className="body black delay-1">
-                             An artist residency and boutique hotel in Dayelsford, Victoria. 
+                             Branding for an artist residency and boutique hotel in Dayelsford, Victoria. 
                             </p>
                           </div>
                     </div>
@@ -243,7 +242,7 @@ const Work = () => (
                     <div className="title-wrapper">
                     <div className="small-header delay-1 text-indent">RDP</div>
                         <p className="body black delay-1">
-                      A design and construction agency in Melbourne.
+                      Branding for a design and construction agency in Melbourne.
                       </p>
                     </div>
               </div>

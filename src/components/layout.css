@@ -3175,6 +3175,9 @@ body.preloader_ready #preloader {
   .sm-pb1{
     padding-bottom: 1em !important;
   }
+  .sm-pb0{
+    padding-bottom: 0em !important;
+  }
     .primary-button.contact-button a {
       float: none;
       width: 100px;

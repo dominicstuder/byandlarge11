@@ -31,10 +31,10 @@ const IndexPage = () => {
               position: 'relative',
       
             }}
-            data-sal="fade"
-            data-sal-delay="100"
-            data-sal-easing="ease"
-            data-sal-duration="500"
+            // data-sal="fade"
+            // data-sal-delay="100"
+            // data-sal-easing="ease"
+            // data-sal-duration="500"
             > <h1 
             className="body medium delay-1">
               By and Large is an independent, multidisciplinary design and digital studio. We create impact through creative and considered strategy, design, content creation and use of technology.
@@ -68,7 +68,7 @@ const IndexPage = () => {
                  </Col>
                 </Row>    
           </Container>
-          <Container fluid className="section-3">
+          <Container fluid className="section-3 sm-mt2">
               <Row style={{paddingTop: '1em',
                   position: 'relative'
                 }}>
@@ -154,7 +154,7 @@ const IndexPage = () => {
           <Row justify="start" className="delay-1 pb4 sm-mt3" style={{
             position: 'relative'
           }}>  
-          <Col sm={12} lg={12} xl={12} className="delay-1 pb2">
+          <Col sm={12} lg={12} xl={12} className="delay-1 pb2 sm-pb1">
             <span className="small-header delay-1">Some of our recent work</span>
           </Col>
  
@@ -233,7 +233,7 @@ const IndexPage = () => {
                       >
                           <div className="small-header delay-1 text-indent" >Great Forest Trail Marathon</div>
                          <p className="small-header delay-1">
-                        Running to save a wild place in Great Forest, Victoria. 
+                         Branding for a trail running event that's saving a wild place. 
                         </p>
                         <Arrow className="arrow"></Arrow>
                       </div>
