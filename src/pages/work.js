@@ -47,7 +47,7 @@ const Work = () => (
                       <div className="small-header black delay-1 text-indent"     
                           >  Astrid Dispensary</div>
                          <p className="body black delay-1">
-                         Strategey, branding and website for a plant based medicines dispensary.
+                         Strategy, branding and website for a plant based medicines dispensary.
                           </p>
                       </div>
                 </div>
