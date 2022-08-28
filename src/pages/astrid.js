@@ -47,10 +47,9 @@ const Astrid = () => (
                   </Col>
                 </Row>
 
-
                   <Row  className="pt6 sm-pt1">
                   <Col sm={12} md={6} xl={6} xxl={6}>
-                  <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
+                  <h3 className="header-3">A refined brand to cut through</h3>
                   </Col>
                   <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={8}>
                   <div className="project-info">
@@ -80,31 +79,135 @@ const Astrid = () => (
                   </div>
                 </Col>  */}
                 </Row>
-                <Row justify="end" style={{
+                <Row justify="stretch" style={{
                   marginTop: '3rem',
               }}>
-
-                {/* <div className="project-info-wrapper mt3 mb3">
-                  <Col sm={6}>
-                      <h3 className="header-3">The visual identity</h3>
-                  </Col>
-                  <Col sm={6}>
-                      <p className="body copy-delay-1">We wanted to draw on elements that allude to cannabis, while avoiding the usual tropes that are used in the industry. To do this we explored a sea of green concept, using only shades of green throughout the brand. We also looked at the creative and organic aspects of cannabis, landing on found imagery of paintings of plants to communicate this feeling.  
-                      </p>
-                      <p className="body text-indent copy-delay-1">We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.</p>
-                  </Col>
-                </div> */}
-                <Col sm={12} className="pb1 delay-1"
+                <Col sm={12} md={4} className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/astrid_3.jpg"
+                      alt="Astrid logo on colourful background"
+                      src="../images/astrid_new_1.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={4} offset={{md: 2}} className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_new_2.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={12} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_new_05.webp"
+                      />
+                </Col> 
+                </Row>
+                <Row justify="stretch" style={{
+                  marginTop: '3rem',
+              }}>
+                <Col sm={12} md={4} className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Astrid logo on colourful background"
+                      src="../images/astrid_new_03.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={3} offset={{md: 4}} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_new_04.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={5} offset={{md: 1}} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_web_15.png"
+                      />
+                </Col> 
+                <Col sm={12} md={5} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_web_16.png"
                       />
                 </Col> 
 
+                <Col sm={12} md={6} offset={{md: 3}} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_new_12.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={6} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_web_10.png"
+                      />
+                </Col> 
+                <Col sm={12} md={6}  className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_web_11.png"
+                      />
+                </Col> 
+                <Col sm={12} md={12}  className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_web_13.png"
+                      />
+                </Col> 
+                <Col sm={12} md={12}  className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/astrid_web_14.png"
+                      />
+                </Col> 
+       
 {/* 
                 <div className="project-info-wrapper mt3 mb3 two">
 
@@ -124,7 +227,7 @@ const Astrid = () => (
                   </div> */}
 
 
-                <div className="project-image-group-wrapper pt5 pb5 delay-1">
+                {/* <div className="project-image-group-wrapper pt5 pb5 delay-1">
 
                   <Col sm={4} className="mobile-view delay-1"
                   ata-sal-duration="500"
@@ -170,6 +273,7 @@ const Astrid = () => (
                       />
                 </Col> 
 
+            </Row> */}
             </Row>
             <Row className="mt2 page-links">
               <Col sm={6} className="delay-1"  style={{

@@ -44,8 +44,8 @@ const Work = () => (
 
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="small-header black delay-1 text-indent"     
-                          >  Astrid Dispensary</div>
+                      <div className="small-header black delay-1"     
+                          >Astrid</div>
                          <p className="body black delay-1">
                          Strategy, branding and website for a plant based medicines dispensary.
                           </p>
@@ -55,7 +55,7 @@ const Work = () => (
 
   
  
-          <Col sm={12} lg={5} xl={5}  className="delay-1 pb4"
+          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
 
               >
 
@@ -77,7 +77,7 @@ const Work = () => (
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="small-header black delay-1 text-indent"     
+                      <div className="small-header black delay-1"     
                           >Master Me</div>
                          <p className="body black delay-1">
                              Branding and website for a coaching course for creative professionals.
@@ -111,7 +111,7 @@ const Work = () => (
                       <div className="title-wrapper"
          
                       >
-                          <div className="small-header delay-1 text-indent" >Great Forest Trail Marathon</div>
+                          <div className="small-header delay-1" >Great Forest Trail Marathon</div>
                          <p className="body black delay-1">
                         Branding for a trail running event that's saving a wild place. 
                         </p>
@@ -140,7 +140,7 @@ const Work = () => (
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="body black delay-1 text-indent" >Obie</div>
+                      <div className="body black delay-1" >Obie</div>
                          <p className="body black delay-1">
                          Branding for a financial tool that simplifies your finances.
                         </p>
@@ -173,7 +173,7 @@ const Work = () => (
                     </AniLink>
                     <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="small-header text-indent">Drive Change</div>  
+                      <div className="small-header">Drive Change</div>  
                           <p className="body black delay-1">
                             Branding and website for a national campaign to change outdated laws.</p>
                           <Arrow className="arrow"></Arrow>
@@ -208,7 +208,7 @@ const Work = () => (
                             
                 <div className="project-wrapper">
                           <div className="title-wrapper">
-                          <div className="small-header delay-1 text-indent">Musk</div>
+                          <div className="small-header delay-1">Musk</div>
                             <p className="body black delay-1">
                              Branding for an artist residency and boutique hotel in Dayelsford, Victoria. 
                             </p>
@@ -240,7 +240,7 @@ const Work = () => (
             </AniLink>       
             <div className="project-wrapper">
                     <div className="title-wrapper">
-                    <div className="small-header delay-1 text-indent">RDP</div>
+                    <div className="small-header delay-1">RDP</div>
                         <p className="body black delay-1">
                       Branding for a design and construction agency in Melbourne.
                       </p>

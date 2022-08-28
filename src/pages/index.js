@@ -26,7 +26,7 @@ const IndexPage = () => {
       <Row justify="start" style={{
          
         }} className="home-page-intro mt5 sm-mt2">
-          <Col sm={12} lg={3} xl={3} xxl={3} className="small-header delay-1">About us</Col>
+          {/* <Col sm={12} lg={3} xl={3} xxl={3} className="small-header delay-1">About us</Col> */}
            <Col sm={12} md={10} lg={7} xl={7} xxl={7} style={{
               position: 'relative',
       
@@ -37,18 +37,20 @@ const IndexPage = () => {
             // data-sal-duration="500"
             > <h1 
             className="body medium delay-1">
-              By and Large is an independent, multidisciplinary design and digital studio. We create impact through creative and considered strategy, design, content creation and use of technology.
+              By and Large is an independent, multidisciplinary design and digital studio. 
+              {/* By and Large is an independent, multidisciplinary design and digital studio. We create impact through creative and considered strategy, design, content creation and use of technology. */}
             </h1>
-            <h1 
+            {/* <p class="body delay-1">Read more</p> */}
+            {/* <h1 
             className="body medium delay-1">
               Currently based in Newcastle, we work with clients around Australia and beyond.
-            </h1>
+            </h1> */}
               </Col>
           </Row>
       <Row justify="start" style={{
                  marginTop: '4em',
                 }} className="video-section mt4 sm-mt3">
-                  <Col md={12} lg={12} xl={12} xxl={12}  style={{
+                  <Col md={12} lg={10} xl={10} xxl={10}  style={{
                     position: 'relative',
               
                   }}>
@@ -141,13 +143,13 @@ const IndexPage = () => {
                       </ul>
                       </div>
                 </Col>
-                <Col md={12} lg={12} xl={12} xxl={12} >
+                {/* <Col md={12} lg={12} xl={12} xxl={12} >
                 <div className="primary-button delay-1 mt5 sm-mt1"><AniLink
                           to="/contact"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">Contact us</span></AniLink></div>
-                  </Col>
+                  </Col> */}
             </Row>
       </Container>
      <Container fluid className="section-3">
@@ -158,7 +160,7 @@ const IndexPage = () => {
             <span className="small-header delay-1">Some of our recent work</span>
           </Col>
  
-          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4 sm-pb0"
+          <Col sm={12} lg={5} xl={5}  className="delay-1 pb4 sm-pb0"
 
               >
 
@@ -188,7 +190,7 @@ const IndexPage = () => {
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="small-header delay-1 text-indent"     
+                      <div className="small-header delay-1"     
                           >Master Me</div>
                          <p className="small-header delay-1">
                              Branding and website for a coaching course for creative professionals.
@@ -200,9 +202,7 @@ const IndexPage = () => {
        
         </Col>
   
-        <Col sm={12} lg={4} xl={4}  className="delay-1 pb4 sm-pb0"
-        
-        >
+        <Col sm={12} md={12} lg={5} xl={5}  offset={{sm: 0, md: 0, lg:1}} className="delay-1 pb1 sm-pb0">
        
 
        <div                 
@@ -231,7 +231,7 @@ const IndexPage = () => {
                       <div className="title-wrapper"
          
                       >
-                          <div className="small-header delay-1 text-indent" >Great Forest Trail Marathon</div>
+                          <div className="small-header delay-1" >Great Forest Trail Marathon</div>
                          <p className="small-header delay-1">
                          Branding for a trail running event that's saving a wild place. 
                         </p>
@@ -241,13 +241,21 @@ const IndexPage = () => {
         </div>
  
           </Col>
-          <Col md={12} lg={12} xl={12} xxl={12} >
+          <Col md={12} lg={12} xl={12} xxl={12} className="pb4">
+                <p class="body"><AniLink
+              to="/work"
+              exit={{ length: 0.5 }}
+              entry={{ delay: 0.5 }}
+            >View all our work</AniLink></p>
+              </Col> 
+
+          {/* <Col md={12} lg={12} xl={12} xxl={12} >
     <div className="primary-button delay-1 mt2 sm-mt1"><AniLink
               to="/work"
               exit={{ length: 0.5 }}
               entry={{ delay: 0.5 }}
             ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">View all our work</span></AniLink></div>
-      </Col>
+      </Col> */}
    </Row>
         </Container>
     </Layout>

@@ -15,7 +15,7 @@ setConfiguration({ gutterWidth:'30'});
 const MasterMe = () => (
 
     <Layout>
-            <SEO title="Astrid" />
+            <SEO title="Master Me" />
             <Container fluid className="project">
             <Row className="pt10">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
@@ -71,8 +71,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_04.jpg"
+                      alt=""
+                      src="../images/mm_04.webp"
                       />
                 </Col> 
                 <Col sm={12} md={6} className="pb1 delay-1"
@@ -81,8 +81,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_02.png"
+                      alt=""
+                      src="../images/mm_02.webp"
                       />
                 </Col> 
                 <Col sm={12} md={6}className="pb1 delay-1"
@@ -91,8 +91,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_03.png"
+                      alt=""
+                      src="../images/mm_03.webp"
                       />
                 </Col> 
 
@@ -120,8 +120,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_05.jpg"
+                      alt=""
+                      src="../images/mm_05.webp"
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
@@ -130,8 +130,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_06.png"
+                      alt=""
+                      src="../images/mm_06.webp"
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
@@ -140,8 +140,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_05.png"
+                      alt=""
+                      src="../images/mm_05.webp"
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
@@ -150,8 +150,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_09.png"
+                      alt=""
+                      src="../images/mm_09.webp"
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
@@ -160,8 +160,8 @@ const MasterMe = () => (
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
-                      alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                      src="../images/mm_10.png"
+                      alt=""
+                      src="../images/mm_10.webp"
                       />
                 </Col> 
                
