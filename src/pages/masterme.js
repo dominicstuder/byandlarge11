@@ -134,7 +134,7 @@ const MasterMe = () => (
                       src="../images/mm_06.webp"
                       />
                 </Col> 
-                <Col sm={12} md={12}className="pb1 delay-1"
+                {/* <Col sm={12} md={12}className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="100"
@@ -143,7 +143,7 @@ const MasterMe = () => (
                       alt=""
                       src="../images/mm_05.webp"
                       />
-                </Col> 
+                </Col>  */}
                 <Col sm={12} md={12}className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
