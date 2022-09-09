@@ -6,26 +6,26 @@ import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import BGIMG7 from "../components/backgroundimage7"
+import BGIMG13 from "../components/backgroundimage13"
 
 import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'30'});
 
 
-const Drivechange = () => (
+const Lululemon = () => (
 
     <Layout>
-            <SEO title="Drive Change" />
+            <SEO title="Lululemon" />
             <Container fluid className="project">
             <Row className="pt10">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
-                  A national movement to change outdated laws.</p>
+                  Design of an education platform for Lululemon's community.</p>
                   </Col>
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-3">Drive Change</h2>
+                    <h2 className="small-header black delay-3">Lululemon - The Source</h2>
                   </Col>
 
                   </Row>
@@ -33,7 +33,7 @@ const Drivechange = () => (
                   position: 'relative',
               }} 
               className="">
-                {/* <Col sm={12} className="delay-3 mt pb1" style={{
+                <Col sm={12} className="delay-3 mt pb1" style={{
                     position: 'relative',
                 }}>
           
@@ -42,9 +42,9 @@ const Drivechange = () => (
                           data-sal="fade"
                           data-sal-delay="400"
                           data-sal-easing="ease-in" >
-                          <BGIMG7 className="border-50-no-hover"></BGIMG7>
+                          <BGIMG13 className="border-50-no-hover"></BGIMG13>
                   </div>
-                  </Col> */}
+                  </Col>
              
 {/* 
 
@@ -72,7 +72,7 @@ const Drivechange = () => (
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/dc_hero.webp"
+                      src="../images/lulu_01.webp"
                       />
                 </Col> 
                 <Col sm={12}  md={12} className="pb1 delay-1"
@@ -82,7 +82,7 @@ const Drivechange = () => (
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/new_dc_01.webp"
+                      src="../images/lulu_03.webp"
                       />
                 </Col> 
                 <Col sm={12}  md={12} className="pb1 delay-1"
@@ -92,7 +92,7 @@ const Drivechange = () => (
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/dc2.2.webp"
+                      src="../images/lulu_04.webp"
                       />
                 </Col> 
                 <Col sm={12}  md={12} className="pb1 delay-1"
@@ -102,9 +102,10 @@ const Drivechange = () => (
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/dc_4.webp"
+                      src="../images/thesource_lululemon_t4_fs_01.jpg"
                       />
                 </Col> 
+                
                 <Col sm={12}  md={12} className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
@@ -112,39 +113,10 @@ const Drivechange = () => (
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/new_dc_02.webp"
+                      src="../images/lulu_05.webp"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_03.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_04.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_05.webp"
-                      />
-                </Col> 
+  
             </Row>
             <Row className="mt2 page-links">
               <Col sm={6} className="delay-1"  style={{
@@ -183,6 +155,6 @@ const Drivechange = () => (
 
 )
 
-export default Drivechange
+export default Lululemon
 
 

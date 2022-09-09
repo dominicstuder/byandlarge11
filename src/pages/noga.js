@@ -6,26 +6,27 @@ import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import BGIMG7 from "../components/backgroundimage7"
+import BGIMG12 from "../components/backgroundimage12"
 
 import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'30'});
 
 
-const Drivechange = () => (
+const Noga = () => (
 
     <Layout>
-            <SEO title="Drive Change" />
+            <SEO title="Noga" />
             <Container fluid className="project">
             <Row className="pt10">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
-                  A national movement to change outdated laws.</p>
+                        Branding and website for maximimum enlightenment.
+                  </p>
                   </Col>
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-3">Drive Change</h2>
+                    <h2 className="small-header black delay-3">Noga</h2>
                   </Col>
 
                   </Row>
@@ -33,24 +34,23 @@ const Drivechange = () => (
                   position: 'relative',
               }} 
               className="">
-                {/* <Col sm={12} className="delay-3 mt pb1" style={{
+                <Col sm={12} className="delay-3 mt pb1" style={{
                     position: 'relative',
                 }}>
           
                   <div className="work-page-image-wrapper" 
                         data-sal-duration="500"
-                          data-sal="fade"
+                          data-sal="slide-up"
                           data-sal-delay="400"
                           data-sal-easing="ease-in" >
-                          <BGIMG7 className="border-50-no-hover"></BGIMG7>
+                          <BGIMG12 className="border-50-no-hover"></BGIMG12>
                   </div>
-                  </Col> */}
-             
-{/* 
+                  </Col>
+                </Row>
 
                   <Row  className="pt6 sm-pt1">
                   <Col sm={12} md={6} xl={6} xxl={6}>
-                  <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
+                  <h3 className="header-3">A refined brand to cut through</h3>
                   </Col>
                   <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={8}>
                   <div className="project-info">
@@ -63,88 +63,132 @@ const Drivechange = () => (
                     </p>
                   </div>
                 </Col> 
-                </Row> */}
+                {/* <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
+                  <div className="project-info">
+                    <p className="body small-title">What we did</p>
+                    <p className="scope-list">
+                      <ul>
+                        <li>Strategy</li>
+                        <li>Visual Identity</li>
+                        <li>Digital Design</li>
+                        <li>Website Development</li>
+                        <li>E-commerce</li>
+                        <li>Packaging and print</li>
+                        <li>Signage</li>
+                      </ul>
+                    </p>
+                  </div>
+                </Col>  */}
+                </Row>
+                <Row justify="stretch" style={{
+                  marginTop: '3rem',
+              }}>
+                <Col sm={12} md={12} className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Astrid logo on colourful background"
+                      src="../images/noga_02.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={4} offset={{md: 2}} className="pb1 mt2 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_phone_01.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={4} className="pb1 delay-1 mt10"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_03.webp"
+                      />
+                </Col> 
+                </Row>
+                <Row justify="stretch" style={{
+                  marginTop: '3rem',
+              }}>
+                <Col sm={12} md={4} className="pb1 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt="Astrid logo on colourful background"
+                      src="../images/noga_04.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={3} offset={{md: 4}} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_05.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={12} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_06.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={4} offset={{md: 2}} className="pb1 mt2 delay-1"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_09.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={4} className="pb1 delay-1 mt10"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_10.webp"
+                      />
+                </Col> 
+                <Col sm={12} md={12} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_07.webp"
+                      />
+                </Col> 
 
-                <Col sm={12}  md={12} className="pb1 delay-1"
+                <Col sm={12} md={12} className="pb1 delay-1 mt4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/dc_hero.webp"
+                      src="../images/noga_08.webp"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_01.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/dc2.2.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/dc_4.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_02.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_03.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_04.webp"
-                      />
-                </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                   <StaticImage
-                      alt=""
-                      src="../images/new_dc_05.webp"
-                      />
-                </Col> 
+             
             </Row>
             <Row className="mt2 page-links">
               <Col sm={6} className="delay-1"  style={{
@@ -168,7 +212,7 @@ const Drivechange = () => (
                           
                     <p className="body">
                     <AniLink
-                          to="/musk"
+                          to="/masterme"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         >  
@@ -183,6 +227,6 @@ const Drivechange = () => (
 
 )
 
-export default Drivechange
+export default Noga
 
 
