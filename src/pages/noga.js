@@ -47,39 +47,6 @@ const Noga = () => (
                   </div>
                   </Col>
                 </Row>
-
-                  <Row  className="pt6 sm-pt1">
-                  <Col sm={12} md={6} xl={6} xxl={6}>
-                  <h3 className="header-3">A refined brand to cut through</h3>
-                  </Col>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={8}>
-                  <div className="project-info">
-                  <p className="body black delay-1">
-                    We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
-                    We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.
-                    </p>
-                    <p className="body black text-indent delay-1 mb3">
-                    From there, we designed and built the Astrid website along with creating a suite of print and digital collateral.
-                    </p>
-                  </div>
-                </Col> 
-                {/* <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
-                  <div className="project-info">
-                    <p className="body small-title">What we did</p>
-                    <p className="scope-list">
-                      <ul>
-                        <li>Strategy</li>
-                        <li>Visual Identity</li>
-                        <li>Digital Design</li>
-                        <li>Website Development</li>
-                        <li>E-commerce</li>
-                        <li>Packaging and print</li>
-                        <li>Signage</li>
-                      </ul>
-                    </p>
-                  </div>
-                </Col>  */}
-                </Row>
                 <Row justify="stretch" style={{
                   marginTop: '3rem',
               }}>
