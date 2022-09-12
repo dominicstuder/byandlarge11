@@ -156,6 +156,17 @@ const Noga = () => (
                       />
                 </Col> 
              
+                <Col sm={12} md={12} className="pb1 delay-1 mt4"
+                data-sal-duration="500"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+                   <StaticImage
+                      alt=""
+                      src="../images/noga_12.webp"
+                      />
+                </Col> 
+             
             </Row>
             <Row className="mt2 page-links">
               <Col sm={6} className="delay-1"  style={{
