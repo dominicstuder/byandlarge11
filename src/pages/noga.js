@@ -163,7 +163,7 @@ const Noga = () => (
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/noga_12.webp"
+                      src="../images/noga_11.webp"
                       />
                 </Col> 
              
