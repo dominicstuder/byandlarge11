@@ -27,7 +27,7 @@ const IndexPage = () => {
          
         }} className="home-page-intro mt5 sm-mt2">
           {/* <Col sm={12} lg={3} xl={3} xxl={3} className="small-header delay-1">About us</Col> */}
-           <Col sm={12} md={10} lg={7} xl={7} xxl={7} style={{
+           <Col sm={12} md={10} lg={10} xl={10} xxl={10} style={{
               position: 'relative',
       
             }}
@@ -36,7 +36,7 @@ const IndexPage = () => {
             // data-sal-easing="ease"
             // data-sal-duration="500"
             > <h1 
-            className="body medium delay-1">
+            className="body very-large delay-1">
               By and Large is an independent, multidisciplinary design and digital studio. 
               {/* By and Large is an independent, multidisciplinary design and digital studio. We create impact through creative and considered strategy, design, content creation and use of technology. */}
             </h1>

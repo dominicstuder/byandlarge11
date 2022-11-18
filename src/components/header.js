@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => {
                   ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">Contact</span></AniLink>
               </div>
       </Col> */}
-      <Col xs={12} sm={12} md={4} lg={4} >
+      <Col xs={12} sm={12} md={3} lg={3} >
             <div className="logo">
               <AniLink
                   to="/" 
@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => {
               </AniLink>
             </div>
         </Col>
-        <Col xs={6} sm={6} md={4} lg={4} style={{}}>
+        <Col xs={4} sm={4} md={3} lg={3} style={{}}>
             <nav className="menu two delay-2">
             <div className="item-two"><AniLink
                     to="/" 
@@ -47,11 +47,7 @@ const Header = ({ siteTitle }) => {
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   ><span data-hover="Studio">Studio</span></AniLink></div> */}
-              <div className="item-two"><AniLink
-                    to="/work"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  ><span data-hover="Work">Work</span></AniLink></div>
+             
                 {/* <div className="item-two"><AniLink
                     cover  to="/studio" bg="#1E1E1E"
                     direction="left"
@@ -71,7 +67,17 @@ const Header = ({ siteTitle }) => {
                   ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">Contact us</span></AniLink>
               </div> */}
             </Col>
-            <Col xs={6} sm={6} md={3} lg={3} style={{}}>
+            <Col xs={4} sm={4} md={3} lg={3} style={{}}>
+            <nav className="menu two delay-2">
+            <div className="item-two"><AniLink
+                    to="/work" 
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
+                  ><span data-hover="Work">Work</span></AniLink></div>
+            </nav>
+            
+            </Col>
+            <Col xs={4} sm={4} md={3} lg={3} style={{}}>
             <nav className="menu two delay-2">
             <div className="item-two"><AniLink
                     to="/contact" 
