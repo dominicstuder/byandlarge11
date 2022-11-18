@@ -2106,7 +2106,7 @@ p.body{
 }
 
 .header{
-  padding: 2rem 0rem;
+  padding: 2rem 0rem 1rem;
   transition: all .3s;
   opacity: 1;
   position: fixed;
