@@ -2453,7 +2453,7 @@ text-align: right;
 footer{
   font-size: 1.5rem;
   line-height: 1.3em;
-  opacity: .4;
+  font-family: "ABCDiatypeSemi-Mono-Regular", sans-serif;
   /* background:linear-gradient(360deg, rgb(255, 255, 255) 0%, rgb(248 210 113 / 0%) 45%); */
 
 }
