@@ -767,21 +767,21 @@ pre tt:after {
 
 .tl-wrapper-status--entering header .logo.slideup{
   opacity: 0;
-  transform: translateY(-100px);
-  transition: all .5s;
-  transition-delay: 0s;
+  transform: translateY(0px);
+  transition: all .2s;
+  transition-delay: 0.2s;
 }
 
 .tl-wrapper-status--entered header .logo.slideup{
   opacity: 1;
   transform: translateY(-0px);
-  transition: all .5s;
-  transition-delay: .3s;
+  transition: all .2s;
+  transition-delay: .2s;
 }
 
 .tl-wrapper-status--exiting header .logo.slideup{
   transform: translateY(0px);
-  transition: all .5s;
+  transition: all .2s;
   transition-delay: 0.2s;
   opacity: 0;
 }
@@ -789,20 +789,20 @@ pre tt:after {
 .tl-wrapper-status--entering header .logo{
   opacity: 0;
   transform: translateY(0px);
-  transition: all .5s;
-  transition-delay: 0s;
+  transition: all .2s;
+  transition-delay: 0.2s;
 }
 
 .tl-wrapper-status--entered header .logo{
   opacity: 1;
   transform: translateY(0px);
-  transition: all .5s;
-  transition-delay: .3s;
+  transition: all .2s;
+  transition-delay: .2s;
 }
 
 .tl-wrapper-status--exiting header .logo{
   transform: translateY(0px);
-  transition: all .5s;
+  transition: all .2s;
   transition-delay: 0.2s;
   opacity: 0;
 }
@@ -908,20 +908,20 @@ pre tt:after {
 .tl-wrapper-status--exiting footer .delay-1{
   opacity: 0;
   /* transform: translateY(20px); */
-  transition: all .5s;
+  transition: all .2s;
   transition-delay: .2s;
 }
 
 
 .tl-wrapper header .delay-1{
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .2s;
   transition-delay: 0s;
   opacity: 0;
 }
 
 .tl-wrapper header .delay-2{
-  transform: translateY(20px);
+  transform: translateY(0px);
   transition: all .2s;
   transition-delay: 0s;
   opacity: 0;
@@ -937,8 +937,8 @@ pre tt:after {
 .tl-wrapper-status--exiting header .delay-1{
   opacity: 0;
   /* transform: translateY(20px); */
-  transition: all .5s;
-  transition-delay: .5s;
+  transition: all .2s;
+  transition-delay: .2s;
 }
 
 .tl-wrapper-status--entered header .delay-2{
@@ -951,7 +951,7 @@ pre tt:after {
 .tl-wrapper-status--exiting header .delay-2{
   opacity: 0;
   transform: translateY(0px);
-  transition: all .5s;
+  transition: all .2s;
   transition-delay: 0.2s;
 }
 
@@ -966,8 +966,8 @@ pre tt:after {
 .tl-wrapper-status--exiting .delay-1, .tl-wrapper-status--exiting .delay-2, .tl-wrapper-status--exiting .delay-3, .tl-wrapper-status--exiting .delay-4, .tl-wrapper-status--exiting .delay-5{
   opacity: 0;
   transform: translateY(0px);
-  transition: all 1s;
-  transition-delay: .5s;
+  transition: all .2s;
+  transition-delay: .2s;
 }
 
 .tl-wrapper-status--exiting footer .delay-1{
