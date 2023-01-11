@@ -736,133 +736,61 @@ pre tt:after {
   margin-right: 1em !important;
 }
 
-
-
-
-
-
-
-/* .tl-wrapper.tl-wrapper--mount{
-}  */
-/* .tl-wrapper.tl-wrapper--mount.tl-wrapper-status--entering{
-  transition: all .2s;
-} 
-.tl-wrapper.tl-wrapper--mount.tl-wrapper-status--entered{
-  transition: all .2s;
-} 
- */
-
-/* 
- .tl-wrapper main{
-  transition: all .2s;
-  opacity: 0;
-}
-
-.tl-wrapper-status--entered main{
-  transition: all .2s;
-  opacity: 1;
-  transition-delay: .2s;
-} */
-
 .tl-wrapper-status--entering header .logo{
-  opacity: 1;
-  transform: translateY(0px);
+  opacity: 0;
   color: #000;
 }
 
 .tl-wrapper-status--entered header .logo{
   opacity: 1;
-  transform: translateY(0px);
   color: #000;
 }
 
 .tl-wrapper-status--exiting header .logo{
-  transform: translateY(0px);
+  opacity: 0;
+  color: #000;
+}
+
+.header .menu-two{
   opacity: 1;
+  color: #000;
+}
+
+.tl-wrapper-status--entering header .item-two{
+  opacity: 0;
+  color: #000;
+}
+
+.tl-wrapper-status--entered header .item-two{
+  opacity: 1;
+  color: #000;
+}
+
+.tl-wrapper-status--exiting header .item-two{
+  opacity: 0;
   color: #000;
 }
 
 .header .logo{
-  transform: translateY(0px);
   opacity: 1;
   color: #000;
 }
 
-
-.tl-wrapper-status--exiting header .slideup-contact{
-  transform: translateY(0px);
-  transition: opacity .5s;
-  transition-delay: 0.2s;
+.tl-wrapper-status--entering header .delay-1{
   opacity: 0;
+  color: #000;
 }
 
-.tl-wrapper-status--entering header .slideup-contact{
+.tl-wrapper-status--entered header .delay-{
+  opacity: 1;
+  color: #000;
+}
+
+.tl-wrapper-status--exiting header .delay-{
   opacity: 0;
-  transform: translateY(0px);
-  transition: all .5s;
-  transition-delay: 0s;
+  color: #000;
 }
 
-.tl-wrapper-status--entered header .slideup-contact{
-  opacity: 1;
-  transform: translateY(-0px);
-  transition: all .5s;
-  transition-delay: .3s;
-}
-
-/* .tl-wrapper-status--entering header .slideup .slideup-one{
-  transition-delay: .1s;
-  transform: translateY(-100px);
-  transition: all .2s;
-  display: inline-block;
-
-}
-
-.tl-wrapper-status--entered header .slideup .slideup-one{
-  transform: translateY(-0px);
-  transition: all .2s;
-  transition-delay: .1s;
-  display: inline-block;
-
-}
-
-
-.tl-wrapper-status--entering header .slideup .slideup-two{
-  transition-delay: .15s;
-  transform: translateY(-100px);
-  transition: all .2s;
-  display: inline-block;
-
-}
-
-.tl-wrapper-status--entered header .slideup .slideup-two{
-  transform: translateY(-0px);
-  transition: all .5s;
-  transition-delay: .15s;
-  display: inline-block;
-
-}
-
-.tl-wrapper-status--entering header .slideup .slideup-three{
-  transition-delay: .2s;
-  transform: translateY(-100px);
-  transition: all .5s;
-  display: inline-block;
-
-}
-
-.tl-wrapper-status--entered header .slideup .slideup-three{
-  transform: translateY(-0px);
-  transition: all .5s;
-  transition-delay: .2s;
-  display: inline-block;
-} */
-/* .tl-wrapper header .slideup{
-  opacity: 1;
-  transform: translateY(-400px);
-  transition: all .5s;
-  transition-delay: 0s;
-} */
 
 
 .tl-wrapper footer .delay-1{
@@ -879,47 +807,40 @@ pre tt:after {
   transition-delay: 0s;
 }
 
+.tl-wrapper-status-exiting  .delay-2{
+  opacity: 1;
+  transition: all .2s;
+  transition-delay: 0s;
+}
+
+.tl-wrapper-status--entering  .delay-2{
+  opacity: 0;
+  transition: all .2s;
+  transition-delay: 0s;
+}
+
+.tl-wrapper-status--entered  .delay-2{
+  opacity: 1;
+  transition: all .2s;
+  transition-delay: 0s;
+}
+
 .tl-wrapper-status--exiting footer .delay-1{
   opacity: 0;
-  /* transform: translateY(20px); */
 
 }
 
-
 .tl-wrapper header .delay-1{
-  transform: translateY(0px);
-
   opacity: 1;
 }
 
 .tl-wrapper header .delay-2{
-  transform: translateY(0px);
-
   opacity: 1;
-}
-
-.tl-wrapper-status--entered header .delay-1{
-  opacity: 1;
-  transform: translateY(0px);
-
 }
 
 .tl-wrapper-status--exiting header .delay-1{
-  opacity: 1;
-  /* transform: translateY(20px); */
-
-}
-
-.tl-wrapper-status--entered header .delay-2{
-  opacity: 1;
-  transform: translateY(0px);
-
-}
-
-.tl-wrapper-status--exiting header .delay-2{
-  opacity: 1;
-  transform: translateY(0px);
-
+  opacity: 0;
+  transition: opacity .2s;
 }
 
 .tl-wrapper {
@@ -929,15 +850,12 @@ pre tt:after {
 }
 
 .tl-wrapper main .delay-1{
-  transform: translateY(0px);
+  transition: opacity .2s;
 
 }
 
 .tl-wrapper-status--exiting .delay-1, .tl-wrapper-status--exiting .delay-2, .tl-wrapper-status--exiting .delay-3, .tl-wrapper-status--exiting .delay-4, .tl-wrapper-status--exiting .delay-5{
   opacity: 0;
-  transform: translateY(0px);
-  transition: all .2s;
-  transition-delay: .2s;
 }
 
 .tl-wrapper-status--exiting footer .delay-1{
@@ -981,16 +899,9 @@ footer .delay-1{
 
 .tl-wrapper-status--entered main .delay-1{
   opacity: 1;
-  transform: translateY(0px);
-  transition: all .2s;
-  transition-delay: 0s;
+  transition: opacity .2s;
 }
 
-
-.tl-wrapper-status--entering main .delay-1, .tl-wrapper-status--entering main .delay-2, .tl-wrapper-status--entering main .delay-3, .tl-wrapper-status--entering main .delay-4, .tl-wrapper-status--entering main .delay-5
-{
-
-}
 
 .tl-wrapper-status--entered main .delay-2{
   opacity: 1;

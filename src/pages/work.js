@@ -39,7 +39,7 @@ const Work = () => (
                 exit={{ length: 0.5 }}
                 entry={{ delay: 0.5 }}
               >
-                <div style={{}} className="work-page-image-wrapper delay-1">
+                <div style={{}} className="work-page-image-wrapper delay-2">
                     <BGIMG10 className="border-50"></BGIMG10>
                 </div>
               </AniLink>
@@ -67,7 +67,7 @@ const Work = () => (
                                 exit={{ length: 0.5 }}
                                 entry={{ delay: 0.5 }}
                               >
-                      <div style={{}} className="work-page-image-wrapper delay-1"     
+                      <div style={{}} className="work-page-image-wrapper delay-2"     
 
                         >
             
@@ -99,7 +99,7 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-2"
                         data-sal-duration="500"
                         data-sal="fade"
                         data-sal-delay="400"
@@ -130,7 +130,7 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-2"
                         data-sal-duration="500"
                         data-sal="fade"
                         data-sal-delay="400"
@@ -156,7 +156,7 @@ const Work = () => (
                       entry={{ delay: 0.5 }}
                     >
               <div style={{}}
-                      className="work-page-image-wrapper delay-1"
+                      className="work-page-image-wrapper delay-2"
 
               >
                 <BGIMG7 className="border-50"></BGIMG7>
@@ -178,7 +178,7 @@ const Work = () => (
           </div>
 
         </Col>  
-        <Col sm={12} md={3} lg={4} xl={4}  className="delay-1 pb4">
+        <Col sm={12} md={3} lg={4} xl={4}  className="pb4">
 
               <AniLink
                   to="/greatforesttrailmarathon"
@@ -187,7 +187,7 @@ const Work = () => (
                   >
 
            
-           <div style={{}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-2"
                            data-sal-duration="500"
                            data-sal="fade"
                            data-sal-delay="400"
@@ -217,7 +217,7 @@ const Work = () => (
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
                   >
-           <div style={{}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-2"
                            data-sal-duration="500"
                            data-sal="fade"
                            data-sal-delay="400"
@@ -255,7 +255,7 @@ const Work = () => (
                         entry={{ delay: 0.5 }}
                       >
       
-              <div style={{}} className="work-page-image-wrapper delay-1"
+              <div style={{}} className="work-page-image-wrapper delay-2"
                              data-sal-duration="500"
                              data-sal="fade"
                              data-sal-delay="400"
@@ -288,7 +288,7 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-2"
                         data-sal-duration="500"
                         data-sal="fade"
                         data-sal-delay="400"

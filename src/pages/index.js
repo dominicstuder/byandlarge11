@@ -59,7 +59,7 @@ const IndexPage = () => {
             // data-sal-easing="ease"
             // data-sal-duration="500"
             > <h1 
-            className="body very-large delay-1">
+            className="body very-large delay-2">
              A multidisciplinary design and digital studio, By and Large. 
               {/* By and Large is an independent, multidisciplinary design and digital studio. We create impact through creative and considered strategy, design, content creation and use of technology. */}
             </h1>

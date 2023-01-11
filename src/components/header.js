@@ -34,8 +34,8 @@ const Header = ({ siteTitle }) => {
             <div className="logo">
               <AniLink
                   to="/" 
-                  exit={{ length: 0 }}
-                  entry={{ delay: 0 }}
+                  exit={{ length: 0.5 }}
+                  entry={{ delay: 0.5 }}
                 >Studio By and Large 
               </AniLink>
             </div>
@@ -44,13 +44,13 @@ const Header = ({ siteTitle }) => {
             <nav className="menu two">
             <div className="item-two"><AniLink
                     to="/work" 
-                    exit={{ length: 0 }}
-                    entry={{ delay: 0 }}
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   ><span data-hover="Work">Work</span></AniLink></div>
                   <div className="item-two"><AniLink
                     to="/contact" 
-                    exit={{ length: 0 }}
-                    entry={{ delay: 0 }}
+                    exit={{ length: 0.5 }}
+                    entry={{ delay: 0.5 }}
                   ><span data-hover="Contact">Contact</span></AniLink></div>
             </nav>
            
