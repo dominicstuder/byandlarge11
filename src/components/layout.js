@@ -12,6 +12,7 @@ import { Container, Row, Col } from 'react-grid-system';
 import Header from "./header"
 import "./layout.css"
 import Arrow from "../assets/arrow.svg";
+import Navbar from "./Navbar"
 // import { ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -25,6 +26,7 @@ const Layout = ({ children }) => {
       }
     }
   `)
+
 
 
   return (
@@ -97,13 +99,13 @@ const Layout = ({ children }) => {
              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/studiobyandlarge/">
                 Instagram 
               </a>
-              <Arrow className="arrow"></Arrow>
+            
                 </div>
             </Col>
              <Col  xs={6} sm={6} md={3}><div style={{
             
             }}className="small-copy delay-1">
-                      <span className="copyright">&#169; 2022 By and Large Studio</span>
+                      <span className="copyright">&#169; 2023 By and Large Studio</span>
                   </div>
               </Col>
               </Row>

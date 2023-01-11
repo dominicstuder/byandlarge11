@@ -7,15 +7,13 @@
     src: url("UntitledSans-Regular.woff") format("woff");
   }
 
-
   @font-face {
-    font-family: 'ABCDiatypeSemi-Mono-Regular';
-    src: url('ABCDiatypeSemi-Mono-Regular.woff2') format('woff2'),
-        url('ABCDiatypeSemi-Mono-Regular.woff') format('woff');
-        font-weight: normal;
+    font-family: "UntitledSans-Medium";
+    font-weight: normal;
     font-style: normal;
-  
+    src: url("untitled-sans-medium.woff2") format("woff2");
   }
+
 
 /*
   @font-face {

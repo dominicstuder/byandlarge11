@@ -11,12 +11,21 @@ module.exports = {
     `gatsby-react-router-scroll`,
     `react-pose`,
     {
+      resolve: `gatsby-plugin-build-date`,
+      options: {
+        formatting: {
+          format: `YYYY/MM/DD HH:mm:ss`,
+        },
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
     },
+
     {
       resolve: `gatsby-plugin-sharp`,
       options: {

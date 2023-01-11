@@ -18,10 +18,10 @@ const MasterMe = () => (
             <SEO title="Master Me" />
             <Container fluid className="project">
             <Row className="pt10">
-                  <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
+                  {/* <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
                   <p className="hero-sentence black delay-2">
                   Branding and website for a coaching course for creative professionals.</p>
-                  </Col>
+                  </Col> */}
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>

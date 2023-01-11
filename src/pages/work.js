@@ -19,7 +19,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system'
 import { Parallax } from "react-scroll-parallax";
 
-setConfiguration({ gutterWidth:'30', });
+setConfiguration({ gutterWidth:'20', });
 
 const Work = () => (
   <Layout>
@@ -30,7 +30,7 @@ const Work = () => (
         <Row justify="start" style={{
             position: 'relative'
           }}>
-          <Col sm={12} lg={6} xl={6} className="pb4"
+          <Col sm={12} lg={6} xl={4} className="pb4"
           >
         
 
@@ -39,7 +39,7 @@ const Work = () => (
                 exit={{ length: 0.5 }}
                 entry={{ delay: 0.5 }}
               >
-                <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1">
+                <div style={{}} className="work-page-image-wrapper delay-1">
                     <BGIMG10 className="border-50"></BGIMG10>
                 </div>
               </AniLink>
@@ -57,7 +57,7 @@ const Work = () => (
 
   
  
-          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
+          <Col sm={12} lg={6} xl={4}  className="delay-1 pb4"
 
               >
 
@@ -67,7 +67,7 @@ const Work = () => (
                                 exit={{ length: 0.5 }}
                                 entry={{ delay: 0.5 }}
                               >
-                      <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"     
+                      <div style={{}} className="work-page-image-wrapper delay-1"     
 
                         >
             
@@ -87,7 +87,7 @@ const Work = () => (
                       </div>
                 </div>
         </Col>
-        <Col sm={12} lg={5} xl={5}  className="delay-1 pb4"
+        <Col sm={12} lg={5} xl={4}  className="delay-1 pb4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -99,7 +99,7 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-1"
                         data-sal-duration="500"
                         data-sal="fade"
                         data-sal-delay="400"
@@ -118,7 +118,7 @@ const Work = () => (
                     </div>
               </div>
           </Col>
-          <Col sm={12} lg={6} xl={6}  className="delay-1 pb4"
+          <Col sm={12} lg={4} xl={4}  className="delay-1 pb4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -130,7 +130,7 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-1"
                         data-sal-duration="500"
                         data-sal="fade"
                         data-sal-delay="400"
@@ -149,13 +149,13 @@ const Work = () => (
                     </div>
               </div>
           </Col>
-          <Col sm={12} lg={8} xl={8}   className="delay-1 pb4">             
+          <Col sm={12} md={3} lg={4} xl={4}   className="delay-1 pb4">             
             <AniLink
                       to="/drivechange"
                       exit={{ length: 0.5 }}
                       entry={{ delay: 0.5 }}
                     >
-              <div style={{borderRadius:'10px',}}
+              <div style={{}}
                       className="work-page-image-wrapper delay-1"
 
               >
@@ -178,7 +178,7 @@ const Work = () => (
           </div>
 
         </Col>  
-        <Col sm={12} lg={5} xl={5}  className="delay-1 pb4">
+        <Col sm={12} md={3} lg={4} xl={4}  className="delay-1 pb4">
 
               <AniLink
                   to="/greatforesttrailmarathon"
@@ -187,7 +187,7 @@ const Work = () => (
                   >
 
            
-           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-1"
                            data-sal-duration="500"
                            data-sal="fade"
                            data-sal-delay="400"
@@ -211,13 +211,13 @@ const Work = () => (
                       </div>
                 </div>
           </Col>
-        <Col sm={12} lg={5} xl={5}  className="delay-1 pb4">
+        <Col sm={12}  md={3} lg={4} xl={4}   className="delay-1 pb4">
              <AniLink
                   to="/obie"
                   exit={{ length: 0.5 }}
                   entry={{ delay: 0.5 }}
                   >
-           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-1"
                            data-sal-duration="500"
                            data-sal="fade"
                            data-sal-delay="400"
@@ -243,9 +243,7 @@ const Work = () => (
 
       </Col>
    
-      </Row>
-      <Row justify="start">
-          <Col sm={12} lg={4} xl={5}  className="delay-1 pb4"
+          <Col sm={12}  md={3} lg={4} xl={4}  className="delay-1 pb4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -257,7 +255,7 @@ const Work = () => (
                         entry={{ delay: 0.5 }}
                       >
       
-              <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
+              <div style={{}} className="work-page-image-wrapper delay-1"
                              data-sal-duration="500"
                              data-sal="fade"
                              data-sal-delay="400"
@@ -278,7 +276,7 @@ const Work = () => (
                     </div>
 
           </Col>
-          <Col sm={12} lg={5} xl={5}  className="delay-1"
+          <Col sm={12}  md={3} lg={4} xl={4}   className="delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -290,7 +288,7 @@ const Work = () => (
                     exit={{ length: 0.5 }}
                     entry={{ delay: 0.5 }}
                   >
-           <div style={{borderRadius:'10px',}} className="work-page-image-wrapper delay-1"
+           <div style={{}} className="work-page-image-wrapper delay-1"
                         data-sal-duration="500"
                         data-sal="fade"
                         data-sal-delay="400"

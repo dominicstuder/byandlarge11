@@ -2,10 +2,15 @@
 
 import React, { useState } from "react"
 import NavbarLinks from "./NavbarLinks"
-import Logo from "./Logo"
+// import Logo from "./Logo"
 import styled from 'styled-components'
 
-const Navigation = styled.nav``
+const Navigation = styled.nav`
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  `
 const Toggle = styled.div``
 const Navbox = styled.div``
 const Hamburger = styled.div``
@@ -16,7 +21,7 @@ const Navbar = () => {
 
   return (
     <Navigation>
-      <Logo />
+     
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

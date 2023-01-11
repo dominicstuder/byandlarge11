@@ -6,8 +6,10 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.7",
+    "datejs": "^1.0.0-rc3",
     "gatsby": "^4.19.1",
     "gatsby-background-image": "^1.6.0",
+    "gatsby-plugin-build-date": "^1.0.0",
     "gatsby-plugin-gatsby-cloud": "^4.19.0",
     "gatsby-plugin-google-gtag": "^4.21.0",
     "gatsby-plugin-image": "^2.19.0",
@@ -24,6 +26,7 @@
     "gatsby-source-filesystem": "^4.19.0",
     "gatsby-transformer-sharp": "^4.19.0",
     "gsap": "^3.10.4",
+    "moment": "^2.29.4",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
