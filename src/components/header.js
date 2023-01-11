@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => {
             </div>
         </Col>
         <Col xs={6} sm={6} md={4} lg={3}  offset={{sm: 0, md: 0, lg:2}} style={{}}>
-            <nav className="menu two delay-2">
+            <nav className="menu two">
             <div className="item-two"><AniLink
                     to="/work" 
                     exit={{ length: 0 }}
