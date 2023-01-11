@@ -1489,6 +1489,7 @@ body.preloader_active .video-wrapper{
   /* color: rgb(30, 30, 30); */
   color: #ffffff;
   letter-spacing: -0.02em;
+  display: none;
 }
 
 .hero-sentence{
@@ -2700,8 +2701,8 @@ body.preloader_ready #preloader {
     display: none;;
   }
   .body.very-large{
-    font-size: 1.5em;
-    letter-spacing: -0.02em;
+    font-size: 1.3em;
+    /* letter-spacing: -0.02em; */
     padding-top: 1em;
   }
   .menu.two{
