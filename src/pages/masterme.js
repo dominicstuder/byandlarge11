@@ -25,7 +25,7 @@ const MasterMe = () => (
                   </Row>
                   <Row className="">
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-1">Master Me</h2>
+                    <h2 className="small-header black delay-3">Master Me</h2>
                   </Col>
 
                   </Row>

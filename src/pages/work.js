@@ -46,9 +46,9 @@ const Work = () => (
 
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="small-header black delay-1"     
+                      <div className="small-header black delay-2"     
                           >Astrid</div>
-                         <p className="body black delay-1">
+                         <p className="body black delay-2">
                          Strategy, branding and website for a plant based medicines dispensary.
                           </p>
                       </div>
@@ -79,15 +79,15 @@ const Work = () => (
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="small-header black delay-1"     
+                      <div className="small-header black delay-2"     
                           >Master Me</div>
-                         <p className="body black delay-1">
+                         <p className="body black delay-2">
                              Branding and website for a coaching course for creative professionals.
                           </p>
                       </div>
                 </div>
         </Col>
-        <Col sm={12} lg={5} xl={4}  className="delay-1 pb4"
+        <Col sm={12} lg={5} xl={4}  className="delay-2 pb4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -111,14 +111,14 @@ const Work = () => (
             </AniLink>       
             <div className="project-wrapper">
                     <div className="title-wrapper">
-                    <div className="small-header delay-1">Lululemon</div>
-                        <p className="body black delay-1">
+                    <div className="small-header delay-2">Lululemon</div>
+                        <p className="body black delay-2">
                          Design of an education platform for Lululemon's community.
                       </p>
                     </div>
               </div>
           </Col>
-          <Col sm={12} lg={4} xl={4}  className="delay-1 pb4"
+          <Col sm={12} lg={4} xl={4}  className="delay-2 pb4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -149,7 +149,7 @@ const Work = () => (
                     </div>
               </div>
           </Col>
-          <Col sm={12} md={3} lg={4} xl={4}   className="delay-1 pb4">             
+          <Col sm={12} md={3} lg={4} xl={4}   className="delay-2 pb4">             
             <AniLink
                       to="/drivechange"
                       exit={{ length: 0.5 }}
@@ -171,7 +171,7 @@ const Work = () => (
             <div className="project-wrapper">
               <div className="title-wrapper">
               <div className="small-header">Drive Change</div>  
-                  <p className="body black delay-1">
+                  <p className="body black delay-2">
                     Branding and website for a national campaign to change outdated laws.</p>
                   <Arrow className="arrow"></Arrow>
               </div>
@@ -203,7 +203,7 @@ const Work = () => (
                       <div className="title-wrapper"
          
                       >
-                          <div className="small-header delay-1" >Great Forest Trail Marathon</div>
+                          <div className="small-header delay-2" >Great Forest Trail Marathon</div>
                          <p className="body black delay-1">
                         Branding for a trail running event that's saving a wild place. 
                         </p>
@@ -211,7 +211,7 @@ const Work = () => (
                       </div>
                 </div>
           </Col>
-        <Col sm={12}  md={3} lg={4} xl={4}   className="delay-1 pb4">
+        <Col sm={12}  md={3} lg={4} xl={4}   className="delay-2 pb4">
              <AniLink
                   to="/obie"
                   exit={{ length: 0.5 }}
@@ -232,8 +232,8 @@ const Work = () => (
                         
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="body black delay-1" >Obie</div>
-                         <p className="body black delay-1">
+                      <div className="body black delay-2" >Obie</div>
+                         <p className="body black delay-2">
                          Branding for a financial tool that simplifies your finances.
                         </p>
                         <Arrow className="arrow"></Arrow>
@@ -243,7 +243,7 @@ const Work = () => (
 
       </Col>
    
-          <Col sm={12}  md={3} lg={4} xl={4}  className="delay-1 pb4"
+          <Col sm={12}  md={3} lg={4} xl={4}  className="delay-2 pb4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -268,15 +268,15 @@ const Work = () => (
                             
                 <div className="project-wrapper">
                           <div className="title-wrapper">
-                          <div className="small-header delay-1">Musk</div>
-                            <p className="body black delay-1">
+                          <div className="small-header delay-2">Musk</div>
+                            <p className="body black delay-2">
                              Branding for an artist residency and boutique hotel in Dayelsford, Victoria. 
                             </p>
                           </div>
                     </div>
 
           </Col>
-          <Col sm={12}  md={3} lg={4} xl={4}   className="delay-1"
+          <Col sm={12}  md={3} lg={4} xl={4}   className="delay-2"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="300"
@@ -300,8 +300,8 @@ const Work = () => (
             </AniLink>       
             <div className="project-wrapper">
                     <div className="title-wrapper">
-                    <div className="small-header delay-1">RDP</div>
-                        <p className="body black delay-1">
+                    <div className="small-header delay-2">RDP</div>
+                        <p className="body black delay-2">
                       Branding for a design and construction agency in Melbourne.
                       </p>
                     </div>

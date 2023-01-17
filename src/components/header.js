@@ -66,7 +66,9 @@ const Header = ({ siteTitle }) => {
             
             </Col> */}
             <Col xs={4} sm={4} md={4} lg={4} style={{}} className="clock-wrapper">
-              <Thirdclock />
+                <div className="item-two">
+                  <Thirdclock />
+                </div>
             </Col>
        </Row>
     </Container>
