@@ -15,7 +15,7 @@ setConfiguration({ gutterWidth:'30'});
 const GreatForest = () => (
 
     <Layout>
-            <SEO title="Astrid" />
+            <SEO title="GFTM" />
             <Container fluid className="project">
             <Row className="pt10">
                   <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `By and Large Studio`,
-    description: `By and Large is an independent, multidisciplinary design and digital studio.`,
+    title: `Studio By and Large`,
+    description: `Studio By and Large is an independent, multidisciplinary design and digital studio.`,
     author: `@gatsbyjs`,
     image: `src/images/share-image.jpg`,
   },

@@ -17,7 +17,7 @@ const Contact = () => {
     <Layout style={{
       backgroundColor: '#F2E4CC',
     }}>
-      <SEO title="Home" />
+      <SEO title="Contact" />
 
       <Container fluid className="video-container pt5 sm-pt5">
          <Row justify="start" style={{

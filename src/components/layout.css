@@ -1080,13 +1080,15 @@ header{
 }
 
 
-.small-copy{
+.small-copy p{
   font-family: "UntitledSans-Medium", sans-serif;
   font-weight: normal;
   font-size: .8rem;
-  line-height: 1.5em;
+  line-height: 1.2em;
+  padding-bottom: 10px;
   color: #838383;
   max-width: 550px;
+  margin-bottom: 0;
 }
 
 .small-copy .arrow{

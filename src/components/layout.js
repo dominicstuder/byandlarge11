@@ -81,14 +81,21 @@ const Layout = ({ children }) => {
             <Col  xs={6} sm={6} md={3}><div style={{
             
           }}className="small-copy delay-1">
-                Based in Newcastle, Australia. <br></br>Working worldwide. 
+            <p>
+                Based in Newcastle, Australia. 
+                </p>
+                <p>
+                Working worldwide. 
+                </p>
                 </div>
             </Col>
              <Col  xs={6} sm={6} md={3}><div style={{
             
             }}className="small-copy delay-1">
                 <a href="mailto:mail@byandlarge.studio">
+                  <p>
                   mail@byandlarge.studio
+                  </p>
                   </a>
                   </div>
               </Col>
@@ -97,7 +104,9 @@ const Layout = ({ children }) => {
             
           }}className="small-copy delay-1">
              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/studiobyandlarge/">
+              <p>
                 Instagram 
+                </p>
               </a>
             
                 </div>
@@ -105,7 +114,7 @@ const Layout = ({ children }) => {
              <Col  xs={6} sm={6} md={3}><div style={{
             
             }}className="small-copy delay-1">
-                      <span className="copyright">&#169; 2023 By and Large Studio</span>
+                      <span className="copyright"> <p>&#169;2023 Studio By and Large</p></span>
                   </div>
               </Col>
               </Row>
@@ -116,9 +125,9 @@ const Layout = ({ children }) => {
               <Col sm={6}><div style={{
             
           }}className="small-copy delay-1">
-
+            <p>
                     By and Large Studio is on the traditional country of the Awabakal and Worimi peoples. We recognize and respect their cultural heritage, beliefs and continuing relationship with the land.<br></br>
-                   
+                    </p>
                 </div>
             </Col>
             </Row>
