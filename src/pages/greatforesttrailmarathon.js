@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { setConfiguration } from 'react-grid-system';
 import GFTMHERO from "../components/gftmhero-img"
 
-import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'30'});
 
 
@@ -17,39 +17,33 @@ const GreatForest = () => (
     <Layout>
             <SEO title="GFTM" />
             <Container fluid className="project">
-            <Row className="pt10">
-                  <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
-                  <p className="hero-sentence black delay-2">
-                 Running to save a wild place.</p>
-                  </Col>
-                  </Row>
-                  <Row className="">
-                  <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-3">Great Forest Trail Marathon</h2>
-                  </Col>
-
-                  </Row>
+                 
             <Row justify="start" style={{
                   position: 'relative',
               }} 
-              className="">
-                <Col sm={12} className="delay-3 mt pb1" style={{
+              className="pt10">
+                 <Col xs={12} sm={12}  md={5}>
+                    <h2 className="small-header black delay-1">Great Forest Trail Marathon</h2>
+                  </Col>
+                <Col sm={12} className="delay-1 pb1" style={{
                     position: 'relative',
                 }}>
           
-                  <div className="" 
-                       data-sal="fade"
-                       data-sal-delay="500"
-                       data-sal-easing="ease"
-                       data-sal-duration="500">
-                          {/* <GFTMHERO className="border-50-no-hover"></GFTMHERO> */}
-                          <StaticImage
-                           alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-                            src="../images/gftm_02.webp"
-                            />
+                  <div className="work-page-image-wrapper" 
+                        data-sal-duration="100"
+                          data-sal-delay="100"
+                          data-sal-easing="ease-in" >
+                          <GFTMHERO className="border-50-no-hover"></GFTMHERO>
                   </div>
                   </Col>
+                </Row>
+                  <Row className="pt1">
 
+                  {/* <Col xs={12} sm={12} md={6}>
+             
+                    <p className="project-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </Col> */}
+               
                   {/* <Col sm={12} md={6} xl={6} xxl={6}>
                   <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
                   </Col>
@@ -64,7 +58,9 @@ const GreatForest = () => (
                     </p>
                   </div>
                 </Col>  */}
-                <Col sm={12} className="pb1 delay-1"
+</Row>
+<Row className="pt1">
+                <Col sm={12} xxl={6} className="pb1 delay-1"
                    data-sal="fade"
                    data-sal-delay="500"
                    data-sal-easing="ease"
@@ -74,7 +70,7 @@ const GreatForest = () => (
                       src="../images/gftm_01.webp"
                       />
                 </Col> 
-                <Col sm={12} md={12} className="pb1 delay-1"
+                <Col sm={12} md={12} xxl={6} className="pb1 delay-1"
                   data-sal="fade"
                   data-sal-delay="500"
                   data-sal-easing="ease"
@@ -113,7 +109,7 @@ const GreatForest = () => (
                   </Col>
                   </div> */}
 
-          <Col sm={12} md={12}className="pb1 delay-1"
+          <Col sm={12} md={12} xxl={6} className="pb1 delay-1"
               data-sal="fade"
               data-sal-delay="100"
               data-sal-easing="ease"
@@ -123,7 +119,7 @@ const GreatForest = () => (
                       src="../images/gftm_04.webp"
                       />
                 </Col> 
-                <Col sm={12} md={12}className="pb1 delay-1"
+                {/* <Col sm={12} md={12} xxl={6} className="pb1 delay-1"
               data-sal="fade"
               data-sal-delay="100"
               data-sal-easing="ease"
@@ -132,8 +128,8 @@ const GreatForest = () => (
                       alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
                       src="../images/gftm_05.webp"
                       />
-                </Col> 
-                <Col sm={12} md={12}className="pb1 delay-1"
+                </Col>  */}
+                <Col sm={12} md={12} xxl={6} className="pb1 delay-1"
                  data-sal="fade"
                  data-sal-delay="100"
                  data-sal-easing="ease"
@@ -143,7 +139,7 @@ const GreatForest = () => (
                       src="../images/gftm_06.webp"
                       />
                 </Col> 
-                <Col sm={12} md={12}className="pb1 delay-1"
+                <Col sm={12} md={12} xxl={6} className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="100"
@@ -154,7 +150,7 @@ const GreatForest = () => (
                       />
                 </Col> 
 
-                <Col sm={12} md={6}className="pb1 delay-1"
+                <Col sm={12} md={6} xxl={6} className="pb1 delay-1"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease"
@@ -164,7 +160,7 @@ const GreatForest = () => (
                       src="../images/gftm_07.webp"
                       />
                 </Col> 
-                <Col sm={12} md={6}className="pb1 delay-1"
+                <Col sm={12} md={6} xxl={6} className="pb1 delay-1"
             data-sal="fade"
             data-sal-delay="100"
             data-sal-easing="ease"
@@ -182,7 +178,7 @@ const GreatForest = () => (
                       marginBottom: '1rem',
                   }}>
                     
-                      <p className="body">
+                    <div class="primary-button">
                       <AniLink
                           to="/work"
                           exit={{ length: 0.5 }}
@@ -190,24 +186,10 @@ const GreatForest = () => (
                         >   
                         Back to Our Work
                         </AniLink>
-                      </p>  
+                      </div>  
                   
               </Col>
-              <Col sm={6} className="delay-1" style={{
-                      marginBottom: '1rem',
-                  }}>
-                          
-                    <p className="body">
-                    <AniLink
-                          to="/obie"
-                          exit={{ length: 0.5 }}
-                          entry={{ delay: 0.5 }}
-                        >  
-                    Next Project
-                    </AniLink>
-                    </p>
-                
-              </Col>
+              
             </Row>
         </Container>
     </Layout>

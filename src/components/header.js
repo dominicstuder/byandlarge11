@@ -19,61 +19,48 @@ const Header = ({ siteTitle }) => {
   }, []);
   return (
   // <header className="header">
-  <header className={scroll ? "header bg-black" : "header bg-none"}>
+    <header className={scroll ? "header bg-black" : "header bg-none"}>
       <Container fluid>
       <Row>
-      {/* <Col xs={12} sm={12} md={12} lg={12} style={{marginTop: '1em',}}>
-      <div className="primary-button contact-button slideup-contact"><AniLink
-                    to="/contact"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  ><ArrowWhite className="small-arrow"></ArrowWhite><span className="link-text">Contact</span></AniLink>
-              </div>
-      </Col> */}
-      <Col xs={6} sm={6} md={4} lg={3} >
+      <Col xs={6} sm={6} md={6} lg={6} >
             <div className="logo">
               <AniLink
                   to="/" 
-                  exit={{ length: 0.5 }}
-                  entry={{ delay: 0.5 }}
+                  exit={{ length: 0 }}
+                  entry={{ delay: 0 }}
                 >Studio By and Large 
               </AniLink>
             </div>
         </Col>
-        <Col xs={6} sm={6} md={4} lg={3}  offset={{sm: 0, md: 0, lg:2}} style={{}}>
+        <Col xs={6} sm={6} md={6} lg={6}>
             <nav className="menu two">
             <div className="item-two"><AniLink
                     to="/work" 
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  ><span data-hover="Work">Work</span></AniLink></div>
+                    exit={{ length: 0 }}
+                    entry={{ delay: 0 }}
+                  ><span>Work</span></AniLink></div>
+                  
                   <div className="item-two"><AniLink
                     to="/contact" 
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  ><span data-hover="Contact">Contact</span></AniLink></div>
-            </nav>
-           
-            </Col>
-            {/* <Col xs={4} sm={4} md={3} lg={3} style={{}}>
-            <nav className="menu two delay-2">
-            <div className="item-two"><AniLink
-                    to="/contact" 
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  ><span data-hover="Contact">Contact</span></AniLink></div>
-            </nav>
-            
-            </Col> */}
-            <Col xs={4} sm={4} md={4} lg={4} style={{}} className="clock-wrapper">
+                    exit={{ length: 0 }}
+                    entry={{ delay: 0 }}
+                  ><span>Contact</span></AniLink></div>
+          
+            <div className="clock-wrapper">
                 <div className="item-two">
                   <Thirdclock />
                 </div>
+            </div>
+            </nav>
             </Col>
+            {/* <Col xs={4} sm={4} md={4} lg={4} style={{}} className="clock-wrapper">
+                <div className="item-two">
+                  <Thirdclock />
+                </div>
+            </Col> */}
        </Row>
     </Container>
   </header>
-
   )
   }
 

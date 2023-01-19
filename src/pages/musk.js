@@ -161,7 +161,7 @@ const Musk = () => (
                       marginBottom: '1rem',
                   }}>
                     
-                      <p className="body">
+                    <div class="primary-button">
                       <AniLink
                           to="/work"
                           exit={{ length: 0.5 }}
@@ -169,14 +169,14 @@ const Musk = () => (
                         >   
                         Back to Our Work
                         </AniLink>
-                      </p>  
+                      </div>  
                   
               </Col>
               <Col sm={6} className="delay-1" style={{
                       marginBottom: '1rem',
                   }}>
                           
-                    <p className="body">
+                          <div class="primary-button">
                     <AniLink
                           to="/rdp"
                           exit={{ length: 0.5 }}
@@ -184,7 +184,7 @@ const Musk = () => (
                         >  
                     Next Project
                     </AniLink>
-                    </p>
+                    </div>
                 
               </Col>
             </Row>

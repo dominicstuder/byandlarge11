@@ -22,17 +22,15 @@ const IndexPage = () => {
       backgroundColor: '#F2E4CC',
     }}>
       <SEO title="Home" />
-
       <Container fluid className="video-container pt5 sm-pt5">
-      <Row justify="start" style={{
+      {/* <Row justify="start" style={{
                 
                 }} className="video-section">
-                  <Col md={12} lg={12} xl={12} xxl={12}  style={{
+                  <Col md={12} lg={12} xl={6} xxl={6}  style={{
                     position: 'relative',
               
                   }}>
-                  <div className="video-wrapper delay-2" style={{
-                        }}>
+                  <div className="video-wrapper delay-2" style={{borderRadius: '5px'}}>
                            <AniLink
                     to="/work"
                     exit={{ length: 0.5 }}
@@ -45,64 +43,55 @@ const IndexPage = () => {
                   </div>
       
                  </Col>
-                </Row>    
+                </Row>     */}
       <Row justify="start" style={{
          
         }} className="home-page-intro mt5 sm-mt2">
           {/* <Col sm={12} lg={3} xl={3} xxl={3} className="small-header delay-1">About us</Col> */}
-           <Col sm={12} md={10} lg={10} xl={10} xxl={10} style={{
+           <Col sm={12} md={10} lg={6} xl={6} xxl={6} style={{
               position: 'relative',
       
-            }}
-            // data-sal="fade"
-            // data-sal-delay="100"
-            // data-sal-easing="ease"
-            // data-sal-duration="500"
-            > <h1 
-            className="body very-large delay-2">
-             A multidisciplinary design and digital studio, By and Large. 
-              {/* By and Large is an independent, multidisciplinary design and digital studio. We create impact through creative and considered strategy, design, content creation and use of technology. */}
+            }}>
+              <h1 
+            className="body very-large delay-1">
+             A multidisciplinary design and digital studio, By and Large.
             </h1>
-            {/* <p class="body delay-1">Read more</p> */}
-            {/* <h1 
-            className="body medium delay-1">
-              Currently based in Newcastle, we work with clients around Australia and beyond.
-            </h1> */}
               </Col>
           </Row>
       
           </Container>
           
-     <Container fluid className="section-3">
-          <Row justify="start" className="delay-1 pb4 sm-mt3" style={{
+     <Container fluid className="section-3 home">
+          <Row justify="start" className="pb4 sm-mt3" style={{
             position: 'relative'
           }}>  
-          <Col sm={12} lg={12} xl={12} className="delay-1 pb2 sm-pb1">
+          <Col sm={12} lg={12} xl={12} className="pb2 sm-pb1">
             <span className="small-header delay-1">Recent work</span>
           </Col>
  
-          <Col sm={12} lg={6} xl={4}  className="delay-1 pb4 sm-pb0"
+          <Col sm={12} lg={6} xl={4}  className="delay-1 pb4 sm-pb0  delay-1"
 
               >
 
 
-              <div                 data-sal-duration="300"
+              <div                 
+              data-sal-duration="100"
                 data-sal="fade"
-                data-sal-delay="800"
+                data-sal-delay="100"
                 data-sal-easing="ease-in">
                        
                         <AniLink
                               to="/masterme"
-                                exit={{ length: 0 }}
-                                entry={{ delay: 0 }}
+                                exit={{ length: 0.5 }}
+                                entry={{ delay: 0.5 }}
                               >
-                      <div style={{}} className="work-page-image-wrapper delay-1"     
+                      <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"     
                                     // data-sal-duration="500"
                                     //  data-sal="slide-up"
                                     //  data-sal-delay="400"
                                     //  data-sal-easing="ease-in">
                                       >
-            
+                         <div className="case-study-tag">Case Study</div>
                         <BGIMG className="border-50"></BGIMG>
                 
                         </div>
@@ -111,12 +100,10 @@ const IndexPage = () => {
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="small-header delay-1"     
-                          >Master Me</div>
-                         <p className="body delay-1">
-                              Branding and website for a coaching course for creative professionals.
-                          </p>
-                      </div>
+                      <div className="small-header"     
+                          >Master Me - Branding and website for a coaching and personal development course that helps creative professionals to find their true selves.
+                              </div>    
+                    </div>
                 </div>
                 </div>  
 
@@ -128,20 +115,20 @@ const IndexPage = () => {
 
        <div                 
        
-                data-sal-duration="300"
+                data-sal-duration="100"
                 data-sal="fade"
-                data-sal-delay="500"
+                data-sal-delay="100"
                 data-sal-easing="ease-in">
      
               <AniLink
                   to="/greatforesttrailmarathon"
-                  exit={{ length: 0 }}
-                  entry={{ delay: 0 }}
+                  exit={{ length: 0.5 }}
+                  entry={{ delay: 0.5 }}
                   >
 
            
-           <div style={{}} className="work-page-image-wrapper delay-1"
-                       >
+           <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
+                       >             <div className="case-study-tag">Case Study</div>
             <GFTMHERO className="border-50"></GFTMHERO>
  
             </div>
@@ -152,11 +139,8 @@ const IndexPage = () => {
                       <div className="title-wrapper"
          
                       >
-                          <div className="small-header delay-1" >Great Forest Trail Marathon</div>
-                         <p className="body delay-1">
-                         Branding for a trail running event that's saving a wild place. 
-                        </p>
-                        <Arrow className="arrow"></Arrow>
+                          <div className="small-header" >Great Forest Trail Marathon - Branding for a trail running event that's saving a wild place. 
+                      </div>
                       </div>
                 </div>
         </div>
@@ -167,20 +151,21 @@ const IndexPage = () => {
 
        <div                 
        
-                data-sal-duration="300"
+                data-sal-duration="100"
                 data-sal="fade"
-                data-sal-delay="500"
+                data-sal-delay="100"
                 data-sal-easing="ease-in">
      
               <AniLink
                   to="/astrid"
-                  exit={{ length: 0 }}
-                  entry={{ delay: 0 }}
+                  exit={{ length: 0.5 }}
+                  entry={{ delay: 0.5 }}
                   >
 
            
-           <div style={{}} className="work-page-image-wrapper delay-1"
+           <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
                        >
+                                     <div className="case-study-tag">Case Study</div>
             <BGIMG10 className="border-50"></BGIMG10>
  
             </div>
@@ -191,22 +176,18 @@ const IndexPage = () => {
                       <div className="title-wrapper"
          
                       >
-                          <div className="small-header delay-1" >Astrid</div>
-                         <p className="body delay-1">
-                         Strategy, branding and website for a plant based medicines dispensary.
-                        </p>
-                        <Arrow className="arrow"></Arrow>
+                          <div className="small-header" >Astrid - Strategy, branding and website for a plant based medicines dispensary.
+                         </div>
                       </div>
                 </div>
         </div>
- 
-          </Col>
-          <Col md={12} lg={12} xl={12} xxl={12} className="pb4">
-                <p class="body"><AniLink
+        </Col>
+<Col md={12} lg={12} xl={12} xxl={12} className="pb4">
+                <div class="primary-button"><AniLink
               to="/work"
               exit={{ length: 0.2 }}
               entry={{ delay: 0.2 }}
-            >View all our work</AniLink></p>
+            >View all our work</AniLink></div>
               </Col> 
 
           {/* <Col md={12} lg={12} xl={12} xxl={12} >

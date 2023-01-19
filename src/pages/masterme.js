@@ -18,14 +18,9 @@ const MasterMe = () => (
             <SEO title="Master Me" />
             <Container fluid className="project">
             <Row className="pt10">
-                  {/* <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
-                  <p className="hero-sentence black delay-2">
-                  Branding and website for a coaching course for creative professionals.</p>
-                  </Col> */}
-                  </Row>
-                  <Row className="">
+                 
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-3">Master Me</h2>
+                    <h2 className="small-header black delay-1">Master Me</h2>
                   </Col>
 
                   </Row>
@@ -33,14 +28,14 @@ const MasterMe = () => (
                   position: 'relative',
               }} 
               className="">
-                <Col sm={12} className="delay-3 mt pb1" style={{
+                <Col sm={12} className="delay-1 mt pb1" style={{
                     position: 'relative',
                 }}>
           
                   <div className="work-page-image-wrapper" 
-                        data-sal-duration="500"
+                        data-sal-duration="100"
                           data-sal="fade"
-                          data-sal-delay="400"
+                          data-sal-delay="100"
                           data-sal-easing="ease-in" >
                           <BGIMG className="border-50-no-hover"></BGIMG>
                   </div>
@@ -66,7 +61,7 @@ const MasterMe = () => (
                 </Row> */}
 
                 <Col sm={12} className="pb1 delay-1"
-                data-sal-duration="500"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -76,7 +71,7 @@ const MasterMe = () => (
                       />
                 </Col> 
                 <Col sm={12} md={6} className="pb1 delay-1"
-                data-sal-duration="500"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -86,7 +81,7 @@ const MasterMe = () => (
                       />
                 </Col> 
                 <Col sm={12} md={6}className="pb1 delay-1"
-                data-sal-duration="500"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -115,7 +110,7 @@ const MasterMe = () => (
                   </div> */}
 
                   <Col sm={12} md={12}className="pb1 delay-1"
-                data-sal-duration="500"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -125,7 +120,7 @@ const MasterMe = () => (
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
-                data-sal-duration="500"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -145,7 +140,7 @@ const MasterMe = () => (
                       />
                 </Col>  */}
                 <Col sm={12} md={12}className="pb1 delay-1"
-                data-sal-duration="500"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -155,7 +150,7 @@ const MasterMe = () => (
                       />
                 </Col> 
                 <Col sm={12} md={12}className="pb1 delay-1"
-                data-sal-duration="500"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -171,7 +166,7 @@ const MasterMe = () => (
                       marginBottom: '1rem',
                   }}>
                     
-                      <p className="body">
+                    <div class="primary-button">
                       <AniLink
                           to="/work"
                           exit={{ length: 0.5 }}
@@ -179,14 +174,14 @@ const MasterMe = () => (
                         >   
                         Back to Our Work
                         </AniLink>
-                      </p>  
+                      </div>  
                   
               </Col>
               <Col sm={6} className="delay-1" style={{
                       marginBottom: '1rem',
                   }}>
                           
-                    <p className="body">
+                    <div class="primary-button">
                     <AniLink
                           to="/greatforesttrailmarathon"
                           exit={{ length: 0.5 }}
@@ -194,7 +189,7 @@ const MasterMe = () => (
                         >  
                     Next Project
                     </AniLink>
-                    </p>
+                    </div>
                 
               </Col>
             </Row>

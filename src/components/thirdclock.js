@@ -10,7 +10,7 @@ function Thirdclock() {
     return (
         <div className="app">
            
-            <h2 className="clock">
+            <span className="clock">
 
             <span>
               {' '}
@@ -22,7 +22,7 @@ function Thirdclock() {
               })}
             </span>
             <span style={{
-              marginLeft: '20px',
+              marginLeft: '5px',
       
             }}>
                 {dateState.toLocaleString('en-AU', {
@@ -31,7 +31,7 @@ function Thirdclock() {
                     hour12: true,
                 })}
             </span>
-            </h2>
+            </span>
         </div>
     );
 }

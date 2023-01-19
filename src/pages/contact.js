@@ -19,16 +19,14 @@ const Contact = () => {
     }}>
       <SEO title="Contact" />
 
-      <Container fluid className="video-container pt5 sm-pt5">
-         <Row justify="start" style={{
-                position: 'relative',
-                marginTop: '5rem',
-                minHeight: '80vh',
-            }} >
-            <Col sm={12} lg={8}>
-            {/* <h2 className="header-1 black delay-1">Contact</h2> */}
-            <p className="small-header delay-2" > Get in touch if you would like to talk about a potential project or work opportunities.</p>
-            <p className="small-header  delay-3"><a href="mailto:mail@byandlarge.studio">mail@byandlarge.studio</a></p>
+      <Container fluid className="pt10 pb10 sm-pt5 delay-1">
+         <Row justify="start">
+            <Col sm={12} lg={6}>
+            <h1 className="header-2" > Get in touch if you would like to talk about a project or work opportunities.</h1>
+            </Col>
+            <Col sm={12} lg={4}>
+            <p className="body"><a href="mailto:mail@byandlarge.studio">mail@byandlarge.studio</a></p>
+            <p className="body">+61 (0) 410 819 455</p>
             </Col>
             </Row>
         </Container>

@@ -18,14 +18,10 @@ const Astrid = () => (
             <SEO title="Astrid" />
             <Container fluid className="project">
             <Row className="pt10">
-                  <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} >
-                  <p className="hero-sentence black delay-2">
-                  A unique, plant-based medicines dispensary in South Yarra, Melbourne.</p>
-                  </Col>
-                  </Row>
-                  <Row className="">
+       
+     
                   <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-3">Astrid Dispensary</h2>
+                    <h2 className="small-header black delay-1">Astrid Dispensary</h2>
                   </Col>
 
                   </Row>
@@ -33,25 +29,25 @@ const Astrid = () => (
                   position: 'relative',
               }} 
               className="">
-                <Col sm={12} className="delay-3 mt pb1" style={{
+                <Col sm={12} className="delay-1 mt pb1" style={{
                     position: 'relative',
                 }}>
           
                   <div className="work-page-image-wrapper" 
-                        data-sal-duration="500"
-                          data-sal="slide-up"
-                          data-sal-delay="400"
+                        data-sal-duration="100"
+                
+                          data-sal-delay="100"
                           data-sal-easing="ease-in" >
                           <BGIMG10 className="border-50-no-hover"></BGIMG10>
                   </div>
                   </Col>
                 </Row>
 
-                  <Row  className="pt6 sm-pt1">
-                  <Col sm={12} md={6} xl={6} xxl={6}>
+                  <Row  className="pt1 sm-pt1">
+                  {/* <Col sm={12} md={6} xl={6} xxl={6}>
                   <h3 className="header-3">A refined brand to cut through</h3>
-                  </Col>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={8}>
+                  </Col> */}
+                  <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
                   <div className="project-info">
                   <p className="body black delay-1">
                     We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
@@ -280,7 +276,7 @@ const Astrid = () => (
                       marginBottom: '1rem',
                   }}>
                     
-                      <p className="body">
+                    <div class="primary-button">
                       <AniLink
                           to="/work"
                           exit={{ length: 0.5 }}
@@ -288,22 +284,22 @@ const Astrid = () => (
                         >   
                         Back to Our Work
                         </AniLink>
-                      </p>  
+                      </div>
                   
               </Col>
               <Col sm={6} className="delay-1" style={{
                       marginBottom: '1rem',
                   }}>
                           
-                    <p className="body">
+                          <div class="primary-button">
                     <AniLink
                           to="/masterme"
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         >  
-                    Next Project
+                    Next Case Study
                     </AniLink>
-                    </p>
+                    </div>
                 
               </Col>
             </Row>

@@ -33,14 +33,14 @@ const RDP = () => (
                   position: 'relative',
               }} 
               className="">
-                <Col sm={12} className="delay-3 mt pb1" style={{
+                <Col sm={12}  className="delay-3 mt pb1" style={{
                     position: 'relative',
                 }}>
           
                   <div className="work-page-image-wrapper" 
-                        data-sal-duration="500"
+                        data-sal-duration="100"
                           data-sal="fade"
-                          data-sal-delay="400"
+                          data-sal-delay="100"
                           data-sal-easing="ease-in" >
                           <BGIMG4 className="border-50-no-hover"></BGIMG4>
                   </div>
@@ -65,8 +65,8 @@ const RDP = () => (
                 </Col> 
                 </Row> */}
 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
+                <Col sm={12}  md={12} xxl={6} className="pb1 delay-1"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -75,8 +75,8 @@ const RDP = () => (
                       src="../images/rdp_02.png"
                       />
                 </Col> 
-                <Col sm={12}  md={12} className="pb1 delay-1"
-                data-sal-duration="500"
+                <Col sm={12}  md={12 }xxl={6}  className="pb1 delay-1"
+                data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
@@ -92,7 +92,7 @@ const RDP = () => (
                       marginBottom: '1rem',
                   }}>
                     
-                      <p className="body">
+                    <div class="primary-button">
                       <AniLink
                           to="/work"
                           exit={{ length: 0.5 }}
@@ -100,7 +100,7 @@ const RDP = () => (
                         >   
                         Back to Our Work
                         </AniLink>
-                      </p>  
+                      </div>  
                   
               </Col>
              

@@ -19,180 +19,141 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system'
 import { Parallax } from "react-scroll-parallax";
 
-setConfiguration({ gutterWidth:'20', });
+setConfiguration({ gutterWidth:'30', });
 
 const Work = () => (
+  
   <Layout>
     <Seo Title="Work" />
     <Container fluid style={{
             position: 'relative', marginTop: '10em',
-          }} className="section-2 work">
+          }} className="section-2">
         <Row justify="start" style={{
             position: 'relative'
           }}>
-          <Col sm={12} lg={6} xl={4} className="pb4"
+          <Col sm={6} lg={3} xl={3} className="pb4 delay-1"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
           >
-        
-
               <AniLink
                 to="/astrid"
-                exit={{ length: 0.5 }}
-                entry={{ delay: 0.5 }}
+                exit={{ length: 0 }}
+                entry={{ delay: 0 }}
               >
-                <div style={{}} className="work-page-image-wrapper delay-2">
-                    <BGIMG10 className="border-50"></BGIMG10>
-                </div>
-              </AniLink>
-
-            <div className="project-wrapper">
-                      <div className="title-wrapper">
-                      <div className="small-header black delay-2"     
-                          >Astrid</div>
-                         <p className="body black delay-2">
-                         Strategy, branding and website for a plant based medicines dispensary.
-                          </p>
-                      </div>
-                </div>
-                </Col>
-
-  
- 
-          <Col sm={12} lg={6} xl={4}  className="delay-1 pb4"
-
-              >
-
-                       
-                        <AniLink
-                              to="/masterme"
-                                exit={{ length: 0.5 }}
-                                entry={{ delay: 0.5 }}
-                              >
-                      <div style={{}} className="work-page-image-wrapper delay-2"     
-
-                        >
-            
-                        <BGIMG className="border-50"></BGIMG>
-                
-                        </div>
-           
-                   </AniLink>  
-            
-            <div className="project-wrapper">
-                      <div className="title-wrapper">
-                      <div className="small-header black delay-2"     
-                          >Master Me</div>
-                         <p className="body black delay-2">
-                             Branding and website for a coaching course for creative professionals.
-                          </p>
-                      </div>
-                </div>
-        </Col>
-        <Col sm={12} lg={5} xl={4}  className="delay-2 pb4"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="300"
-                data-sal-easing="ease-in"
-              >
-
-            <AniLink
-                    to="/lululemon"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-           <div style={{}} className="work-page-image-wrapper delay-2"
-                        data-sal-duration="500"
-                        data-sal="fade"
-                        data-sal-delay="400"
-                        data-sal-easing="ease-in"
-           >
-
-            <BGIMG13 className="border-50"></BGIMG13>
-            </div>
-            </AniLink>       
-            <div className="project-wrapper">
-                    <div className="title-wrapper">
-                    <div className="small-header delay-2">Lululemon</div>
-                        <p className="body black delay-2">
-                         Design of an education platform for Lululemon's community.
-                      </p>
-                    </div>
-              </div>
-          </Col>
-          <Col sm={12} lg={4} xl={4}  className="delay-2 pb4"
-                data-sal-duration="500"
-                data-sal="fade"
-                data-sal-delay="300"
-                data-sal-easing="ease-in"
-              >
-
-            <AniLink
-                    to="/noga"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-           <div style={{}} className="work-page-image-wrapper delay-2"
-                        data-sal-duration="500"
-                        data-sal="fade"
-                        data-sal-delay="400"
-                        data-sal-easing="ease-in"
-           >
-
-            <BGIMG11 className="border-50"></BGIMG11>
-            </div>
-            </AniLink>       
-            <div className="project-wrapper">
-                    <div className="title-wrapper">
-                    <div className="small-header delay-1">Noga</div>
-                        <p className="body black delay-1">
-                      Branding and website for maximimum enlightenment.
-                      </p>
-                    </div>
-              </div>
-          </Col>
-          <Col sm={12} md={3} lg={4} xl={4}   className="delay-2 pb4">             
-            <AniLink
-                      to="/drivechange"
-                      exit={{ length: 0.5 }}
-                      entry={{ delay: 0.5 }}
-                    >
-              <div style={{}}
-                      className="work-page-image-wrapper delay-2"
-
-              >
-                <BGIMG7 className="border-50"></BGIMG7>
-                {/* <div className="work-button"><AniLink
-                            cover  to="/drive-change" bg="#1E1E1E"
-                            direction="left"
-                            duration={1.5}
-                          ><span className="link-text">View case study</span></AniLink>
-                      </div> */}
+              <div style={{borderRadius: '0px'}} className="work-page-image-wrapper">
+                <div className="case-study-tag">Case Study</div>
+                  <BGIMG10 className="border-50"></BGIMG10>
               </div>
             </AniLink>
             <div className="project-wrapper">
+                  <div className="title-wrapper">
+                      <div className="small-header black"     
+                          >Astrid - Strategy, branding and website for a plant based medicines dispensary.
+                      </div>
+                  </div>
+              </div>
+         </Col>
+          <Col sm={6} lg={3} xl={3}  className="delay-1 pb4"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
+          >
+            <AniLink
+                to="/masterme"
+                  exit={{ length: 0 }}
+                  entry={{ delay: 0 }}
+              >
+              <div style={{borderRadius: '0px'}} className="work-page-image-wrapper">
+              <div className="case-study-tag">Case Study</div>
+                  <BGIMG className="border-50"></BGIMG>
+              </div>
+            </AniLink>  
+            <div className="project-wrapper">
               <div className="title-wrapper">
-              <div className="small-header">Drive Change</div>  
-                  <p className="body black delay-2">
-                    Branding and website for a national campaign to change outdated laws.</p>
-                  <Arrow className="arrow"></Arrow>
+                  <div className="small-header"     
+                      >Master Me - Branding and website for a coaching and personal development course.
+                    </div>
+                </div>
+            </div>
+        </Col>
+        <Col sm={6} lg={3} xl={3}  className="delay-1 pb4"
+                data-sal-duration="100"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in"
+              >
+
+           <div style={{borderRadius: '0px'}} className="work-page-image-wrapper"
+                      
+           >  
+            <BGIMG13></BGIMG13>
+            </div>
+        
+            <div className="project-wrapper">
+                    <div className="title-wrapper">
+                    <div className="small-header">Lululemon -
+                  
+                         Design of an education platform for Lululemon's community.
+                   
+                      </div>
+                    </div>
+              </div>
+          </Col>
+          <Col sm={6} lg={3} xl={3}  className="delay-1 pb4"
+                data-sal-duration="100"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in"
+              >
+           <div style={{}} className="work-page-image-wrapper"
+                       
+           >
+            <BGIMG11></BGIMG11>
+            </div>
+         
+            <div className="project-wrapper">
+                    <div className="title-wrapper">
+                    <div className="small-header">Noga - 
+                      Website design and build.<br></br>A new yoga experience built on rave culture. 
+              </div>
+                    </div>
+              </div>
+          </Col>
+          <Col sm={6} md={3} lg={3} xl={3}   className="delay-1 pb4">             
+              <div style={{}}
+                      className="work-page-image-wrapper"
+
+              >
+                <BGIMG7 ></BGIMG7>
+              </div>
+       
+            <div className="project-wrapper">
+              <div className="title-wrapper">
+              <div className="small-header">Drive Change - Branding and website for a national campaign to change outdated laws.
+                    </div>  
               </div>
           </div>
-
         </Col>  
-        <Col sm={12} md={3} lg={4} xl={4}  className="pb4">
+        <Col sm={6} md={3} lg={3} xl={3}  className="pb4 delay-1"
+          data-sal-duration="100"
+          data-sal="fade"
+          data-sal-delay="100"
+          data-sal-easing="ease-in"
+        >
 
               <AniLink
                   to="/greatforesttrailmarathon"
-                  exit={{ length: 0.5 }}
-                  entry={{ delay: 0.5 }}
+                  exit={{ length: 0 }}
+                  entry={{ delay: 0 }}
                   >
 
            
-           <div style={{}} className="work-page-image-wrapper delay-2"
-                           data-sal-duration="500"
-                           data-sal="fade"
-                           data-sal-delay="400"
-                           data-sal-easing="ease-in"
-                       >
+           <div style={{}} className="work-page-image-wrapper"
+                         
+                       >    <div className="case-study-tag">Case Study</div>
             <GFTMHERO className="border-50"></GFTMHERO>
  
             </div>
@@ -203,110 +164,87 @@ const Work = () => (
                       <div className="title-wrapper"
          
                       >
-                          <div className="small-header delay-2" >Great Forest Trail Marathon</div>
-                         <p className="body black delay-1">
-                        Branding for a trail running event that's saving a wild place. 
-                        </p>
-                        <Arrow className="arrow"></Arrow>
+                          <div className="small-header" >Great Forest Trail Marathon - Branding for a trail running event that's saving a wild place. 
+               
+                      </div>
                       </div>
                 </div>
           </Col>
-        <Col sm={12}  md={3} lg={4} xl={4}   className="delay-2 pb4">
-             <AniLink
-                  to="/obie"
-                  exit={{ length: 0.5 }}
-                  entry={{ delay: 0.5 }}
-                  >
-           <div style={{}} className="work-page-image-wrapper delay-2"
-                           data-sal-duration="500"
-                           data-sal="fade"
-                           data-sal-delay="400"
-                           data-sal-easing="ease-in"
+        <Col sm={6}  md={3} lg={3} xl={3}   className="delay-1 pb4"
+         data-sal-duration="100"
+         data-sal="fade"
+         data-sal-delay="100"
+         data-sal-easing="ease-in"
+        >
+           <div style={{}} className="work-page-image-wrapper"
+                          
            >
-
-            <BGIMG6 className="border-50"></BGIMG6>
- 
-            </div>
-           
-            </AniLink>
-                        
+            <BGIMG6></BGIMG6>
+            </div>        
             <div className="project-wrapper">
                       <div className="title-wrapper">
-                      <div className="body black delay-2" >Obie</div>
-                         <p className="body black delay-2">
-                         Branding for a financial tool that simplifies your finances.
-                        </p>
-                        <Arrow className="arrow"></Arrow>
+                      <div className="small-header" >Obie - Branding for a financial tool that simplifies your finances.
+           
+                    </div>
                       </div>
                 </div>
        
 
       </Col>
    
-          <Col sm={12}  md={3} lg={4} xl={4}  className="delay-2 pb4"
-                data-sal-duration="500"
+          <Col sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+                data-sal-duration="100"
                 data-sal="fade"
-                data-sal-delay="300"
+                data-sal-delay="100"
                 data-sal-easing="ease-in"
               >
-                <AniLink
-                        to="/musk"
-                        exit={{ length: 0.5 }}
-                        entry={{ delay: 0.5 }}
-                      >
+              
       
-              <div style={{}} className="work-page-image-wrapper delay-2"
-                             data-sal-duration="500"
+              <div style={{}} className="work-page-image-wrapper"
+                             data-sal-duration="100"
                              data-sal="fade"
-                             data-sal-delay="400"
+                             data-sal-delay="100"
                              data-sal-easing="ease-in"
              >
 
-                <BGIMG2 className="border-50"></BGIMG2>
+                <BGIMG2 ></BGIMG2>
                 </div>
-                </AniLink>
+
                             
                 <div className="project-wrapper">
                           <div className="title-wrapper">
-                          <div className="small-header delay-2">Musk</div>
-                            <p className="body black delay-2">
+                          <div className="small-header">Musk - 
+                  
                              Branding for an artist residency and boutique hotel in Dayelsford, Victoria. 
-                            </p>
+                        </div>
                           </div>
                     </div>
 
           </Col>
-          <Col sm={12}  md={3} lg={4} xl={4}   className="delay-2"
-                data-sal-duration="500"
+          {/* <Col sm={6}  md={3} lg={3} xl={3}   className="delay-1"
+                data-sal-duration="100"
                 data-sal="fade"
-                data-sal-delay="300"
+                data-sal-delay="100"
                 data-sal-easing="ease-in"
               >
 
-            <AniLink
-                    to="/rdp"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >
-           <div style={{}} className="work-page-image-wrapper delay-2"
-                        data-sal-duration="500"
-                        data-sal="fade"
-                        data-sal-delay="400"
-                        data-sal-easing="ease-in"
+         
+           <div style={{}} className="work-page-image-wrapper"
+
            >
 
-            <BGIMG4 className="border-50"></BGIMG4>
+            <BGIMG4></BGIMG4>
             </div>
-            </AniLink>       
+    
             <div className="project-wrapper">
                     <div className="title-wrapper">
-                    <div className="small-header delay-2">RDP</div>
-                        <p className="body black delay-2">
+                    <div className="small-header">RDP - 
+                     
                       Branding for a design and construction agency in Melbourne.
-                      </p>
+                    </div>
                     </div>
               </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
   </Layout>
