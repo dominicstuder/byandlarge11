@@ -4,20 +4,16 @@ import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system'
-import Arrow from "../assets/arrow.svg"
 import BGIMG from "../components/backgroundimage1"
 import BGIMG6 from "../components/backgroundimage6"
 import BGIMG7 from "../components/backgroundimage7"
-// import BGIMG8 from "../components/backgroundimage8"
 import BGIMG2 from "../components/backgroundimage2"
-import BGIMG4 from "../components/backgroundimage4"
 import BGIMG10 from "../components/backgroundimage10"
 import BGIMG11 from "../components/backgroundimage11"
 import BGIMG13 from "../components/backgroundimage13"
 import GFTMHERO from "../components/gftmhero-img"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system'
-import { Parallax } from "react-scroll-parallax";
+import TransitionLink from "gatsby-plugin-transition-link"
 
 setConfiguration({ gutterWidth:'30', });
 
@@ -37,7 +33,7 @@ const Work = () => (
              data-sal-delay="100"
              data-sal-easing="ease-in"
           >
-              <AniLink
+              <TransitionLink
                 to="/astrid"
                 exit={{ length: 0 }}
                 entry={{ delay: 0 }}
@@ -46,7 +42,7 @@ const Work = () => (
                 <div className="case-study-tag">Case Study</div>
                   <BGIMG10 className="border-50"></BGIMG10>
               </div>
-            </AniLink>
+            </TransitionLink>
             <div className="project-wrapper">
                   <div className="title-wrapper">
                       <div className="small-header black"     
@@ -61,7 +57,7 @@ const Work = () => (
              data-sal-delay="100"
              data-sal-easing="ease-in"
           >
-            <AniLink
+            <TransitionLink
                 to="/masterme"
                   exit={{ length: 0 }}
                   entry={{ delay: 0 }}
@@ -70,7 +66,7 @@ const Work = () => (
               <div className="case-study-tag">Case Study</div>
                   <BGIMG className="border-50"></BGIMG>
               </div>
-            </AniLink>  
+            </TransitionLink>  
             <div className="project-wrapper">
               <div className="title-wrapper">
                   <div className="small-header"     
@@ -144,7 +140,7 @@ const Work = () => (
           data-sal-easing="ease-in"
         >
 
-              <AniLink
+              <TransitionLink
                   to="/greatforesttrailmarathon"
                   exit={{ length: 0 }}
                   entry={{ delay: 0 }}
@@ -158,7 +154,7 @@ const Work = () => (
  
             </div>
            
-            </AniLink>
+            </TransitionLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper"

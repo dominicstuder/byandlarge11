@@ -18,10 +18,11 @@ const Astrid = () => (
             <SEO title="Astrid" />
             <Container fluid className="project">
             <Row className="pt10">
-       
-     
-                  <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-1">Astrid Dispensary</h2>
+            <Col xs={12} sm={6}>
+                    <h1 className="header-2 black delay-1">Astrid</h1>
+                  </Col>
+                  <Col xs={12} sm={6}>
+                    <p className="body black delay-1">Strategy, branding and website for a plant based medicines dispensary.</p>
                   </Col>
 
                   </Row>

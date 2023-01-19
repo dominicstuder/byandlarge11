@@ -22,8 +22,11 @@ const GreatForest = () => (
                   position: 'relative',
               }} 
               className="pt10">
-                 <Col xs={12} sm={12}  md={5}>
-                    <h2 className="small-header black delay-1">Great Forest Trail Marathon</h2>
+                  <Col xs={12} sm={6}>
+                    <h1 className="header-2 black delay-1">Great Forest Trail Marathon</h1>
+                  </Col>
+                  <Col xs={12} sm={6}>
+                    <p className="body black delay-1">Branding for a trail running event that's saving a wild place.</p>
                   </Col>
                 <Col sm={12} className="delay-1 pb1" style={{
                     position: 'relative',

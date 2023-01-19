@@ -7,6 +7,7 @@ import { Container, Row, Col } from 'react-grid-system';
 import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import TransitionLink from "gatsby-plugin-transition-link"
 // import clip from '../assets/newfeature.mp4'; 
 import test from '../assets/comp1_2.mp4'; 
 import { setConfiguration } from 'react-grid-system';
@@ -116,16 +117,13 @@ const IndexPage = () => {
                data-sal-delay="100"
                data-sal-easing="ease-in"
         >
-           <AniLink
-              to="/greatforesttrailmarathon"
-              exit={{ length: 0 }}
-              entry={{ delay: 0 }}
-              >
+
+                     <TransitionLink to="/greatforesttrailmarathon">
            <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
              <div className="case-study-tag">Case Study</div>
             <GFTMHERO className="border-50"></GFTMHERO>
             </div>
-            </AniLink>
+            </TransitionLink>
                 <div className="project-wrapper">
                     <div className="title-wrapper" >
                         <div className="small-header" >Great Forest Trail Marathon - Branding for a trail running event that's saving a wild place. 
@@ -141,11 +139,7 @@ const IndexPage = () => {
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
      
-              <AniLink
-                  to="/astrid"
-                  exit={{ length: 0 }}
-                  entry={{ delay: 0 }}
-                  >
+     <TransitionLink to="/astrid">
 
            
            <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
@@ -155,7 +149,7 @@ const IndexPage = () => {
  
             </div>
            
-            </AniLink>
+            </TransitionLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper"
@@ -168,11 +162,11 @@ const IndexPage = () => {
         </div>
         </Col>
 <Col md={12} lg={12} xl={12} xxl={12} className="pb4">
-                <div class="primary-button"><AniLink
-              to="/work"
-              exit={{ length: 0 }}
-              entry={{ delay: 0 }}
-            >View all our work</AniLink></div>
+                <div class="primary-button">
+                <TransitionLink to="/work">
+                    View all Work
+                </TransitionLink >
+                </div>
               </Col> 
 
           {/* <Col md={12} lg={12} xl={12} xxl={12} >

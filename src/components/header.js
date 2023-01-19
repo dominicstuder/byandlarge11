@@ -3,11 +3,8 @@ import PropTypes from "prop-types"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-grid-system';
-import ArrowWhite from "../assets/arrow-small-white.svg";
-import Clock from "../components/clock.js";
-import Date from "../components/date.js";
 import Thirdclock from "../components/thirdclock.js";
-
+import TransitionLink from "gatsby-plugin-transition-link"
 
 
 const Header = ({ siteTitle }) => {
@@ -24,27 +21,23 @@ const Header = ({ siteTitle }) => {
       <Row>
       <Col xs={6} sm={6} md={6} lg={6} >
             <div className="logo">
-              <AniLink
+              <TransitionLink
                   to="/" 
-                  exit={{ length: 0 }}
-                  entry={{ delay: 0 }}
                 >Studio By and Large 
-              </AniLink>
+              </TransitionLink>
             </div>
         </Col>
         <Col xs={6} sm={6} md={6} lg={6}>
             <nav className="menu two">
-            <div className="item-two"><AniLink
+            <div className="item-two"><TransitionLink
                     to="/work" 
-                    exit={{ length: 0 }}
-                    entry={{ delay: 0 }}
-                  ><span>Work</span></AniLink></div>
                   
-                  <div className="item-two"><AniLink
+                  ><span>Work</span></TransitionLink></div>
+                  
+                  <div className="item-two"><TransitionLink
                     to="/contact" 
-                    exit={{ length: 0 }}
-                    entry={{ delay: 0 }}
-                  ><span>Contact</span></AniLink></div>
+                  
+                  ><span>Contact</span></TransitionLink></div>
           
             <div className="clock-wrapper">
                 <div className="item-two">
