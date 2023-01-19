@@ -931,9 +931,7 @@ footer .delay-1{
 
 header{
   width: 100%;
-  z-index: 1;
-  /* background: #71685f; */
-  /* background: #fdf6ef; */
+  z-index: 20;
 }
 
 .mono-heading-small{
@@ -2901,7 +2899,7 @@ body.preloader_ready #preloader {
     font-size: 1.5rem;
   }
   .work-page-image-wrapper {
-    height: 50vh;
+    height: 58vw;
   }
 }
 
@@ -2910,6 +2908,6 @@ body.preloader_ready #preloader {
     height: 100vw;
   }
   .work-page-image-wrapper {
-    height: 40vh;
+    height: 108vw;
   }
 }

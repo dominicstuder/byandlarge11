@@ -31,7 +31,7 @@ const Work = () => (
         <Row justify="start" style={{
             position: 'relative'
           }}>
-          <Col xs={6} sm={6}  md={3} lg={3} xl={3}  className="pb4 delay-1"
+          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb4 delay-1"
              data-sal-duration="100"
              data-sal="fade"
              data-sal-delay="100"
@@ -42,7 +42,7 @@ const Work = () => (
                 exit={{ length: 0 }}
                 entry={{ delay: 0 }}
               >
-              <div style={{borderRadius: '0px'}} className="work-page-image-wrapper">
+              <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
                 <div className="case-study-tag">Case Study</div>
                   <BGIMG10 className="border-50"></BGIMG10>
               </div>
@@ -55,7 +55,7 @@ const Work = () => (
                   </div>
               </div>
          </Col>
-          <Col  xs={6} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+          <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
              data-sal-duration="100"
              data-sal="fade"
              data-sal-delay="100"
@@ -66,7 +66,7 @@ const Work = () => (
                   exit={{ length: 0 }}
                   entry={{ delay: 0 }}
               >
-              <div style={{borderRadius: '0px'}} className="work-page-image-wrapper">
+              <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
               <div className="case-study-tag">Case Study</div>
                   <BGIMG className="border-50"></BGIMG>
               </div>
@@ -79,14 +79,14 @@ const Work = () => (
                 </div>
             </div>
         </Col>
-        <Col  xs={6} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+        <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
                 data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in"
               >
 
-           <div style={{borderRadius: '0px'}} className="work-page-image-wrapper"
+           <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
                       
            >  
             <BGIMG13></BGIMG13>
@@ -102,13 +102,13 @@ const Work = () => (
                     </div>
               </div>
           </Col>
-          <Col xs={6} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
                 data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in"
               >
-           <div style={{}} className="work-page-image-wrapper"
+           <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
                        
            >
             <BGIMG11></BGIMG11>
@@ -123,7 +123,7 @@ const Work = () => (
               </div>
           </Col>
           <Col sm={6} md={3} lg={3} xl={3}   className="delay-1 pb4">             
-              <div style={{}}
+              <div style={{borderRadius: '5px'}}
                       className="work-page-image-wrapper"
 
               >
@@ -137,7 +137,7 @@ const Work = () => (
               </div>
           </div>
         </Col>  
-        <Col xs={6} sm={6}  md={3} lg={3} xl={3}  className="pb4 delay-1"
+        <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb4 delay-1"
           data-sal-duration="100"
           data-sal="fade"
           data-sal-delay="100"
@@ -151,7 +151,7 @@ const Work = () => (
                   >
 
            
-           <div style={{}} className="work-page-image-wrapper"
+           <div style={{borderRadius: '5px'}}className="work-page-image-wrapper"
                          
                        >    <div className="case-study-tag">Case Study</div>
             <GFTMHERO className="border-50"></GFTMHERO>
@@ -170,13 +170,13 @@ const Work = () => (
                       </div>
                 </div>
           </Col>
-        <Col xs={6} sm={6}  md={3} lg={3} xl={3}   className="delay-1 pb4"
+        <Col xs={12} sm={6}  md={3} lg={3} xl={3}   className="delay-1 pb4"
          data-sal-duration="100"
          data-sal="fade"
          data-sal-delay="100"
          data-sal-easing="ease-in"
         >
-           <div style={{}} className="work-page-image-wrapper"
+           <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
                           
            >
             <BGIMG6></BGIMG6>
@@ -192,7 +192,7 @@ const Work = () => (
 
       </Col>
    
-          <Col  xs={6} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+          <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
                 data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
@@ -200,7 +200,7 @@ const Work = () => (
               >
               
       
-              <div style={{}} className="work-page-image-wrapper"
+              <div style={{borderRadius: '5px'}}className="work-page-image-wrapper"
                              data-sal-duration="100"
                              data-sal="fade"
                              data-sal-delay="100"

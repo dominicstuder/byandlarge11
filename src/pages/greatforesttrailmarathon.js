@@ -37,29 +37,7 @@ const GreatForest = () => (
                   </div>
                   </Col>
                 </Row>
-                  <Row className="pt1">
-
-                  {/* <Col xs={12} sm={12} md={6}>
-             
-                    <p className="project-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  </Col> */}
-               
-                  {/* <Col sm={12} md={6} xl={6} xxl={6}>
-                  <h3 className="header-3">Creating harmony between the dispensary space and visual identity</h3>
-                  </Col>
-                  <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={8}>
-                  <div className="project-info">
-                  <p className="body black delay-1">
-                    We worked with Astrid to define and build a brand that communicates Astrid’s values and stands apart in the quickly growing medicinal cannabis industry. 
-                    We used a refined brand mark and functional secondary elements to achieve a balance between creativity and function across the brand.
-                    </p>
-                    <p className="body black text-indent delay-1 mb3 sm-mb0">
-                    From there, we designed and built the Astrid website along with creating a suite of print and digital collateral.
-                    </p>
-                  </div>
-                </Col>  */}
-</Row>
-<Row className="pt1">
+                <Row className="pt1">
                 <Col sm={12} xxl={6} className="pb1 delay-1"
                    data-sal="fade"
                    data-sal-delay="500"
@@ -139,7 +117,7 @@ const GreatForest = () => (
                       src="../images/gftm_06.webp"
                       />
                 </Col> 
-                <Col sm={12} md={12} xxl={6} className="pb1 delay-1"
+                <Col sm={12} md={12} xxl={12} className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="100"

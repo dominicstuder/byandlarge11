@@ -82,8 +82,8 @@ const IndexPage = () => {
                        
                         <AniLink
                               to="/masterme"
-                                exit={{ length: 0.5 }}
-                                entry={{ delay: 0.5 }}
+                                exit={{ length: 0 }}
+                                entry={{ delay: 0 }}
                               >
                       <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"     
                                     // data-sal-duration="500"
@@ -110,46 +110,31 @@ const IndexPage = () => {
        
         </Col>
   
-        <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb1 sm-pb0">
-       
-
-       <div                 
-       
-                data-sal-duration="100"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-     
-              <AniLink
-                  to="/greatforesttrailmarathon"
-                  exit={{ length: 0.5 }}
-                  entry={{ delay: 0.5 }}
-                  >
-
-           
-           <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
-                       >             <div className="case-study-tag">Case Study</div>
+        <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb1 sm-pb0"
+               data-sal-duration="100"
+               data-sal="fade"
+               data-sal-delay="100"
+               data-sal-easing="ease-in"
+        >
+           <AniLink
+              to="/greatforesttrailmarathon"
+              exit={{ length: 0 }}
+              entry={{ delay: 0 }}
+              >
+           <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
+             <div className="case-study-tag">Case Study</div>
             <GFTMHERO className="border-50"></GFTMHERO>
- 
             </div>
-           
             </AniLink>
-                        
-            <div className="project-wrapper">
-                      <div className="title-wrapper"
-         
-                      >
-                          <div className="small-header" >Great Forest Trail Marathon - Branding for a trail running event that's saving a wild place. 
-                      </div>
-                      </div>
+                <div className="project-wrapper">
+                    <div className="title-wrapper" >
+                        <div className="small-header" >Great Forest Trail Marathon - Branding for a trail running event that's saving a wild place. 
+                        </div>
+                    </div>
                 </div>
-        </div>
- 
           </Col>
           <Col xs={12} sm={4} md={4} lg={4} xl={4} className="delay-1 pb1 sm-pb0">
-       
-
-       <div                 
+            <div                 
        
                 data-sal-duration="100"
                 data-sal="fade"
@@ -158,8 +143,8 @@ const IndexPage = () => {
      
               <AniLink
                   to="/astrid"
-                  exit={{ length: 0.5 }}
-                  entry={{ delay: 0.5 }}
+                  exit={{ length: 0 }}
+                  entry={{ delay: 0 }}
                   >
 
            
@@ -185,8 +170,8 @@ const IndexPage = () => {
 <Col md={12} lg={12} xl={12} xxl={12} className="pb4">
                 <div class="primary-button"><AniLink
               to="/work"
-              exit={{ length: 0.2 }}
-              entry={{ delay: 0.2 }}
+              exit={{ length: 0 }}
+              entry={{ delay: 0 }}
             >View all our work</AniLink></div>
               </Col> 
 
