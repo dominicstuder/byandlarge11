@@ -13,14 +13,15 @@ import BGIMG11 from "../components/backgroundimage11"
 import BGIMG13 from "../components/backgroundimage13"
 import GFTMHERO from "../components/gftmhero-img"
 import { setConfiguration } from 'react-grid-system'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import TransitionLink from "gatsby-plugin-transition-link"
+import Footer from "../components/footer"
 
-setConfiguration({ gutterWidth:'30', });
+setConfiguration({ gutterWidth:'20', });
 
 const Work = () => (
   
-  <Layout>
-    <Seo Title="Work" />
+   
     <Container fluid style={{
             position: 'relative', marginTop: '10em',
           }} className="section-2">
@@ -33,7 +34,7 @@ const Work = () => (
              data-sal-delay="100"
              data-sal-easing="ease-in"
           >
-              <TransitionLink
+              <AniLink
                 to="/astrid"
                 exit={{
                   length: .1
@@ -43,10 +44,10 @@ const Work = () => (
                 }}
               >
               <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
-                <div className="case-study-tag">Case Study</div>
+                <div className="case-study-tag">View Project</div>
                   <BGIMG10 className="border-50"></BGIMG10>
               </div>
-            </TransitionLink>
+            </AniLink>
             <div className="project-wrapper">
                   <div className="title-wrapper">
                       <div className="small-header black"     
@@ -61,16 +62,16 @@ const Work = () => (
              data-sal-delay="100"
              data-sal-easing="ease-in"
           >
-            <TransitionLink
+            <AniLink
                 to="/masterme"
                   exit={{ length: .1 }}
                   entry={{ delay: .1 }}
               >
               <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
-              <div className="case-study-tag">Case Study</div>
+              <div className="case-study-tag">View Project</div>
                   <BGIMG className="border-50"></BGIMG>
               </div>
-            </TransitionLink>  
+            </AniLink>  
             <div className="project-wrapper">
               <div className="title-wrapper">
                   <div className="small-header"     
@@ -144,7 +145,7 @@ const Work = () => (
           data-sal-easing="ease-in"
         >
 
-              <TransitionLink
+              <AniLink
                   to="/greatforesttrailmarathon"
                   exit={{ length: .1 }}
                   entry={{ delay: .1 }}
@@ -153,12 +154,12 @@ const Work = () => (
            
            <div style={{borderRadius: '5px'}}className="work-page-image-wrapper"
                          
-                       >    <div className="case-study-tag">Case Study</div>
+                       >    <div className="case-study-tag">View Project</div>
             <GFTMHERO className="border-50"></GFTMHERO>
  
             </div>
            
-            </TransitionLink>
+            </AniLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper"
@@ -246,8 +247,9 @@ const Work = () => (
               </div>
           </Col> */}
         </Row>
+        <Footer/>
       </Container>
-  </Layout>
+
 )
 
 export default Work

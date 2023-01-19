@@ -8,13 +8,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system';
 import GFTMHERO from "../components/gftmhero-img"
+import Footer from "../components/footer"
 
-setConfiguration({ gutterWidth:'30'});
+setConfiguration({ gutterWidth:'20'});
 
 
 const GreatForest = () => (
 
-    <Layout>
+    <>
             <SEO title="GFTM" />
             <Container fluid className="project">
                  
@@ -173,7 +174,8 @@ const GreatForest = () => (
               
             </Row>
         </Container>
-    </Layout>
+        <Footer/>
+    </>
 
 )
 

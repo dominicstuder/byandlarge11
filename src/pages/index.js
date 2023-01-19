@@ -2,43 +2,20 @@ import React, { useState, useEffect} from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col } from 'react-grid-system';
-import TransitionLink from "gatsby-plugin-transition-link"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system';
 import BGIMG from "../components/backgroundimage1"
 import GFTMHERO from "../components/gftmhero-img"
 import BGIMG10 from "../components/backgroundimage10"
+import Footer from "../components/footer"
+
 setConfiguration({ gutterWidth:'20'});
 
 
-const IndexPage = () => {
-  return (
-    <Layout style={{
-      backgroundColor: '#F2E4CC',
-    }}>
-      <SEO title="Home" />
+const IndexPage = ({ data, path }) => {
+    return (
+      <>
       <Container fluid className="video-container pt5 sm-pt5">
-
-      {/* <Row justify="start" style={{
-                
-                }} className="video-section">
-                  <Col md={12} lg={12} xl={6} xxl={6}  style={{
-                    position: 'relative',
-              
-                  }}>
-                  <div className="video-wrapper delay-2" style={{borderRadius: '5px'}}>
-                           <AniLink
-                    to="/work"
-                    exit={{ length: 0.5 }}
-                    entry={{ delay: 0.5 }}
-                  >     
-                    <video autoPlay loop muted className="background-video">
-                            <source src={test} type='video/mp4'/>
-                    </video>
-                    </AniLink>
-                  </div>
-      
-                 </Col>
-                </Row>     */}
       <Row justify="start" style={{
          
         }} className="home-page-intro mt5 sm-mt2">
@@ -75,13 +52,13 @@ const IndexPage = () => {
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                        
-                        <TransitionLink
+                        <AniLink
                               to="/masterme"
                               exit={{
-                                length: .1
+                                length: .5
                               }}
                               entry={{
-                                delay: .1
+                                delay: .5
                               }}
                               >
                       <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"     
@@ -90,12 +67,12 @@ const IndexPage = () => {
                                     //  data-sal-delay="400"
                                     //  data-sal-easing="ease-in">
                                       >
-                         <div className="case-study-tag">Case Study</div>
+                         <div className="case-study-tag">View Project</div>
                         <BGIMG className="border-50"></BGIMG>
                 
                         </div>
            
-                   </TransitionLink>  
+                   </AniLink>  
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
@@ -116,20 +93,20 @@ const IndexPage = () => {
                data-sal-easing="ease-in"
         >
 
-                     <TransitionLink to="/greatforesttrailmarathon"
+                     <AniLink to="/greatforesttrailmarathon"
                       exit={{
-                        length: .1
+                        length: .5
                       }}
                       entry={{
-                        delay: .1
+                        delay: .5
                       }}
                      
                      >
            <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
-             <div className="case-study-tag">Case Study</div>
+             <div className="case-study-tag">View Project</div>
             <GFTMHERO className="border-50"></GFTMHERO>
             </div>
-            </TransitionLink>
+            </AniLink>
                 <div className="project-wrapper">
                     <div className="title-wrapper" >
                         <div className="small-header" >Great Forest Trail Marathon - Branding for a trail running event that's saving a wild place. 
@@ -145,24 +122,24 @@ const IndexPage = () => {
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
      
-     <TransitionLink to="/astrid"
+     <AniLink to="/astrid"
       exit={{
-        length: .1
+        length: .5
       }}
       entry={{
-        delay: .1
+        delay: .5
       }}
      >
 
            
            <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
                        >
-                                     <div className="case-study-tag">Case Study</div>
+                                     <div className="case-study-tag">View Project</div>
             <BGIMG10 className="border-50"></BGIMG10>
  
             </div>
            
-            </TransitionLink>
+            </AniLink>
                         
             <div className="project-wrapper">
                       <div className="title-wrapper"
@@ -175,23 +152,23 @@ const IndexPage = () => {
         </div>
         </Col>
 <Col md={12} lg={12} xl={12} xxl={12} className="pb4">
-                <div class="primary-button"
+                <div class="primary-button delay-1"
                 
                 data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in"
                 >
-                <TransitionLink to="/work"
+                 <AniLink to="/work"
                  exit={{
-                  length: 0
+                  length: 0.5
                 }}
                 entry={{
-                  delay: 0
+                  delay: 0.5
                 }}
                 >
                     View all Work
-                </TransitionLink >
+                </AniLink >
                 </div>
               </Col> 
 
@@ -204,8 +181,19 @@ const IndexPage = () => {
       </Col> */}
    </Row>
         </Container>
-    </Layout>
+        <Footer /> 
+        </>
   )
 }
 
+IndexPage.Layout = Layout
+
 export default IndexPage
+
+export const query = graphql`
+  {
+    site {
+      buildTime(formatString: "YYYY-MM-DD hh:mm a z")
+    }
+  }
+`

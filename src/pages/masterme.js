@@ -7,14 +7,15 @@ import { Container, Row, Col } from 'react-grid-system';
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG from "../components/backgroundimage1"
+import Footer from "../components/footer"
 
 import { setConfiguration } from 'react-grid-system';
-setConfiguration({ gutterWidth:'30'});
+setConfiguration({ gutterWidth:'20'});
 
 
 const MasterMe = () => (
 
-    <Layout>
+   <>
             <SEO title="Master Me" />
             <Container fluid className="project">
             <Row className="pt10">
@@ -196,8 +197,8 @@ const MasterMe = () => (
               </Col>
             </Row>
         </Container>
-    </Layout>
-
+        <Footer/>
+</>
 )
 
 export default MasterMe

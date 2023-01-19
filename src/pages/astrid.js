@@ -7,14 +7,15 @@ import { Container, Row, Col } from 'react-grid-system';
 import { StaticImage } from "gatsby-plugin-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BGIMG10 from "../components/backgroundimage10"
+import Footer from "../components/footer"
 
 import { setConfiguration } from 'react-grid-system';
-setConfiguration({ gutterWidth:'30'});
+setConfiguration({ gutterWidth:'20'});
 
 
 const Astrid = () => (
 
-    <Layout>
+    <>
             <SEO title="Astrid" />
             <Container fluid className="project">
             <Row className="pt10">
@@ -44,10 +45,8 @@ const Astrid = () => (
                   </Col>
                 </Row>
 
-                  <Row  className="pt1 sm-pt1">
-                  {/* <Col sm={12} md={6} xl={6} xxl={6}>
-                  <h3 className="header-3">A refined brand to cut through</h3>
-                  </Col> */}
+                  {/* <Row  className="pt1 sm-pt1">
+                
                   <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
                   <div className="project-info">
                   <p className="body black delay-1">
@@ -59,23 +58,7 @@ const Astrid = () => (
                     </p>
                   </div>
                 </Col> 
-                {/* <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={3} >
-                  <div className="project-info">
-                    <p className="body small-title">What we did</p>
-                    <p className="scope-list">
-                      <ul>
-                        <li>Strategy</li>
-                        <li>Visual Identity</li>
-                        <li>Digital Design</li>
-                        <li>Website Development</li>
-                        <li>E-commerce</li>
-                        <li>Packaging and print</li>
-                        <li>Signage</li>
-                      </ul>
-                    </p>
-                  </div>
-                </Col>  */}
-                </Row>
+                </Row> */}
                 <Row justify="stretch" style={{
                   marginTop: '3rem',
               }}>
@@ -298,15 +281,15 @@ const Astrid = () => (
                           exit={{ length: 0.5 }}
                           entry={{ delay: 0.5 }}
                         >  
-                    Next Case Study
+                    Next Project
                     </AniLink>
                     </div>
                 
               </Col>
             </Row>
         </Container>
-    </Layout>
-
+        <Footer/>
+        </>
 )
 
 export default Astrid

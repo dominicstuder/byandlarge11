@@ -8,13 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { Container, Row, Col } from 'react-grid-system';
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
-import Arrow from "../assets/arrow.svg";
-import Navbar from "./Navbar"
 // import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 
 const Layout = ({ children }) => {
@@ -32,7 +30,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> 
+    
       <div
         style={{
           margin: `0 auto`,
@@ -40,11 +38,10 @@ const Layout = ({ children }) => {
           padding: `0em`,
         }}
       >
-  
-        <main>{children}</main>
-        
+        <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> 
+            {children}
       </div>
-      <Footer /> 
+
     </>
   )
 }

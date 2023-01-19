@@ -743,23 +743,23 @@ pre tt:after {
 
 
 .tl-wrapper-status--entering  .header{
-  opacity: 0;
+  opacity: 1;
 
 }
 
 .tl-wrapper-status--entered  .header{
-  opacity: 0;
+  opacity: 1;
 
 }
 
 .tl-wrapper-status--exiting  .header{
-  opacity: 0;
+  opacity: 1;
 
 }
 
 
 .tl-wrapper--mount  .header{
-  opacity: 0;
+  opacity: 1;
 
 }
 
@@ -838,7 +838,7 @@ pre tt:after {
 
   transition: all .2s;
   transition-delay: 0s;
-  opacity: 0;
+  opacity: 1;
 }
 
 .tl-wrapper-status--entered footer .delay-1{
@@ -866,10 +866,7 @@ pre tt:after {
   transition-delay: 0s;
 }
 
-.tl-wrapper-status--exiting footer .delay-1{
-  opacity: 0;
 
-}
 
 .tl-wrapper header .delay-1{
   opacity: 1;
@@ -903,15 +900,10 @@ pre tt:after {
   opacity: 0;
 }
 
-.tl-wrapper-status--exiting footer .delay-1{
-  opacity: 0;
-  transform: translateY(0px);
-  transition: all 1s;
-  transition-delay: .5s;
-}
+
 
 footer .delay-1{
-  opacity: 0;
+  opacity: 1;
   transform: translateY(0px);
   transition: all 1s;
   transition-delay: .5s;
@@ -1466,6 +1458,7 @@ body.preloader_active .clock-wrapper{
   line-height: 1.3em;
   color:black;
   letter-spacing: -0.01em;
+  margin-bottom: 0;
 }
 
 .project-wrapper .header-2{
@@ -1857,6 +1850,8 @@ p.body{
 .header{
   padding: 2rem 0rem 1rem;
   opacity: 1;
+  top: 0;
+  opacity: 1;
   position: fixed;
   background: #ffffff33;
   -webkit-backdrop-filter: blur(10px);
@@ -2045,15 +2040,15 @@ text-align: right;
   .case-study-tag{
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 10px;
     font-family: "UntitledSans-Medium", sans-serif;
     font-weight: normal;
     color: black;
-    font-size: .6rem;
+    font-size: .8rem;
     line-height: 1.2em;
     letter-spacing: -0.01rem;
     z-index: 10;
-    background: #ffffff33;
+    background: #ffffffc4;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding: 7px 10px;

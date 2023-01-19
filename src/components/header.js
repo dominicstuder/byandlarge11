@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => {
       <Row>
       <Col xs={6} sm={6} md={6} lg={6} >
             <div className="logo">
-              <TransitionLink
+              <AniLink
                   to="/" 
                   exit={{
                     length: .1
@@ -30,12 +30,12 @@ const Header = ({ siteTitle }) => {
                     delay: .1
                   }}
                 >Studio By and Large 
-              </TransitionLink>
+              </AniLink>
             </div>
         </Col>
         <Col xs={6} sm={6} md={6} lg={6}>
             <nav className="menu two">
-            <div className="item-two"><TransitionLink
+            <div className="item-two"><AniLink
                     to="/work" 
                     exit={{
                       length: .1
@@ -43,9 +43,9 @@ const Header = ({ siteTitle }) => {
                     entry={{
                       delay: .1
                     }}
-                  ><span>Work</span></TransitionLink></div>
+                  ><span>Work</span></AniLink></div>
                   
-                  <div className="item-two"><TransitionLink
+                  <div className="item-two"><AniLink
                     to="/contact" 
                     exit={{
                       length: .1
@@ -53,7 +53,7 @@ const Header = ({ siteTitle }) => {
                     entry={{
                       delay: .1
                     }}
-                  ><span>Contact</span></TransitionLink></div>
+                  ><span>Contact</span></AniLink></div>
           
             <div className="clock-wrapper">
                 <div className="item-two">

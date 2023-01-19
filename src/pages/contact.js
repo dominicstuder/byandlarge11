@@ -8,15 +8,14 @@ import Arrow from "../assets/arrow.svg";
 import ArrowWhite from "../assets/arrow-small-white.svg";
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { setConfiguration } from 'react-grid-system';
+import Footer from "../components/footer"
 
-setConfiguration({ gutterWidth:'30'});
+setConfiguration({ gutterWidth:'20'});
 
 
 const Contact = () => {
   return (
-    <Layout style={{
-      backgroundColor: '#F2E4CC',
-    }}>
+    <>
       <SEO title="Contact" />
 
       <Container fluid className="pt10 pb10 sm-pt5 delay-1">
@@ -30,7 +29,8 @@ const Contact = () => {
             </Col>
             </Row>
         </Container>
-    </Layout>
+        <Footer/>
+    </>
   )
 }
 
