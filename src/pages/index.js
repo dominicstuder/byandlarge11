@@ -189,11 +189,3 @@ const IndexPage = ({ data, path }) => {
 IndexPage.Layout = Layout
 
 export default IndexPage
-
-export const query = graphql`
-  {
-    site {
-      buildTime(formatString: "YYYY-MM-DD hh:mm a z")
-    }
-  }
-`
