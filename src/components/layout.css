@@ -2606,6 +2606,7 @@ body.preloader_ready #preloader {
 
 } 
 @media screen and (max-width: 768px) {
+
   .clock-wrapper{
     display: none;;
   }
@@ -2899,8 +2900,16 @@ body.preloader_ready #preloader {
   .project .header-1{
     font-size: 1.5rem;
   }
+  .work-page-image-wrapper {
+    height: 50vh;
+  }
 }
 
 @media screen and (max-width: 576px) {
-
+  .home .work-page-image-wrapper{
+    height: 100vw;
+  }
+  .work-page-image-wrapper {
+    height: 40vh;
+  }
 }

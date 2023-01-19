@@ -69,7 +69,7 @@ const IndexPage = () => {
             <span className="small-header delay-1">Recent work</span>
           </Col>
  
-          <Col sm={12} lg={6} xl={4}  className="delay-1 pb4 sm-pb0  delay-1"
+          <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb4 sm-pb0  delay-1"
 
               >
 
@@ -110,7 +110,7 @@ const IndexPage = () => {
        
         </Col>
   
-        <Col sm={12} md={12} lg={6} xl={4}  offset={{sm: 0, md: 0, lg:0}} className="delay-1 pb1 sm-pb0">
+        <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb1 sm-pb0">
        
 
        <div                 
@@ -146,7 +146,7 @@ const IndexPage = () => {
         </div>
  
           </Col>
-          <Col sm={12} md={12} lg={6} xl={4}  offset={{sm: 0, md: 0, lg:0}} className="delay-1 pb1 sm-pb0">
+          <Col xs={12} sm={4} md={4} lg={4} xl={4} className="delay-1 pb1 sm-pb0">
        
 
        <div                 
