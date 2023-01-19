@@ -19,10 +19,12 @@ const MasterMe = () => (
             <Container fluid className="project">
             <Row className="pt10">
                  
-                  <Col xs={12} sm={10}>
-                    <h2 className="small-header black delay-1">Master Me</h2>
+                  <Col xs={12} sm={6}>
+                    <h1 className="header-2 black delay-1">Master Me</h1>
                   </Col>
-
+                  <Col xs={12} sm={6}>
+                    <p className="body black delay-1">Branding and website for a coaching and personal development course that helps creative professionals to find their true selves.</p>
+                  </Col>
                   </Row>
             <Row justify="start" style={{
                   position: 'relative',
