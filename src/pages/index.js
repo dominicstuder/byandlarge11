@@ -184,10 +184,10 @@ const IndexPage = () => {
                 >
                 <TransitionLink to="/work"
                  exit={{
-                  length: .1
+                  length: 0
                 }}
                 entry={{
-                  delay: .1
+                  delay: 0
                 }}
                 >
                     View all Work
