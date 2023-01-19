@@ -35,8 +35,12 @@ const Work = () => (
           >
               <TransitionLink
                 to="/astrid"
-                exit={{ length: 0 }}
-                entry={{ delay: 0 }}
+                exit={{
+                  length: .1
+                }}
+                entry={{
+                  delay: .1
+                }}
               >
               <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
                 <div className="case-study-tag">Case Study</div>
@@ -59,8 +63,8 @@ const Work = () => (
           >
             <TransitionLink
                 to="/masterme"
-                  exit={{ length: 0 }}
-                  entry={{ delay: 0 }}
+                  exit={{ length: .1 }}
+                  entry={{ delay: .1 }}
               >
               <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
               <div className="case-study-tag">Case Study</div>
@@ -142,8 +146,8 @@ const Work = () => (
 
               <TransitionLink
                   to="/greatforesttrailmarathon"
-                  exit={{ length: 0 }}
-                  entry={{ delay: 0 }}
+                  exit={{ length: .1 }}
+                  entry={{ delay: .1 }}
                   >
 
            

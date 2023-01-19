@@ -23,6 +23,12 @@ const Header = ({ siteTitle }) => {
             <div className="logo">
               <TransitionLink
                   to="/" 
+                  exit={{
+                    length: .1
+                  }}
+                  entry={{
+                    delay: .1
+                  }}
                 >Studio By and Large 
               </TransitionLink>
             </div>
@@ -31,12 +37,22 @@ const Header = ({ siteTitle }) => {
             <nav className="menu two">
             <div className="item-two"><TransitionLink
                     to="/work" 
-                  
+                    exit={{
+                      length: .1
+                    }}
+                    entry={{
+                      delay: .1
+                    }}
                   ><span>Work</span></TransitionLink></div>
                   
                   <div className="item-two"><TransitionLink
                     to="/contact" 
-                  
+                    exit={{
+                      length: .1
+                    }}
+                    entry={{
+                      delay: .1
+                    }}
                   ><span>Contact</span></TransitionLink></div>
           
             <div className="clock-wrapper">

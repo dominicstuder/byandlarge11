@@ -1,15 +1,8 @@
 import React, { useState, useEffect} from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
 import { Container, Row, Col } from 'react-grid-system';
-import Arrow from "../assets/arrow.svg";
-import ArrowWhite from "../assets/arrow-small-white.svg";
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import TransitionLink from "gatsby-plugin-transition-link"
-// import clip from '../assets/newfeature.mp4'; 
-import test from '../assets/comp1_2.mp4'; 
 import { setConfiguration } from 'react-grid-system';
 import BGIMG from "../components/backgroundimage1"
 import GFTMHERO from "../components/gftmhero-img"
@@ -24,6 +17,7 @@ const IndexPage = () => {
     }}>
       <SEO title="Home" />
       <Container fluid className="video-container pt5 sm-pt5">
+
       {/* <Row justify="start" style={{
                 
                 }} className="video-section">
@@ -49,12 +43,12 @@ const IndexPage = () => {
          
         }} className="home-page-intro mt5 sm-mt2">
           {/* <Col sm={12} lg={3} xl={3} xxl={3} className="small-header delay-1">About us</Col> */}
-           <Col sm={12} md={10} lg={6} xl={6} xxl={6} style={{
+           <Col sm={12} md={10} lg={8} xl={6} xxl={6} style={{
               position: 'relative',
       
             }}>
               <h1 
-            className="body very-large delay-1">
+            className="header-2 delay-1">
              A multidisciplinary design and digital studio, By and Large.
             </h1>
               </Col>
@@ -81,10 +75,14 @@ const IndexPage = () => {
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                        
-                        <AniLink
+                        <TransitionLink
                               to="/masterme"
-                                exit={{ length: 0 }}
-                                entry={{ delay: 0 }}
+                              exit={{
+                                length: .1
+                              }}
+                              entry={{
+                                delay: .1
+                              }}
                               >
                       <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"     
                                     // data-sal-duration="500"
@@ -97,7 +95,7 @@ const IndexPage = () => {
                 
                         </div>
            
-                   </AniLink>  
+                   </TransitionLink>  
             
             <div className="project-wrapper">
                       <div className="title-wrapper">
@@ -118,7 +116,15 @@ const IndexPage = () => {
                data-sal-easing="ease-in"
         >
 
-                     <TransitionLink to="/greatforesttrailmarathon">
+                     <TransitionLink to="/greatforesttrailmarathon"
+                      exit={{
+                        length: .1
+                      }}
+                      entry={{
+                        delay: .1
+                      }}
+                     
+                     >
            <div style={{borderRadius: '5px'}} className="work-page-image-wrapper">
              <div className="case-study-tag">Case Study</div>
             <GFTMHERO className="border-50"></GFTMHERO>
@@ -139,7 +145,14 @@ const IndexPage = () => {
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
      
-     <TransitionLink to="/astrid">
+     <TransitionLink to="/astrid"
+      exit={{
+        length: .1
+      }}
+      entry={{
+        delay: .1
+      }}
+     >
 
            
            <div style={{borderRadius: '5px'}} className="work-page-image-wrapper"
@@ -162,8 +175,21 @@ const IndexPage = () => {
         </div>
         </Col>
 <Col md={12} lg={12} xl={12} xxl={12} className="pb4">
-                <div class="primary-button">
-                <TransitionLink to="/work">
+                <div class="primary-button"
+                
+                data-sal-duration="100"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in"
+                >
+                <TransitionLink to="/work"
+                 exit={{
+                  length: .1
+                }}
+                entry={{
+                  delay: .1
+                }}
+                >
                     View all Work
                 </TransitionLink >
                 </div>
