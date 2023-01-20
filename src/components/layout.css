@@ -763,6 +763,27 @@ pre tt:after {
 
 }
 
+.tl-wrapper-status--entering  .project{
+  opacity: 1;
+
+}
+
+.tl-wrapper-status--entered  .project{
+  opacity: 1;
+
+}
+
+.tl-wrapper-status--exiting  .project{
+  opacity: 0;
+
+}
+
+
+.tl-wrapper--mount  .project{
+  opacity: 1;
+
+}
+
 .tl-wrapper-status--entering header .logo{
   opacity: 1;
   color: #000;
