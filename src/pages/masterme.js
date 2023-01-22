@@ -16,9 +16,10 @@ setConfiguration({ gutterWidth:'20'});
 const MasterMe = () => (
 
    <>
+  
             <SEO title="Master Me" />
             <Container fluid className="project">
-            <Row className="pt10">
+            <Row className="pt10 pb2">
                  
                   <Col xs={12} sm={6}>
                     <h1 className="header-2 black delay-1">Master Me</h1>
@@ -36,10 +37,9 @@ const MasterMe = () => (
                 }}>
           
                   <div className="work-page-image-wrapper" 
-                        data-sal-duration="100"
-                          data-sal="fade"
-                          data-sal-delay="100"
-                          data-sal-easing="ease-in" >
+                         data-sal-duration="50"
+                         data-sal="fade"
+                           data-sal-easing="ease-in" >
                           <BGIMG className="border-50-no-hover"></BGIMG>
                   </div>
                   </Col>

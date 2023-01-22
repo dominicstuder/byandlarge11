@@ -18,9 +18,9 @@ const Astrid = () => (
     <>
             <SEO title="Astrid" />
             <Container fluid className="project">
-            <Row className="pt10">
+            <Row className="pt10 pb2">
             <Col xs={12} sm={6}>
-                    <h1 className="header-2 black delay-1">Astrid</h1>
+                    <h1 className="header-2  black delay-1">Astrid</h1>
                   </Col>
                   <Col xs={12} sm={6}>
                     <p className="body black delay-1">Strategy, branding and website for a plant based medicines dispensary.</p>
@@ -36,10 +36,9 @@ const Astrid = () => (
                 }}>
           
                   <div className="work-page-image-wrapper" 
-                        data-sal-duration="100"
-                
-                          data-sal-delay="100"
-                          data-sal-easing="ease-in" >
+                    data-sal-duration="50"
+                    data-sal="fade"
+                      data-sal-easing="ease-in" >
                           <BGIMG10 className="border-50-no-hover"></BGIMG10>
                   </div>
                   </Col>
@@ -59,9 +58,7 @@ const Astrid = () => (
                   </div>
                 </Col> 
                 </Row> */}
-                <Row justify="stretch" style={{
-                  marginTop: '3rem',
-              }}>
+                <Row justify="stretch">
                 <Col sm={12} md={4} className="pb1 delay-1"
                 data-sal-duration="500"
                 data-sal="fade"

@@ -48,7 +48,7 @@ const Footer = () => {
 
                 <a target="_blank" rel="noreferrer" href="https://www.instagram.com/studiobyandlarge/">
             <p>
-            Socials<br></br>
+            Social<br></br>
               @studiobyandlarge 
               </p>
             </a>

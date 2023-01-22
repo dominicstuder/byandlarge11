@@ -20,7 +20,7 @@ const Contact = () => {
 
       <Container fluid className="pt10 pb10 sm-pt5 delay-1">
          <Row justify="start">
-            <Col sm={12} lg={6}>
+            <Col sm={12} lg={6} className="pb2">
             <h1 className="header-2" > Get in touch if you would like to talk about a project or work opportunities.</h1>
             </Col>
             <Col sm={12} lg={4}>

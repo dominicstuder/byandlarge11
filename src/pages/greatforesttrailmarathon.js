@@ -22,20 +22,23 @@ const GreatForest = () => (
             <Row justify="start" style={{
                   position: 'relative',
               }} 
-              className="pt10">
+              className="pt10 pb2">
                   <Col xs={12} sm={6}>
                     <h1 className="header-2 black delay-1">Great Forest Trail Marathon</h1>
                   </Col>
                   <Col xs={12} sm={6}>
                     <p className="body black delay-1">Branding for a trail running event that's saving a wild place.</p>
                   </Col>
-                <Col sm={12} className="delay-1 pb1" style={{
+          </Row>
+          <Row justify="start" style={{
+                  position: 'relative',
+              }} >
+          <Col sm={12} className="delay-1" style={{
                     position: 'relative',
                 }}>
-          
                   <div className="work-page-image-wrapper" 
-                        data-sal-duration="100"
-                          data-sal-delay="100"
+                        data-sal-duration="50"
+                        data-sal="fade"
                           data-sal-easing="ease-in" >
                           <GFTMHERO className="border-50-no-hover"></GFTMHERO>
                   </div>
