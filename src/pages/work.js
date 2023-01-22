@@ -28,7 +28,7 @@ const Work = () => (
         <Row justify="start" style={{
             position: 'relative'
           }}>
-          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb4 delay-1"
+          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
              data-sal-duration="100"
              data-sal="fade"
              data-sal-delay="100"
@@ -67,7 +67,7 @@ const Work = () => (
                 </Row>  
              
          </Col>
-          <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+          <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
              data-sal-duration="100"
              data-sal="fade"
              data-sal-delay="100"
@@ -101,7 +101,7 @@ const Work = () => (
                   </Col>
                 </Row>  
         </Col>
-        <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+        <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
                 data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
@@ -132,7 +132,7 @@ const Work = () => (
                   </Col>
                 </Row>  
           </Col>
-          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
                 data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"
@@ -162,7 +162,7 @@ const Work = () => (
                   </Col>
                 </Row>  
           </Col>
-          <Col sm={6} md={3} lg={3} xl={3}   className="delay-1 pb4">             
+          <Col sm={6} md={3} lg={3} xl={3}   className="delay-1 pb2">             
               <div style={{}}
                       className="work-page-image-wrapper"
 
@@ -188,7 +188,7 @@ const Work = () => (
                   </Col>
                 </Row>  
         </Col>  
-        <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb4 delay-1"
+        <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
           data-sal-duration="100"
           data-sal="fade"
           data-sal-delay="100"
@@ -235,7 +235,7 @@ const Work = () => (
            
                 </div> */}
           </Col>
-        <Col xs={12} sm={6}  md={3} lg={3} xl={3}   className="delay-1 pb4"
+        <Col xs={12} sm={6}  md={3} lg={3} xl={3}   className="delay-1 pb2"
          data-sal-duration="100"
          data-sal="fade"
          data-sal-delay="100"
@@ -267,7 +267,7 @@ const Work = () => (
 
       </Col>
    
-          <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb4"
+          <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
                 data-sal-duration="100"
                 data-sal="fade"
                 data-sal-delay="100"

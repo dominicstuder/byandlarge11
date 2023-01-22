@@ -2923,7 +2923,7 @@ body.preloader_ready #preloader {
     font-size: 1.5rem;
   }
   .work-page-image-wrapper {
-    height: 58vw;
+    height: 100vw;
   }
 }
 
@@ -2932,8 +2932,13 @@ body.preloader_ready #preloader {
     height: 100vw;
   }
   .project .work-page-image-wrapper {
-    height: 108vw;
+    height: 100vw;
   }
+  .work-page-image-wrapper {
+    height: 100vw;
+  }
+
+
   .body, .small-header{
     font-size: 0.9rem;
   }

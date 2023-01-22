@@ -41,17 +41,12 @@ const IndexPage = ({ data, path }) => {
             <span className="small-header delay-1">Case Studies</span>
           </Col>
  
-          <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb4 sm-pb0  delay-1"
-
-              >
-
-
-              <div                 
+          <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb2"
               data-sal-duration="100"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-                       
+              data-sal="fade"
+              data-sal-delay="100"
+              data-sal-easing="ease-in"
+              >
                         <AniLink
                               to="/masterme"
                               exit={{
@@ -91,11 +86,9 @@ const IndexPage = ({ data, path }) => {
                     </div>
                   </Col>
                 </Row>  
-</div>
-       
         </Col>
   
-        <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb1 sm-pb0"
+        <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb2 "
                data-sal-duration="100"
                data-sal="fade"
                data-sal-delay="100"
@@ -134,7 +127,7 @@ const IndexPage = ({ data, path }) => {
                   </Col>
                 </Row>  
           </Col>
-          <Col xs={12} sm={4} md={4} lg={4} xl={4} className="delay-1 pb1 sm-pb0">
+          <Col xs={12} sm={4} md={4} lg={4} xl={4} className="delay-1 pb2">
             <div                 
        
                 data-sal-duration="100"
