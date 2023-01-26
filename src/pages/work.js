@@ -86,7 +86,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        1
+                        2
                     </div>
                   </Col>
                   <Col md={10}>
@@ -121,7 +121,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        2
+                        3
                     </div>
                   </Col>
                   <Col md={10}>
@@ -152,7 +152,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        3
+                        4
                     </div>
                   </Col>
                   <Col md={10}>
@@ -182,7 +182,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        4
+                        5
                     </div>
                   </Col>
                   <Col md={10}>
@@ -208,7 +208,7 @@ const Work = () => (
               <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        5
+                        6
                     </div>
                   </Col>
                   <Col md={10}>
@@ -247,7 +247,7 @@ const Work = () => (
                 <Row justify="start" >
                   <Col md={2}>
                     <div className="small-header">
-                        6
+                        7
                     </div>
                   </Col>
                   <Col md={10}>
