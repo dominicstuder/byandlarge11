@@ -16,6 +16,7 @@ import { setConfiguration } from 'react-grid-system'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import TransitionLink from "gatsby-plugin-transition-link"
 import Footer from "../components/footer"
+import Raefeature from '../assets/byandlarge-rae-feature.mp4'; 
 
 setConfiguration({ gutterWidth:'20', });
 
@@ -29,6 +30,40 @@ const Work = () => (
             position: 'relative'
           }}>
           <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
+          >
+            
+              <div style={{}} className="work-page-image-wrapper">
+                
+                 
+                  <video autoPlay loop muted className="background-video">
+                            <source src={Raefeature} type='video/mp4' />
+                         
+                    </video>
+              </div>
+
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        1
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Rae (Case Study Coming Soon)
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Brand identity 
+                    </div>
+                  </Col>
+                </Row>  
+         </Col>
+         <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
              data-sal-duration="100"
              data-sal="fade"
              data-sal-delay="100"
@@ -234,39 +269,7 @@ const Work = () => (
                       </div>
            
                 </div> */}
-          </Col>
-        <Col xs={12} sm={6}  md={3} lg={3} xl={3}   className="delay-1 pb2"
-         data-sal-duration="100"
-         data-sal="fade"
-         data-sal-delay="100"
-         data-sal-easing="ease-in"
-        >
-           <div style={{}} className="work-page-image-wrapper"
-                          
-           >
-            <BGIMG6></BGIMG6>
-            </div>        
-            <Row justify="start"className="pt1" >
-                  <Col md={2}>
-                    <div className="small-header">
-                        7
-                    </div>
-                  </Col>
-                  <Col md={10}>
-                    <div className="small-header">
-                   Obie
-                    </div>
-                  </Col>
-                  <Col md={10}  offset={{ md: 2 }}>
-                    <div className="small-header">
-                        Brand identity 
-                    </div>
-                  </Col>
-                </Row>  
-       
-
-      </Col>
-   
+          </Col>   
           <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
                 data-sal-duration="100"
                 data-sal="fade"
