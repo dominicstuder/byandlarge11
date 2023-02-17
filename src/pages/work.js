@@ -11,12 +11,24 @@ import BGIMG2 from "../components/backgroundimage2"
 import BGIMG10 from "../components/backgroundimage10"
 import BGIMG11 from "../components/backgroundimage11"
 import BGIMG13 from "../components/backgroundimage13"
+import BGIMG14 from "../components/backgroundimage14"
+import BGIMG15 from "../components/backgroundimage15"
+import BGIMG17 from "../components/backgroundimage17"
+import Astridfeature from "../components/backgroundimage16"
+import BGIMG18 from "../components/backgroundimage18"
+import BGIMG19 from "../components/backgroundimage19"
+import BGIMG20 from "../components/backgroundimage20"
+import BGIMG21 from "../components/backgroundimage21"
+import BGIMG22 from "../components/backgroundimage22"
+import BGIMG23 from "../components/backgroundimage23"
 import GFTMHERO from "../components/gftmhero-img"
+import GFTMHERO2 from "../components/gftmhero-img2"
 import { setConfiguration } from 'react-grid-system'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import TransitionLink from "gatsby-plugin-transition-link"
 import Footer from "../components/footer"
-import Raefeature from '../assets/byandlarge-rae-feature.mp4'; 
+// import Raefeature from "../assets/byandlarge-rae-feature.mp4"
+
 
 setConfiguration({ gutterWidth:'20', });
 
@@ -35,16 +47,13 @@ const Work = () => (
              data-sal-delay="100"
              data-sal-easing="ease-in"
           >
-            
               <div style={{}} className="work-page-image-wrapper">
-                
-                 
-                  <video autoPlay loop muted className="background-video">
+                  {/* <video autoPlay loop muted className="background-video">
                             <source src={Raefeature} type='video/mp4' />
                          
-                    </video>
+                    </video> */}
+                     <BGIMG18></BGIMG18>
               </div>
-
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
@@ -53,12 +62,43 @@ const Work = () => (
                   </Col>
                   <Col md={10}>
                     <div className="small-header">
-                   Rae (Case Study Coming Soon)
+                   Rae
                     </div>
                   </Col>
                   <Col md={10}  offset={{ md: 2 }}>
                     <div className="small-header">
                         Brand identity 
+                    </div>
+                  </Col>
+                </Row>  
+         </Col>
+         <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
+          >
+              <div style={{}} className="work-page-image-wrapper">
+                  {/* <video autoPlay loop muted className="background-video">
+                            <source src={Raefeature} type='video/mp4' />
+                         
+                    </video> */}
+                     <BGIMG19></BGIMG19>
+              </div>
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        2
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Rae
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Brand collateral 
                     </div>
                   </Col>
                 </Row>  
@@ -86,7 +126,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        2
+                        3
                     </div>
                   </Col>
                   <Col md={10}>
@@ -97,6 +137,86 @@ const Work = () => (
                   <Col md={10}  offset={{ md: 2 }}>
                     <div className="small-header">
                         Brand identity 
+                    </div>
+                  </Col>
+                </Row>  
+             
+         </Col>
+         <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
+          >
+              <AniLink
+                to="/astrid"
+                exit={{
+                  length: 0
+                }}
+                entry={{
+                  delay: 0
+                }}
+              >
+              <div style={{}} className="work-page-image-wrapper">
+                   
+
+                  <Astridfeature className="border-50"></Astridfeature>
+              </div>
+            </AniLink>
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        4
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Astrid (Case Study &#x2192;)
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Website design & development
+                    </div>
+                  </Col>
+                </Row>  
+             
+         </Col>
+         <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
+          >
+              <AniLink
+                to="/astrid"
+                exit={{
+                  length: 0
+                }}
+                entry={{
+                  delay: 0
+                }}
+              >
+              <div style={{}} className="work-page-image-wrapper">
+                   
+
+                  <BGIMG20 className="border-50"></BGIMG20>
+              </div>
+            </AniLink>
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        5
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Astrid (Case Study &#x2192;)
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Collateral 
                     </div>
                   </Col>
                 </Row>  
@@ -121,7 +241,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        3
+                        6
                     </div>
                   </Col>
                   <Col md={10}>
@@ -131,7 +251,75 @@ const Work = () => (
                   </Col>
                   <Col md={10}  offset={{ md: 2 }}>
                     <div className="small-header">
-                        Website 
+                        Website design & development
+                    </div>
+                  </Col>
+                </Row>  
+        </Col>
+        <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
+          >
+            <AniLink
+                to="/masterme"
+                  exit={{ length: 0 }}
+                  entry={{ delay: 0 }}
+              >
+              <div style={{}} className="work-page-image-wrapper">
+            
+                  <BGIMG17 className="border-50"></BGIMG17>
+              </div>
+            </AniLink>  
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        7
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Master Me (Case Study &#x2192;)
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Brand identity 
+                    </div>
+                  </Col>
+                </Row>  
+        </Col>
+        <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
+             data-sal-duration="100"
+             data-sal="fade"
+             data-sal-delay="100"
+             data-sal-easing="ease-in"
+          >
+            <AniLink
+                to="/masterme"
+                  exit={{ length: 0 }}
+                  entry={{ delay: 0 }}
+              >
+              <div style={{}} className="work-page-image-wrapper">
+            
+                  <BGIMG23 className="border-50"></BGIMG23>
+              </div>
+            </AniLink>  
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        8
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Master Me (Case Study &#x2192;)
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Content creation 
                     </div>
                   </Col>
                 </Row>  
@@ -152,7 +340,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        4
+                        9
                     </div>
                   </Col>
                   <Col md={10}>
@@ -163,6 +351,37 @@ const Work = () => (
                   <Col md={10}  offset={{ md: 2 }}>
                     <div className="small-header">
                         Creative Direction 
+                    </div>
+                  </Col>
+                </Row>  
+          </Col>
+          <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
+                data-sal-duration="100"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in"
+              >
+
+           <div style={{}} className="work-page-image-wrapper"
+                      
+           >  
+            <BGIMG14></BGIMG14>
+            </div>
+        
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        10
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Lululemon
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Website design & development 
                     </div>
                   </Col>
                 </Row>  
@@ -182,7 +401,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        5
+                        11
                     </div>
                   </Col>
                   <Col md={10}>
@@ -192,7 +411,67 @@ const Work = () => (
                   </Col>
                   <Col md={10}  offset={{ md: 2 }}>
                     <div className="small-header">
-                        Website
+                        Website design & development
+                    </div>
+                  </Col>
+                </Row>  
+          </Col>
+          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
+                data-sal-duration="100"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in"
+              >
+           <div style={{}} className="work-page-image-wrapper"
+                       
+           >
+            <BGIMG21></BGIMG21>
+            </div>
+         
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        12
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Noga
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                    Collateral
+                    </div>
+                  </Col>
+                </Row>  
+          </Col>
+          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
+                data-sal-duration="100"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in"
+              >
+           <div style={{}} className="work-page-image-wrapper"
+                       
+           >
+            <BGIMG22></BGIMG22>
+            </div>
+         
+            <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        13
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Noga
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Collateral
                     </div>
                   </Col>
                 </Row>  
@@ -208,7 +487,7 @@ const Work = () => (
               <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        6
+                        14
                     </div>
                   </Col>
                   <Col md={10}>
@@ -218,7 +497,33 @@ const Work = () => (
                   </Col>
                   <Col md={10}  offset={{ md: 2 }}>
                     <div className="small-header">
-                        Website 
+                        Website design & development
+                    </div>
+                  </Col>
+                </Row>  
+        </Col>  
+        <Col sm={6} md={3} lg={3} xl={3}   className="delay-1 pb2">             
+              <div style={{}}
+                      className="work-page-image-wrapper"
+
+              >
+                <BGIMG15 ></BGIMG15>
+              </div>
+       
+              <Row justify="start" className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        15
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Drive Change
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Website design & development
                     </div>
                   </Col>
                 </Row>  
@@ -247,7 +552,7 @@ const Work = () => (
                 <Row justify="start" >
                   <Col md={2}>
                     <div className="small-header">
-                        7
+                        16
                     </div>
                   </Col>
                   <Col md={10}>
@@ -262,13 +567,46 @@ const Work = () => (
                   </Col>
                 </Row>  
               </div>      
-            {/* <div className="project-wrapper">
+          </Col> 
+          <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
+          data-sal-duration="100"
+          data-sal="fade"
+          data-sal-delay="100"
+          data-sal-easing="ease-in"
+        >
 
-                          <div className="small-header" ><span  style={{textTransform:"uppercase"}}>Great Forest Trail Marathon</span> - Branding for a trail running event that's saving a wild place. 
-               
-                      </div>
+              <AniLink
+                  to="/greatforesttrailmarathon"
+                  exit={{ length: 0 }}
+                  entry={{ delay: 0 }}
+                  >
+
            
-                </div> */}
+           <div style={{}}className="work-page-image-wrapper" > 
+            <GFTMHERO2 className="border-50"></GFTMHERO2>
+ 
+            </div>
+           
+            </AniLink>
+            <div className="pt1">
+                <Row justify="start" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        17
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Great Forest Trail Marathon <br/>(Case Study &#x2192;)
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                        Brand collateral 
+                    </div>
+                  </Col>
+                </Row>  
+              </div>      
           </Col>   
           <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
                 data-sal-duration="100"
@@ -292,7 +630,7 @@ const Work = () => (
                 <Row justify="start"className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        8
+                        18
                     </div>
                   </Col>
                   <Col md={10}>

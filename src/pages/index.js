@@ -1,13 +1,14 @@
-import React, { useState, useEffect} from "react"
+import React, {} from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Container, Row, Col } from 'react-grid-system';
+// import SEO from "../components/seo";
+import { Container, Row, Col } from 'react-grid-system'
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import { setConfiguration } from 'react-grid-system';
-import BGIMG from "../components/backgroundimage1"
-import GFTMHERO from "../components/gftmhero-img"
-import BGIMG10 from "../components/backgroundimage10"
+import { setConfiguration } from 'react-grid-system'
+import Bgimg from "../components/backgroundimage1"
+import Gftmhero from "../components/gftmhero-img"
+import Bgimg10 from "../components/backgroundimage10"
 import Footer from "../components/footer"
+
 
 setConfiguration({ gutterWidth:'20'});
 
@@ -20,7 +21,7 @@ const IndexPage = ({ data, path }) => {
          
         }} className="home-page-intro mt5 sm-mt2">
           {/* <Col sm={12} lg={3} xl={3} xxl={3} className="small-header delay-1">About us</Col> */}
-           <Col sm={12} md={10} lg={8} xl={6} xxl={6} style={{
+           <Col sm={12} md={12} xxl={6} style={{
               position: 'relative',
       
             }}>
@@ -30,7 +31,7 @@ const IndexPage = ({ data, path }) => {
             </h1>
               </Col>
           </Row>
-      
+            {/* <Test></Test> */}
           </Container>
           
      <Container fluid className="section-3 home">
@@ -63,7 +64,7 @@ const IndexPage = ({ data, path }) => {
                                     //  data-sal-easing="ease-in">
                                       >
                    
-                        <BGIMG className="border-50"></BGIMG>
+                        <Bgimg className="border-50"></Bgimg>
                 
                         </div>
            
@@ -106,7 +107,7 @@ const IndexPage = ({ data, path }) => {
                      >
            <div style={{}} className="work-page-image-wrapper">
          
-            <GFTMHERO className="border-50"></GFTMHERO>
+            <Gftmhero className="border-50"></Gftmhero>
             </div>
             </AniLink>
             <Row justify="start"className="pt1" >
@@ -148,7 +149,7 @@ const IndexPage = ({ data, path }) => {
            <div style={{}} className="work-page-image-wrapper"
                        >
                                     
-            <BGIMG10 className="border-50"></BGIMG10>
+            <Bgimg10 className="border-50"></Bgimg10>
  
             </div>
            
