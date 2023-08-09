@@ -1350,7 +1350,7 @@ body.preloader_active .clock-wrapper{
     /* font-family: 'ABCDiatypeSemi-Mono-Regular', sans-serif; */
     font-family: "UntitledSans-Medium", sans-serif;
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: .8rem;
     line-height: 1.3em;
     letter-spacing: -0.01em;
     /* text-transform: uppercase; */
@@ -1374,7 +1374,7 @@ body.preloader_active .clock-wrapper{
 .logo{
   font-family: "UntitledSans-Medium", sans-serif;
   font-weight: normal;
-  font-size: 1.2rem;
+  font-size: .8rem;
   /* font-size:  8vw; */
   letter-spacing: -0.01em;
   float: left;
