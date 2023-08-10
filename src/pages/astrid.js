@@ -20,7 +20,7 @@ const Astrid = () => (
             <Container fluid className="project">
             <Row className="pt10 pb2">
             <Col xs={12} sm={6}>
-                    <h1 className="header-2  black delay-1">Astrid</h1>
+                    <h1 className="body black delay-1">Astrid</h1>
                   </Col>
                   <Col xs={12} sm={6}>
                     <p className="body black delay-1">Strategy, branding and website for a plant based medicines dispensary.</p>
@@ -79,14 +79,14 @@ const Astrid = () => (
                       src="../images/astrid_new_2.webp"
                       />
                 </Col> 
-                <Col sm={12} md={12} className="pb1 delay-1 mt4"
+                <Col sm={12} md={6}  offset={{md: 2}} className="pb1 delay-1 mt4"
                 data-sal-duration="500"
                 data-sal="fade"
                 data-sal-delay="100"
                 data-sal-easing="ease-in">
                    <StaticImage
                       alt=""
-                      src="../images/astrid_new_05.webp"
+                      src="../images/astrid_new_16.webp"
                       />
                 </Col> 
                 </Row>

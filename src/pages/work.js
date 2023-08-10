@@ -17,7 +17,7 @@ import BGIMG17 from "../components/backgroundimage17"
 import Astridfeature from "../components/backgroundimage16"
 import BGIMG18 from "../components/backgroundimage18"
 import BGIMG19 from "../components/backgroundimage19"
-import BGIMG20 from "../components/backgroundimage20"
+
 import BGIMG21 from "../components/backgroundimage21"
 import BGIMG22 from "../components/backgroundimage22"
 import BGIMG23 from "../components/backgroundimage23"
@@ -182,46 +182,7 @@ const Work = () => (
                 </Row>  
              
          </Col>
-         <Col xs={12} sm={6}  md={3} lg={3} xl={3}  className="pb2 delay-1"
-             data-sal-duration="100"
-             data-sal="fade"
-             data-sal-delay="100"
-             data-sal-easing="ease-in"
-          >
-              <AniLink
-                to="/astrid"
-                exit={{
-                  length: 0
-                }}
-                entry={{
-                  delay: 0
-                }}
-              >
-              <div style={{}} className="work-page-image-wrapper">
-                   
 
-                  <BGIMG20 className="border-50"></BGIMG20>
-              </div>
-            </AniLink>
-            <Row justify="start" className="pt1" >
-                  <Col md={2}>
-                    <div className="small-header">
-                        5
-                    </div>
-                  </Col>
-                  <Col md={10}>
-                    <div className="small-header">
-                   Astrid (Case Study &#x2192;)
-                    </div>
-                  </Col>
-                  <Col md={10}  offset={{ md: 2 }}>
-                    <div className="small-header">
-                        Collateral 
-                    </div>
-                  </Col>
-                </Row>  
-             
-         </Col>
           <Col  xs={12} sm={6}  md={3} lg={3} xl={3}  className="delay-1 pb2"
              data-sal-duration="100"
              data-sal="fade"
@@ -241,7 +202,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        6
+                        5
                     </div>
                   </Col>
                   <Col md={10}>
@@ -275,7 +236,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        7
+                        6
                     </div>
                   </Col>
                   <Col md={10}>
@@ -309,7 +270,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        8
+                        7
                     </div>
                   </Col>
                   <Col md={10}>
@@ -340,7 +301,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        9
+                        8
                     </div>
                   </Col>
                   <Col md={10}>
@@ -371,7 +332,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        10
+                        9
                     </div>
                   </Col>
                   <Col md={10}>
@@ -401,7 +362,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        11
+                        10
                     </div>
                   </Col>
                   <Col md={10}>
@@ -431,7 +392,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        12
+                        11
                     </div>
                   </Col>
                   <Col md={10}>
@@ -461,7 +422,7 @@ const Work = () => (
             <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        13
+                        12
                     </div>
                   </Col>
                   <Col md={10}>
@@ -487,7 +448,7 @@ const Work = () => (
               <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        14
+                        13
                     </div>
                   </Col>
                   <Col md={10}>
@@ -513,7 +474,7 @@ const Work = () => (
               <Row justify="start" className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        15
+                        14
                     </div>
                   </Col>
                   <Col md={10}>
@@ -552,7 +513,7 @@ const Work = () => (
                 <Row justify="start" >
                   <Col md={2}>
                     <div className="small-header">
-                        16
+                        15
                     </div>
                   </Col>
                   <Col md={10}>
@@ -592,7 +553,7 @@ const Work = () => (
                 <Row justify="start" >
                   <Col md={2}>
                     <div className="small-header">
-                        17
+                        16
                     </div>
                   </Col>
                   <Col md={10}>
@@ -630,7 +591,7 @@ const Work = () => (
                 <Row justify="start"className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        18
+                        17
                     </div>
                   </Col>
                   <Col md={10}>

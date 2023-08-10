@@ -38,11 +38,56 @@ const IndexPage = ({ data, path }) => {
           <Row justify="start" className="pb4 sm-mt3" style={{
             position: 'relative'
           }}>  
-          <Col sm={12} lg={12} xl={12} className="pb1 sm-pb1">
+          <Col sm={12} lg={12} xl={10} className="pb1 sm-pb1">
             <span className="small-header delay-1">Case Studies</span>
           </Col>
+          <Col xs={12} sm={4} md={4} lg={12} xl={10} className="delay-1 pb2">
+            <div                 
+       
+                data-sal-duration="100"
+                data-sal="fade"
+                data-sal-delay="100"
+                data-sal-easing="ease-in">
+     
+     <AniLink to="/astrid"
+      exit={{
+        length: .2
+      }}
+      entry={{
+        delay: .2
+      }}
+     >
+
+           
+           <div style={{}} className="work-page-image-wrapper"
+                       >
+                                    
+            <Bgimg10 className="border-50"></Bgimg10>
  
-          <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb2"
+            </div>
+           
+            </AniLink>
+                        
+            <Row justify="start"className="pt1" >
+                  <Col md={2}>
+                    <div className="small-header">
+                        1
+                    </div>
+                  </Col>
+                  <Col md={10}>
+                    <div className="small-header">
+                   Astrid
+                    </div>
+                  </Col>
+                  <Col md={10}  offset={{ md: 2 }}>
+                    <div className="small-header">
+                    Strategy, branding and website for a plant based medicines dispensary.
+                    </div>
+                  </Col>
+                </Row>  
+        </div>
+        </Col>
+          <Col xs={12} sm={4} md={4} lg={12} xl={10}  className="delay-1 pb2"
               data-sal-duration="100"
               data-sal="fade"
               data-sal-delay="100"
@@ -73,12 +118,12 @@ const IndexPage = ({ data, path }) => {
                    <Row justify="start"className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        1
+                        2
                     </div>
                   </Col>
                   <Col md={10}>
                     <div className="small-header">
-                    Master Me (Case Study &#x2192;)
+                    Master Me
                     </div>
                   </Col>
                   <Col md={10}  offset={{ md: 2 }}>
@@ -89,7 +134,7 @@ const IndexPage = ({ data, path }) => {
                 </Row>  
         </Col>
   
-        <Col xs={12} sm={4} md={4} lg={4} xl={4}  className="delay-1 pb2 "
+        <Col xs={12} sm={4} md={4} lg={4} xl={10}  className="delay-1 pb2 "
                data-sal-duration="100"
                data-sal="fade"
                data-sal-delay="100"
@@ -113,12 +158,12 @@ const IndexPage = ({ data, path }) => {
             <Row justify="start"className="pt1" >
                   <Col md={2}>
                     <div className="small-header">
-                        2
+                        3
                     </div>
                   </Col>
                   <Col md={10}>
                     <div className="small-header">
-                    Great Forest Trail Marathon (Case Study &#x2192;)
+                    Great Forest Trail Marathon 
                     </div>
                   </Col>
                   <Col md={10}  offset={{ md: 2 }}>
@@ -128,52 +173,7 @@ const IndexPage = ({ data, path }) => {
                   </Col>
                 </Row>  
           </Col>
-          <Col xs={12} sm={4} md={4} lg={4} xl={4} className="delay-1 pb2">
-            <div                 
-       
-                data-sal-duration="100"
-                data-sal="fade"
-                data-sal-delay="100"
-                data-sal-easing="ease-in">
-     
-     <AniLink to="/astrid"
-      exit={{
-        length: .2
-      }}
-      entry={{
-        delay: .2
-      }}
-     >
-
-           
-           <div style={{}} className="work-page-image-wrapper"
-                       >
-                                    
-            <Bgimg10 className="border-50"></Bgimg10>
- 
-            </div>
-           
-            </AniLink>
-                        
-            <Row justify="start"className="pt1" >
-                  <Col md={2}>
-                    <div className="small-header">
-                        3
-                    </div>
-                  </Col>
-                  <Col md={10}>
-                    <div className="small-header">
-                   Astrid (Case Study &#x2192;)
-                    </div>
-                  </Col>
-                  <Col md={10}  offset={{ md: 2 }}>
-                    <div className="small-header">
-                    Strategy, branding and website for a plant based medicines dispensary.
-                    </div>
-                  </Col>
-                </Row>  
-        </div>
-        </Col>
+  
 <Col md={12} lg={12} xl={12} xxl={12} className="pb4">
                 <div class="primary-button delay-1"
                 

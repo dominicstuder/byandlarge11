@@ -13,11 +13,11 @@ import { setConfiguration } from 'react-grid-system';
 setConfiguration({ gutterWidth:'20'});
 
 
-const MasterMe = () => (
+const MintClinic = () => (
 
    <>
   
-            <SEO title="Master Me" />
+            <SEO title="Mint Clinic" />
             <Container fluid className="project">
             
             <Row justify="start" style={{
@@ -39,7 +39,7 @@ const MasterMe = () => (
                   <Row className="pt2 pb2">
                  
                  <Col xs={12} sm={6}>
-                   <h1 className="body black delay-1">Master Me</h1>
+                   <h1 className="body black delay-1">Mint Clinic</h1>
                  </Col>
                  <Col xs={12} sm={6} md={3}>
                    <p className="body black delay-1">Branding and website for a coaching and personal development course that helps creative professionals to find their true selves.</p>
@@ -184,6 +184,6 @@ const MasterMe = () => (
 </>
 )
 
-export default MasterMe
+export default MintClinic
 
 

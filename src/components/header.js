@@ -55,11 +55,11 @@ const Header = ({ siteTitle }) => {
                     }}
                   ><span>Contact</span></AniLink></div>
           
-            <div className="clock-wrapper">
+            {/* <div className="clock-wrapper">
                 <div className="item-two">
                   <Thirdclock />
                 </div>
-            </div>
+            </div> */}
             </nav>
             </Col>
             {/* <Col xs={4} sm={4} md={4} lg={4} style={{}} className="clock-wrapper">
