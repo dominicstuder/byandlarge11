@@ -1359,7 +1359,7 @@ body.preloader_active .clock-wrapper{
     text-align: left;
     float: left;
     margin-top: 0px;
-    backdrop-filter: blur(0px);
+
 }
 
 .menu.two a{
@@ -1380,7 +1380,6 @@ body.preloader_active .clock-wrapper{
   float: left;
   line-height: 1.3em;
   padding-top: 0em;
-  backdrop-filter: blur(0px);
 }
 
 
